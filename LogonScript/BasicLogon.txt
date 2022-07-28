@@ -1,0 +1,43 @@
+@echo off
+
+rem   ========================================
+TITLE Basic Logon Script v4.0
+rem   copyright (c) Co-Operative Systems
+rem   ========================================
+
+rem ----------------------------------------
+REM Delete Specified Mapped Drive(s)
+rem ----------------------------------------
+
+echo y|net use [DRIVELETTER] /delete
+
+rem ----------------------------------------
+REM Map location to specified drive letter(s)
+rem ----------------------------------------
+
+net use [DRIVELETTER] "[NETWORK PATH]"
+
+rem ----------------------------------------
+rem Sync time with nearest logon server
+rem ----------------------------------------
+
+net time /set /y %logonserver%
+
+rem ----------------------------------------
+rem Temp Files Cleanup
+rem ----------------------------------------
+
+DEL /s /q /f "%userprofile%\Local Settings\Temporary Internet Files\*.*"
+DEL /s /q /f "%tmp%\*.*"
+
+rem ----------------------------------------
+rem Install Network Printer
+rem ----------------------------------------
+
+cscript %systemroot%\system32\prnmngr.vbs -ac -p "[NETWORK SERVER]\[NETWORK PRINTER SHARE]"
+
+rem ----------------------------------------
+rem Set Default Printer
+rem ----------------------------------------
+
+cscript %systemroot%\system32\prnmngr.vbs -t -p "[NETWORK SERVER]\[NETWORK PRINTER SHARE]"

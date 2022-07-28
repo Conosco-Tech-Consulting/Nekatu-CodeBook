@@ -1,0 +1,1 @@
+#USERADD,FirstName,LastName,EmployeeID,Email,LoginName,Password,IsUserDisabled,DeptNameLevel1,DeptNameLevel2,SupervisorLoginName,EmployeeTypeName,StartDate,EndDate,TimesheetApprovalPath,ExpenseApprovalPath,UserInfo1,UserInfo2,UserInfo3,HoursPerDay,AddUserPermission,AddUserPermission,AddUserPermission,AddSeatAssignment,AddSeatAssignment

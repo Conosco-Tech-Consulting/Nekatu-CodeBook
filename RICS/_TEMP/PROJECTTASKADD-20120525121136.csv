@@ -1,0 +1,4 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+F0086100,Eva Cardoso  - ODI/Admin,7178,35.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0086100,Harry Jones  - ODI/Research,6339,21.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0086100,James Docherty  - ODI/Research,6340,546.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct

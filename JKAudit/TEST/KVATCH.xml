@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<computer>
+ <generated script="sydi-server" version="2.3" scantime="02/02/2016 12:28:10" />
+ <system name="KVATCH" />
+ <operatingsystem name="Microsoft Windows 10 Enterprise" servicepack="" />
+ <fqdn name="kvatch.arrowherts.local" />
+ <roles>
+ </roles>
+ <machineinfo manufacturer="System manufacturer" productname="System Product Name" identifyingnumber="System Serial Number" chassis="Desktop" />
+ <processor count="1" name="AMD Phenom(tm) II X4 955 Processor" description="AMD64 Family 16 Model 4 Stepping 2" speed="3200" l2cachesize="2048" externalclock="200" htsystem="False" />
+ <memory totalsize="8190">
+  <memorybank bank="BANK0" capacity="2048" formfactor="DIMM" memorytype="Other" />
+  <memorybank bank="BANK1" capacity="2048" formfactor="DIMM" memorytype="Other" />
+  <memorybank bank="BANK2" capacity="2048" formfactor="DIMM" memorytype="Other" />
+  <memorybank bank="BANK3" capacity="2048" formfactor="DIMM" memorytype="Other" />
+ </memory>
+ <win32_cdromdrive>
+  <cdrom name="PLDS DVD+-RW DH-16A6S ATA Device" drive="D:" manufacturer="(Standard CD-ROM drives)" />
+ </win32_cdromdrive>
+ <videocontroller>
+  <adapter name="NVIDIA GeForce GTX 660  " adapterram="-2048" compatibility="NVIDIA" />
+ </videocontroller>
+ <win32_sounddevice>
+  <card name="VIA HD Audio(Win 10)" manufacturer="VIA Technologies, Inc." />
+  <card name="NVIDIA High Definition Audio" manufacturer="NVIDIA" />
+  <card name="NVIDIA Virtual Audio Device (Wave Extensible) (WDM)" manufacturer="NVIDIA" />
+  <card name="Logitech Mic (QuickCam E3500)" manufacturer="Logitech" />
+ </win32_sounddevice>
+ <bios version="ÿÿÿÿÿÿ - 20100723" smbiosversion="2105   " smbiosmajorversion="2" smbbiosminorversion="5">
+  <bioscharacteristics id="4" name="ISA is supported" />
+  <bioscharacteristics id="7" name="PCI is supported" />
+  <bioscharacteristics id="9" name="Plug and Play is supported" />
+  <bioscharacteristics id="10" name="APM is supported" />
+  <bioscharacteristics id="11" name="BIOS is Upgradable (Flash)" />
+  <bioscharacteristics id="12" name="BIOS shadowing is allowed" />
+  <bioscharacteristics id="14" name="ESCD support is available" />
+  <bioscharacteristics id="15" name="Boot from CD is supported" />
+  <bioscharacteristics id="16" name="Selectable Boot is supported" />
+  <bioscharacteristics id="17" name="BIOS ROM is socketed" />
+  <bioscharacteristics id="19" name="EDD (Enhanced Disk Drive) Specification is supported" />
+  <bioscharacteristics id="23" name="Int 13h - 5.25 /1.2MB Floppy Services are supported" />
+  <bioscharacteristics id="24" name="13h - 3.5 / 720 KB Floppy Services are supported" />
+  <bioscharacteristics id="25" name="Int 13h - 3.5 / 2.88 MB Floppy Services are supported" />
+  <bioscharacteristics id="26" name="Int 5h, Print Screen Service is supported" />
+  <bioscharacteristics id="27" name="Int 9h, 8042 Keyboard services are supported" />
+  <bioscharacteristics id="28" name="Int 14h, Serial Services are supported" />
+  <bioscharacteristics id="29" name="Int 17h, printer services are supported" />
+  <bioscharacteristics id="30" name="Int 10h, CGA/Mono Video Services are supported" />
+  <bioscharacteristics id="32" name="ACPI supported" />
+  <bioscharacteristics id="33" name="USB Legacy is supported" />
+  <bioscharacteristics id="36" name="LS-120 boot is supported" />
+  <bioscharacteristics id="37" name="ATAPI ZIP Drive boot is supported" />
+  <bioscharacteristics id="40" name="Unknown (Undocumented)" />
+  <bioscharacteristics id="42" name="Unknown (Undocumented)" />
+ </bios>
+ <osconfiguration osname="Microsoft Windows 10 Enterprise" computerrole="Member Workstation" domainname="arrowherts.local" domaintype="domain" windowslocation="C:\WINDOWS" oslanguage="English - United Kingdom" installdate="01/09/2016 04:13:51" />
+ <lastuser name="Admin" />
+ <windowscomponents>
+  <component name="Internet Explorer (from Start Menu and Desktop)" class="0800" classname="" level="1" />
+  <component name="Windows Media Player (from Start Menu and Desktop)" class="2200" classname="" level="1" />
+ </windowscomponents>
+ <patches>
+  <patch description="Update" hotfixid="KB2790621" installdate="1/17/2016" />
+  <patch description="Update" hotfixid="KB3124200" installdate="1/9/2016" />
+  <patch description="Update" hotfixid="KB3124262" installdate="1/28/2016" />
+  <patch description="Security Update" hotfixid="KB3124263" installdate="1/13/2016" />
+  <patch description="Update" hotfixid="KB3133431" installdate="1/10/2016" />
+ </patches>
+ <installedapplications>
+  <msiapplication productname="Anno 1404" vendor="Ubisoft" version="1.00.0000" installdate="20160119" />
+  <msiapplication productname="BlueStacks Notification Center" vendor="BlueStack Systems, Inc." version="0.9.30.4239" installdate="20150815" />
+  <msiapplication productname="Bonjour" vendor="Apple Inc." version="3.0.0.10" installdate="20160102" />
+  <msiapplication productname="CodeTwo FolderSync Addin" vendor="CodeTwo" version="1.4.1.3" installdate="20160118" />
+  <msiapplication productname="Emergency Download Driver" vendor="Microsoft" version="1.1.16.1526" installdate="20151214" />
+  <msiapplication productname="Flash Update Installer" vendor="Microsoft" version="6.0.5" installdate="20151214" />
+  <msiapplication productname="Fuse Installer" vendor="Nokia" version="6.0.5" installdate="20151214" />
+  <msiapplication productname="Google Update Helper" vendor="Google Inc." version="1.3.21.169" installdate="20150719" />
+  <msiapplication productname="Google Update Helper" vendor="Google Inc." version="1.3.29.5" installdate="20160202" />
+  <msiapplication productname="Java 8 Update 71" vendor="Oracle Corporation" version="8.0.710.15" installdate="20160122" />
+  <msiapplication productname="Java 8 Update 71 (64-bit)" vendor="Oracle Corporation" version="8.0.710.15" installdate="20160122" />
+  <msiapplication productname="Java Auto Updater" vendor="Oracle Corporation" version="2.8.71.15" installdate="20160122" />
+  <msiapplication productname="Lumia UEFI Blue Driver" vendor="Microsoft" version="1.1.10.1526" installdate="20151214" />
+  <msiapplication productname="Microsoft ASP.NET MVC 2" vendor="Microsoft Corporation" version="2.0.60926.0" installdate="20150727" />
+  <msiapplication productname="Microsoft ASP.NET MVC 4 Runtime" vendor="Microsoft Corporation" version="4.0.40804.0" installdate="20150621" />
+  <msiapplication productname="Microsoft Garage Mouse without Borders" vendor="Microsoft Garage" version="2.1.2.1212" installdate="20150718" />
+  <msiapplication productname="Microsoft Office 64-bit Components 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20160113" />
+  <msiapplication productname="Microsoft Office OSM MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Office Proofing (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Office Proofing Tools 2013 - English" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Office Proofing Tools 2013 - Español" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Office Shared 64-bit MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151209" />
+  <msiapplication productname="Microsoft Office Shared 64-bit Setup Metadata MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Office Shared MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20160113" />
+  <msiapplication productname="Microsoft Office Shared Setup Metadata MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Microsoft Visio MUI (English) 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20160113" />
+  <msiapplication productname="Microsoft Visio Professional 2013" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20160113" />
+  <msiapplication productname="Microsoft Visual C++ 2005 Redistributable" vendor="Microsoft Corporation" version="8.0.59193" installdate="20160119" />
+  <msiapplication productname="Microsoft Visual C++ 2005 Redistributable" vendor="Microsoft Corporation" version="8.0.61001" installdate="20150719" />
+  <msiapplication productname="Microsoft Visual C++ 2005 Redistributable (x64)" vendor="Microsoft Corporation" version="8.0.61000" installdate="20150815" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022" vendor="Microsoft Corporation" version="9.0.21022" installdate="20160119" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17" vendor="Microsoft Corporation" version="9.0.30729" installdate="20150718" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148" vendor="Microsoft Corporation" version="9.0.30729.4148" installdate="20150815" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161" vendor="Microsoft Corporation" version="9.0.30729.6161" installdate="20150621" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022" vendor="Microsoft Corporation" version="9.0.21022" installdate="20160130" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17" vendor="Microsoft Corporation" version="9.0.30729" installdate="20150621" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148" vendor="Microsoft Corporation" version="9.0.30729.4148" installdate="20150815" />
+  <msiapplication productname="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161" vendor="Microsoft Corporation" version="9.0.30729.6161" installdate="20150621" />
+  <msiapplication productname="Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219" vendor="Microsoft Corporation" version="10.0.40219" installdate="20151222" />
+  <msiapplication productname="Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219" vendor="Microsoft Corporation" version="10.0.40219" installdate="20151222" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150822" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150822" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150822" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150822" />
+  <msiapplication productname="Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005" vendor="Microsoft Corporation" version="12.0.21005" installdate="20150628" />
+  <msiapplication productname="Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005" vendor="Microsoft Corporation" version="12.0.21005" installdate="20150628" />
+  <msiapplication productname="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005" vendor="Microsoft Corporation" version="12.0.21005" installdate="20150628" />
+  <msiapplication productname="Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005" vendor="Microsoft Corporation" version="12.0.21005" installdate="20150628" />
+  <msiapplication productname="Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.23026" vendor="Microsoft Corporation" version="14.0.23026" installdate="20151107" />
+  <msiapplication productname="Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.23026" vendor="Microsoft Corporation" version="14.0.23026" installdate="20151107" />
+  <msiapplication productname="Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.23026" vendor="Microsoft Corporation" version="14.0.23026" installdate="20151107" />
+  <msiapplication productname="Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.23026" vendor="Microsoft Corporation" version="14.0.23026" installdate="20151107" />
+  <msiapplication productname="Microsoft Visual Studio 2010 Tools for Office Runtime (x64)" vendor="Microsoft Corporation" version="10.0.50908" installdate="20150714" />
+  <msiapplication productname="Microsoft_VC80_CRT_x86" vendor="Adobe" version="8.0.50727.4053" installdate="20150815" />
+  <msiapplication productname="Microsoft_VC90_CRT_x86" vendor="Adobe" version="1.00.0000" installdate="20150815" />
+  <msiapplication productname="Minecraft" vendor="Mojang" version="1.0.3.0" installdate="20151024" />
+  <msiapplication productname="Nokia Connectivity Cable Driver" vendor="Nokia" version="7.1.182.0" installdate="20151214" />
+  <msiapplication productname="Nokia Software Recovery Tool 6.0.5" vendor="Microsoft" version="6.0.5" installdate="20151214" />
+  <msiapplication productname="Office 15 Click-to-Run Extensibility Component" vendor="Microsoft Corporation" version="15.0.4727.1003" installdate="20150714" />
+  <msiapplication productname="Office 15 Click-to-Run Licensing Component" vendor="Microsoft Corporation" version="15.0.4727.1003" installdate="20150714" />
+  <msiapplication productname="Office 15 Click-to-Run Localization Component" vendor="Microsoft Corporation" version="15.0.4727.1003" installdate="20150714" />
+  <msiapplication productname="Office 16 Click-to-Run Extensibility Component" vendor="Microsoft Corporation" version="16.0.6001.1054" installdate="20160121" />
+  <msiapplication productname="Office 16 Click-to-Run Licensing Component" vendor="Microsoft Corporation" version="16.0.6001.1054" installdate="20160121" />
+  <msiapplication productname="Office 16 Click-to-Run Localization Component" vendor="Microsoft Corporation" version="16.0.6001.1054" installdate="20160121" />
+  <msiapplication productname="Outils de vérification linguistique 2013 de Microsoft Office - Français" vendor="Microsoft Corporation" version="15.0.4569.1506" installdate="20151023" />
+  <msiapplication productname="Platform" vendor="VIA Technologies, Inc." version="1.43" installdate="20160110" />
+  <msiapplication productname="Product API Installer" vendor="Microsoft" version="6.0.5" installdate="20151214" />
+  <msiapplication productname="Skype Click to Call" vendor="Microsoft Corporation" version="8.0.0.9103" installdate="20160116" />
+  <msiapplication productname="Skype 7.13" vendor="Skype Technologies S.A." version="7.13.101" installdate="20151025" />
+  <msiapplication productname="SlimDX Runtime .NET 2.0 (January 2012)" vendor="SlimDX Group" version="2.0.13.43" installdate="20160110" />
+  <msiapplication productname="Splashtop Personal" vendor="Splashtop Inc." version="2.6.0.1" installdate="20150901" />
+  <msiapplication productname="Splashtop Streamer" vendor="Splashtop Inc." version="2.6.5.12" installdate="20150901" />
+  <msiapplication productname="TightVNC" vendor="GlavSoft LLC." version="2.7.10.0" installdate="20151011" />
+  <msiapplication productname="USB Serial Port Driver" vendor="Microsoft" version="1.1.8.1526" installdate="20151214" />
+  <msiapplication productname="Windows Device Recovery Tool 3.1.5" vendor="Microsoft" version="3.1.5" installdate="20151214" />
+  <msiapplication productname="WinUsb CoInstallers" vendor="Microsoft" version="1.1.12.1526" installdate="20151214" />
+  <msiapplication productname="WinUSB Compatible ID Drivers" vendor="Microsoft" version="1.1.11.1526" installdate="20151214" />
+  <msiapplication productname="WinUSB Drivers ext" vendor="Microsoft" version="1.1.24.1544" installdate="20151214" />
+  <regapplication productname="CPUID HWMonitor 1.28" version="" />
+  <regapplication productname="GOG.com Dungeon Keeper 2" version="" />
+  <regapplication productname="Microsoft Office 365 ProPlus - en-us" version="16.0.6001.1054" />
+  <regapplication productname="Microsoft Office Professional 2016 - en-us" version="16.0.6001.1054" />
+  <regapplication productname="Microsoft Visual Studio 2010 Tools for Office Runtime (x64)" version="10.0.50903" />
+  <regapplication productname="Nexus Mod Manager" version="0.61.9" />
+  <regapplication productname="NVIDIA 3D Vision Controller Driver 352.65" version="352.65" />
+  <regapplication productname="NVIDIA 3D Vision Driver 361.75" version="361.75" />
+  <regapplication productname="NVIDIA Control Panel 361.75" version="361.75" />
+  <regapplication productname="NVIDIA GeForce Experience 2.10.0.60" version="2.10.0.60" />
+  <regapplication productname="NVIDIA GeForce Experience On Screen Controls" version="2.10.0.60" />
+  <regapplication productname="NVIDIA GeForce Experience Service" version="2.10.0.60" />
+  <regapplication productname="NVIDIA Graphics Driver 361.75" version="361.75" />
+  <regapplication productname="NVIDIA HD Audio Driver 1.3.34.4" version="1.3.34.4" />
+  <regapplication productname="NVIDIA Install Application" version="2.1002.197.1706" />
+  <regapplication productname="NVIDIA LED Visualizer 1.0" version="1.0" />
+  <regapplication productname="NVIDIA Network Service" version="2.4" />
+  <regapplication productname="NVIDIA PhysX System Software 9.15.0428" version="9.15.0428" />
+  <regapplication productname="NVIDIA ShadowPlay 2.10.0.60" version="2.10.0.60" />
+  <regapplication productname="NVIDIA Update 2.10.0.60" version="2.10.0.60" />
+  <regapplication productname="NVIDIA Update Core" version="2.10.0.60" />
+  <regapplication productname="NVIDIA Virtual Audio 1.2.34" version="1.2.34" />
+  <regapplication productname="OSC Third Party Libraries" version="1.1" />
+  <regapplication productname="PeerBlock 1.2 (r693)" version="1.2.0.693" />
+  <regapplication productname="SHIELD Streaming" version="4.1.0260" />
+  <regapplication productname="SHIELD Wireless Controller Driver" version="2.10.0.60" />
+  <productkey productname="Windows 10 Enterprise" productkey="PMJHJ-HYJ3Q-GXK9X-23PW7-PWF8R" />
+ </installedapplications>
+ <storage>
+  <drives name="WD My Passport 0820 USB Device" deviceid="\\.\PHYSICALDRIVE2" interface="USB" totaldisksize="1862.98">
+   <partition name="F:" size="0" freespace="0" filesystem="" />
+  </drives>
+  <drives name="Hitachi HDS721010CLA332 ATA Device" deviceid="\\.\PHYSICALDRIVE1" interface="IDE" totaldisksize="931.51">
+   <partition name="C:" size="931.07" freespace="113.5" filesystem="NTFS" />
+  </drives>
+  <drives name="ST95005620AS ATA Device" deviceid="\\.\PHYSICALDRIVE0" interface="IDE" totaldisksize="465.76">
+   <partition name="E:" size="465.42" freespace="200.92" filesystem="NTFS" />
+  </drives>
+ </storage>
+ <network>
+  <adapter description="Broadcom NetXtreme Gigabit Ethernet" macaddress="00:10:18:35:2D:FF">
+   <ip address="10.255.255.127" subnetmask="255.255.255.0" />
+   <ip address="fe80::1900:22f:28aa:178f" subnetmask="64" />
+   <gateway address="10.255.255.254" />
+   <dnsserver address="10.255.255.1" />
+   <dnsdomain name="arrowherts.local" />
+   <dhcpserver address="10.255.255.1" />
+  </adapter>
+ </network>
+ <eventlogfiles>
+  <eventlogfile name="Application" file="C:\WINDOWS\System32\Winevt\Logs\Application.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="HardwareEvents" file="C:\WINDOWS\System32\Winevt\Logs\HardwareEvents.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Internet Explorer" file="C:\WINDOWS\System32\Winevt\Logs\Internet Explorer.evtx" maximumsize="1.00390625" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Key Management Service" file="C:\WINDOWS\System32\Winevt\Logs\Key Management Service.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="OAlerts" file="C:\WINDOWS\System32\Winevt\Logs\OAlerts.evtx" maximumsize="1.00390625" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Security" file="C:\WINDOWS\System32\Winevt\Logs\Security.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="System" file="C:\WINDOWS\System32\Winevt\Logs\System.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Windows PowerShell" file="C:\WINDOWS\System32\Winevt\Logs\Windows PowerShell.evtx" maximumsize="15" overwritepolicy="WhenNeeded" />
+ </eventlogfiles>
+ <localgroups>
+  <group name="Access Control Assistance Operators">
+  </group>
+  <group name="Administrators">
+   <member name="KVATCH\Administrator" />
+   <member name="KVATCH\Admin" />
+   <member name="ARROWHERTS\Domain Admins" />
+   <member name="ARROWHERTS\arikf" />
+   <member name="ARROWHERTS\administrator" />
+  </group>
+  <group name="Backup Operators">
+  </group>
+  <group name="Cryptographic Operators">
+  </group>
+  <group name="Distributed COM Users">
+  </group>
+  <group name="Event Log Readers">
+  </group>
+  <group name="Guests">
+   <member name="KVATCH\Guest" />
+  </group>
+  <group name="Hyper-V Administrators">
+  </group>
+  <group name="IIS_IUSRS">
+   <member name="KVATCH\IUSR" />
+  </group>
+  <group name="Network Configuration Operators">
+  </group>
+  <group name="Performance Log Users">
+  </group>
+  <group name="Performance Monitor Users">
+  </group>
+  <group name="Power Users">
+  </group>
+  <group name="Remote Desktop Users">
+   <member name="ARROWHERTS\administrator" />
+  </group>
+  <group name="Remote Management Users">
+  </group>
+  <group name="Replicator">
+  </group>
+  <group name="System Managed Accounts Group">
+   <member name="KVATCH\DefaultAccount" />
+  </group>
+  <group name="Users">
+   <member name="KVATCH\INTERACTIVE" />
+   <member name="KVATCH\Authenticated Users" />
+   <member name="ARROWHERTS\Domain Users" />
+   <member name="ARROWHERTS\DaveB" />
+   <member name="ARROWHERTS\charlottef" />
+   <member name="ARROWHERTS\evelyn" />
+  </group>
+ </localgroups>
+ <localusers>
+  <user name="Admin" description="" />
+  <user name="Administrator" description="Built-in account for administering the computer/domain" />
+  <user name="DefaultAccount" description="A user account managed by the system." />
+  <user name="Guest" description="Built-in account for guest access to the computer/domain" />
+ </localusers>
+ <printspooler location="C:\Windows\system32\spool\PRINTERS" />
+ <printers>
+  <printer name="Fax" drivername="Microsoft Shared Fax Driver" portname="SHRFAX:" />
+  <printer name="Microsoft Print to PDF" drivername="Microsoft Print To PDF" portname="PORTPROMPT:" />
+  <printer name="Microsoft XPS Document Writer" drivername="Microsoft XPS Document Writer v4" portname="PORTPROMPT:" />
+  <printer name="Print as a PDF" drivername="Microsoft Print To PDF" portname="PORTPROMPT:" />
+  <printer name="Send To OneNote 16" drivername="Send to Microsoft OneNote 16 Driver" portname="nul:" />
+ </printers>
+ <regional timezone="(UTC) Dublin, Edinburgh, Lisbon, London" />
+ <processes>
+  <process caption="AdobeUpdateService.exe" executablepath="C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\ElevationManager\AdobeUpdateService.exe" />
+  <process caption="ADUService.exe" executablepath="C:\Program Files (x86)\Common Files\Microsoft\Care Suite\ADUService\ADUService.exe" />
+  <process caption="AGSService.exe" executablepath="C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AGSService.exe" />
+  <process caption="ApplicationFrameHost.exe" executablepath="C:\WINDOWS\system32\ApplicationFrameHost.exe" />
+  <process caption="audiodg.exe" executablepath="C:\WINDOWS\system32\AUDIODG.EXE" />
+  <process caption="AvastSvc.exe" executablepath="C:\Program Files\AVAST Software\Avast\AvastSvc.exe" />
+  <process caption="avastui.exe" executablepath="C:\Program Files\AVAST Software\Avast\avastui.exe" />
+  <process caption="backgroundTaskHost.exe" executablepath="C:\WINDOWS\system32\backgroundTaskHost.exe" />
+  <process caption="CagService.exe" executablepath="C:\Program Files (x86)\CentraStage\CagService.exe" />
+  <process caption="cmd.exe" executablepath="C:\WINDOWS\system32\cmd.exe" />
+  <process caption="conhost.exe" executablepath="C:\WINDOWS\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\WINDOWS\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\WINDOWS\system32\conhost.exe" />
+  <process caption="cscript.exe" executablepath="C:\WINDOWS\system32\cscript.exe" />
+  <process caption="CSISYNCCLIENT.EXE" executablepath="C:\PROGRA~2\COMMON~1\MICROS~1\OFFICE15\CSISYNCCLIENT.EXE" />
+  <process caption="csrss.exe" executablepath="" />
+  <process caption="csrss.exe" executablepath="" />
+  <process caption="dasHost.exe" executablepath="C:\WINDOWS\system32\dashost.exe" />
+  <process caption="dwm.exe" executablepath="C:\WINDOWS\system32\dwm.exe" />
+  <process caption="EssentialsTrayApp.exe" executablepath="C:\Windows\System32\Essentials\EssentialsTrayApp.exe" />
+  <process caption="EXCEL.EXE" executablepath="C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE" />
+  <process caption="explorer.exe" executablepath="C:\WINDOWS\Explorer.EXE" />
+  <process caption="firefox.exe" executablepath="C:\Program Files (x86)\Mozilla Firefox\firefox.exe" />
+  <process caption="fontdrvhost.exe" executablepath="C:\WINDOWS\system32\fontdrvhost.exe" />
+  <process caption="GfExperienceService.exe" executablepath="C:\Program Files\NVIDIA Corporation\GeForce Experience Service\GfExperienceService.exe" />
+  <process caption="GROOVE.EXE" executablepath="C:\Program Files (x86)\Microsoft Office\root\Office16\GROOVE.EXE" />
+  <process caption="Gui.exe" executablepath="C:\Program Files (x86)\CentraStage\Gui.exe" />
+  <process caption="HxTsr.exe" executablepath="C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_17.6525.42271.0_x64__8wekyb3d8bbwe\HxTsr.exe" />
+  <process caption="InputPersonalization.exe" executablepath="C:\Program Files\Common Files\Microsoft Shared\Ink\InputPersonalization.exe" />
+  <process caption="jusched.exe" executablepath="C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe" />
+  <process caption="lsass.exe" executablepath="C:\WINDOWS\system32\lsass.exe" />
+  <process caption="lync.exe" executablepath="C:\Program Files (x86)\Microsoft Office\Root\Office16\lync.exe" />
+  <process caption="lynchtmlconv.exe" executablepath="C:\Program Files (x86)\Microsoft Office\Root\Office16\lynchtmlconv.exe" />
+  <process caption="MCMA_Service.exe" executablepath="E:\McMyAdmin\MCMA_Service.exe" />
+  <process caption="mDNSResponder.exe" executablepath="C:\Program Files\Bonjour\mDNSResponder.exe" />
+  <process caption="MouseWithoutBorders.exe" executablepath="C:\Program Files (x86)\Microsoft Garage\Mouse without Borders\MouseWithoutBorders.exe" />
+  <process caption="MouseWithoutBorders.exe" executablepath="C:\Program Files (x86)\Microsoft Garage\Mouse without Borders\MouseWithoutBorders.exe" />
+  <process caption="MouseWithoutBordersHelper.exe" executablepath="C:\Program Files (x86)\Microsoft Garage\Mouse without Borders\MousewithoutBordersHelper.exe" />
+  <process caption="MSOSYNC.EXE" executablepath="C:\Program Files (x86)\Microsoft Office\Root\Office16\MsoSync.exe" />
+  <process caption="NvBackend.exe" executablepath="C:\Program Files (x86)\NVIDIA Corporation\Update Core\NvBackend.exe" />
+  <process caption="NvNetworkService.exe" executablepath="C:\Program Files (x86)\NVIDIA Corporation\NetService\NvNetworkService.exe" />
+  <process caption="nvosc.exe" executablepath="C:\Program Files (x86)\NVIDIA Corporation\OSC\nvosc.exe" />
+  <process caption="nvSCPAPISvr.exe" executablepath="C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPISvr.exe" />
+  <process caption="nvspcaps64.exe" executablepath="C:\Program Files\NVIDIA Corporation\ShadowPlay\nvspcaps64.exe" />
+  <process caption="nvsphelper64.exe" executablepath="C:\Program Files\NVIDIA Corporation\ShadowPlay\nvsphelper64.exe" />
+  <process caption="NvStreamNetworkService.exe" executablepath="C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamNetworkService.exe" />
+  <process caption="NvStreamService.exe" executablepath="C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamService.exe" />
+  <process caption="NvStreamUserAgent.exe" executablepath="C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamUserAgent.exe" />
+  <process caption="nvtray.exe" executablepath="C:\Program Files\NVIDIA Corporation\Display\nvtray.exe" />
+  <process caption="nvvsvc.exe" executablepath="C:\WINDOWS\system32\nvvsvc.exe" />
+  <process caption="nvvsvc.exe" executablepath="C:\WINDOWS\system32\nvvsvc.exe" />
+  <process caption="nvxdsync.exe" executablepath="C:\Program Files\NVIDIA Corporation\Display\nvxdsync.exe" />
+  <process caption="OfficeClickToRun.exe" executablepath="C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" />
+  <process caption="OneDrive.exe" executablepath="C:\Users\arikf\AppData\Local\Microsoft\OneDrive\OneDrive.exe" />
+  <process caption="ONENOTEM.EXE" executablepath="C:\Program Files (x86)\Microsoft Office\root\Office16\ONENOTEM.EXE" />
+  <process caption="Origin.exe" executablepath="C:\Program Files (x86)\Origin\Origin.exe" />
+  <process caption="OUTLOOK.EXE" executablepath="C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE" />
+  <process caption="Plex.exe" executablepath="C:\Program Files\WindowsApps\CAF9E577.Plex_2.1.2.29_x64__aam28m9va5cke\Plex.exe" />
+  <process caption="RemindersServer.exe" executablepath="C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\RemindersServer.exe" />
+  <process caption="RemoteServerWin.exe" executablepath="C:\Program Files (x86)\Unified Remote 3\RemoteServerWin.exe" />
+  <process caption="rundll32.exe" executablepath="C:\WINDOWS\system32\rundll32.exe" />
+  <process caption="rundll32.exe" executablepath="C:\WINDOWS\SysWOW64\rundll32.exe" />
+  <process caption="rundll32.exe" executablepath="C:\WINDOWS\system32\rundll32.exe" />
+  <process caption="RuntimeBroker.exe" executablepath="C:\Windows\System32\RuntimeBroker.exe" />
+  <process caption="RzKLService.exe" executablepath="C:\Program Files (x86)\Razer\Razer Cortex\RzKLService.exe" />
+  <process caption="SearchFilterHost.exe" executablepath="C:\WINDOWS\system32\SearchFilterHost.exe" />
+  <process caption="SearchIndexer.exe" executablepath="C:\WINDOWS\system32\SearchIndexer.exe" />
+  <process caption="SearchProtocolHost.exe" executablepath="C:\WINDOWS\system32\SearchProtocolHost.exe" />
+  <process caption="SearchProtocolHost.exe" executablepath="C:\WINDOWS\sysWow64\SearchProtocolHost.exe" />
+  <process caption="SearchUI.exe" executablepath="C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe" />
+  <process caption="services.exe" executablepath="" />
+  <process caption="SettingSyncHost.exe" executablepath="C:\WINDOWS\system32\SettingSyncHost.exe" />
+  <process caption="SharedServiceHost.exe" executablepath="C:\WINDOWS\System32\Essentials\SharedServiceHost.exe" />
+  <process caption="ShellExperienceHost.exe" executablepath="C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe" />
+  <process caption="SideSync.exe" executablepath="C:\Program Files (x86)\Samsung\SideSync4\SideSync.exe" />
+  <process caption="sihost.exe" executablepath="C:\WINDOWS\system32\sihost.exe" />
+  <process caption="SkypeC2CAutoUpdateSvc.exe" executablepath="C:\Program Files (x86)\Skype\Toolbars\AutoUpdate\SkypeC2CAutoUpdateSvc.exe" />
+  <process caption="SkypeC2CPNRSvc.exe" executablepath="C:\Program Files (x86)\Skype\Toolbars\PNRSvc\SkypeC2CPNRSvc.exe" />
+  <process caption="SkypeHost.exe" executablepath="C:\Program Files\WindowsApps\Microsoft.Messaging_2.13.20000.0_x86__8wekyb3d8bbwe\SkypeHost.exe" />
+  <process caption="smss.exe" executablepath="" />
+  <process caption="SMSvcHost.exe" executablepath="C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe" />
+  <process caption="splwow64.exe" executablepath="C:\WINDOWS\splwow64.exe" />
+  <process caption="spoolsv.exe" executablepath="C:\WINDOWS\System32\spoolsv.exe" />
+  <process caption="sppsvc.exe" executablepath="" />
+  <process caption="SRFeature.exe" executablepath="C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRFeature.exe" />
+  <process caption="SRServer.exe" executablepath="C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRServer.exe" />
+  <process caption="SRService.exe" executablepath="C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRService.exe" />
+  <process caption="ss_conn_service.exe" executablepath="C:\Program Files\Samsung\USB Drivers\27_ssconn\conn\ss_conn_service.exe" />
+  <process caption="SSUService.exe" executablepath="C:\Program Files (x86)\Splashtop\Splashtop Software Updater\SSUService.exe" />
+  <process caption="Steam.exe" executablepath="C:\Steam\Steam.exe" />
+  <process caption="SteamService.exe" executablepath="C:\Program Files (x86)\Common Files\Steam\SteamService.exe" />
+  <process caption="steamwebhelper.exe" executablepath="C:\Steam\bin\steamwebhelper.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\WINDOWS\System32\svchost.exe" />
+  <process caption="System" executablepath="" />
+  <process caption="System Idle Process" executablepath="" />
+  <process caption="TabTip.exe" executablepath="C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe" />
+  <process caption="TabTip32.exe" executablepath="C:\Program Files (x86)\Common Files\Microsoft Shared\Ink\TabTip32.exe" />
+  <process caption="taskhostw.exe" executablepath="C:\WINDOWS\system32\taskhostw.exe" />
+  <process caption="taskhostw.exe" executablepath="C:\WINDOWS\system32\taskhostw.exe" />
+  <process caption="TeamViewer.exe" executablepath="C:\Program Files (x86)\TeamViewer\TeamViewer.exe" />
+  <process caption="TeamViewer_Service.exe" executablepath="C:\Program Files (x86)\TeamViewer\TeamViewer_Service.exe" />
+  <process caption="tv_w32.exe" executablepath="C:\Program Files (x86)\TeamViewer\tv_w32.exe" />
+  <process caption="tv_x64.exe" executablepath="C:\Program Files (x86)\TeamViewer\tv_x64.exe" />
+  <process caption="tvnserver.exe" executablepath="C:\Program Files\TightVNC\tvnserver.exe" />
+  <process caption="unsecapp.exe" executablepath="C:\WINDOWS\system32\wbem\unsecapp.exe" />
+  <process caption="VDeck.exe" executablepath="C:\Program Files (x86)\VIA\VIAudioi\VDeck\VDeck.exe" />
+  <process caption="ViakaraokeSrv.exe" executablepath="C:\WINDOWS\system32\viakaraokesrv.exe" />
+  <process caption="wininit.exe" executablepath="" />
+  <process caption="winlogon.exe" executablepath="C:\WINDOWS\system32\winlogon.exe" />
+  <process caption="winvnc.exe" executablepath="C:\Program Files (x86)\CentraStage\UltraVNC\winvnc.exe" />
+  <process caption="winvnc.exe" executablepath="C:\Program Files (x86)\CentraStage\UltraVNC\winvnc.exe" />
+  <process caption="wksprt.exe" executablepath="C:\WINDOWS\system32\wksprt.exe" />
+  <process caption="WmiPrvSE.exe" executablepath="C:\WINDOWS\system32\wbem\wmiprvse.exe" />
+  <process caption="WmiPrvSE.exe" executablepath="C:\WINDOWS\system32\wbem\wmiprvse.exe" />
+  <process caption="WseClientMonitorSvc.exe" executablepath="C:\WINDOWS\System32\Essentials\WseClientMonitorSvc.exe" />
+  <process caption="WUDFHost.exe" executablepath="C:\Windows\System32\WUDFHost.exe" />
+ </processes>
+ <services>
+  <service name="ActiveX Installer (AxInstSV)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Adobe Flash Player Update Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Adobe Genuine Software Integrity Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="AdobeUpdateService" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="ADU Service (Nokia Software Recovery Tool)" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="AllJoyn Router Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="App Readiness" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Application Identity" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Application Information" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Application Layer Gateway Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Application Management" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="AppX Deployment Service (AppXSVC)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Auto Time Zone Updater" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Avast Antivirus" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Background Intelligent Transfer Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Background Tasks Infrastructure Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Base Filtering Engine" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="BitLocker Drive Encryption Service" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Block Level Backup Engine Service" startmode="Manual" started="False" startname="localSystem" />
+  <service name="BlueStacks Android Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="BlueStacks Log Rotator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="BlueStacks Updater Service" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Bluetooth Handsfree Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Bluetooth Support Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Bonjour Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="BranchCache" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="CentraStage" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Certificate Propagation" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Client License Service (ClipSVC)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="CNG Key Isolation" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="COM+ Event System" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="COM+ System Application" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Computer Browser" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Connected Device Platform Service" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Connected User Experiences and Telemetry" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="CoreMessaging" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Credential Manager" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Cryptographic Services" startmode="Auto" started="True" startname="NT Authority\NetworkService" />
+  <service name="Data Sharing Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="DataCollectionPublishingService" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="DCOM Server Process Launcher" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Delivery Optimization" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Device Association Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Device Install Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Device Management Enrollment Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Device Setup Manager" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="DevQuery Background Discovery Broker" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="DHCP Client" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Diagnostic Policy Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Diagnostic Service Host" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Diagnostic System Host" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Distributed Link Tracking Client" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Distributed Transaction Coordinator" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="dmwappushsvc" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="DNS Client" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Downloaded Maps Manager" startmode="Auto" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="embeddedmode" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Encrypting File System (EFS)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Enterprise App Management Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Extensible Authentication Protocol" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Fax" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="File History Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Function Discovery Provider Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Function Discovery Resource Publication" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Geolocation Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Google Update Service (gupdate)" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Google Update Service (gupdatem)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Group Policy Client" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="HomeGroup Listener" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="HomeGroup Provider" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Human Interface Device Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Hyper-V Data Exchange Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Guest Service Interface" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Guest Shutdown Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Heartbeat Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Remote Desktop Virtualization Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Time Synchronization Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Hyper-V VM Session Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Volume Shadow Copy Requestor" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="IKE and AuthIP IPsec Keying Modules" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Interactive Services Detection" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Internet Connection Sharing (ICS)" startmode="Disabled" started="False" startname="LocalSystem" />
+  <service name="Internet Explorer ETW Collector Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="IP Helper" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="IPsec Policy Agent" startmode="Manual" started="True" startname="NT Authority\NetworkService" />
+  <service name="KtmRm for Distributed Transaction Coordinator" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Link-Layer Topology Discovery Mapper" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Local Session Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="McMyAdmin" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft (R) Diagnostics Hub Standard Collector Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Account Sign-in Assistant" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft iSCSI Initiator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Office Click-to-Run Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Passport" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Passport Container" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Microsoft Software Shadow Copy Provider" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Storage Spaces SMP" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft Windows SMS Router Service." startmode="Manual" started="False" startname="localSystem" />
+  <service name="Mouse without Borders Service" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Mozilla Maintenance Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Net.Tcp Port Sharing Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Netlogon" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Network Connected Devices Auto-Setup" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Network Connection Broker" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Network Connections" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Network Connectivity Assistant" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Network List Service" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Network Location Awareness" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Network Setup Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Network Store Interface Service" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="NVIDIA Display Driver Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="NVIDIA GeForce Experience Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="NVIDIA Network Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="NVIDIA Stereoscopic 3D Driver Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="NVIDIA Streamer Network Service" startmode="Manual" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="NVIDIA Streamer Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Office  Source Engine" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Offline Files" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Optimise drives" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Origin Client Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Peer Name Resolution Protocol" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Peer Networking Grouping" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Peer Networking Identity Manager" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Performance Counter DLL Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Performance Logs &#38; Alerts" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Phone Service" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Plug and Play" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="PNRP Machine Name Publication Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Portable Device Enumerator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Power" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Print Spooler" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Printer Extensions and Notifications" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Problem Reports and Solutions Control Panel Support" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Program Compatibility Assistant Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Quality Windows Audio Video Experience" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Razer Game Scanner" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Remote Access Auto Connection Manager" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Remote Access Connection Manager" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Remote Desktop Configuration" startmode="Manual" started="True" startname="localSystem" />
+  <service name="Remote Desktop Services" startmode="Manual" started="True" startname="NT Authority\NetworkService" />
+  <service name="Remote Desktop Services UserMode Port Redirector" startmode="Manual" started="True" startname="localSystem" />
+  <service name="Remote Procedure Call (RPC)" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Remote Procedure Call (RPC) Locator" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Remote Registry" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="RemoteServerWin" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Retail Demo Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Routing and Remote Access" startmode="Disabled" started="False" startname="localSystem" />
+  <service name="RPC Endpoint Mapper" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="RzKLService" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="SAMSUNG Mobile Connectivity Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Secondary Log-on" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Secure Socket Tunneling Protocol Service" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Security Accounts Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Security Center" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Sensor Data Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Sensor Monitoring Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Sensor Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Server" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Shell Hardware Detection" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Skype Click to Call PNR Service" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Skype Click to Call Updater" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Skype Updater" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Smart Card" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Smart Card Device Enumeration Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Smart Card Removal Policy" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="SNMP Trap" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Software Protection" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Splashtop Software Updater Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Splashtop® Remote Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Spot Verifier" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="SSDP Discovery" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="State Repository Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Steam Client Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Still Image Acquisition Events" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Storage Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Storage Tiers Management" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Superfetch" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="System Event Notification Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="System Events Broker" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Task Scheduler" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="TCP/IP NetBIOS Helper" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="TeamViewer 11" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Telephony" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Themes" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="TightVNC Server" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Tile Data model server" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Time Broker" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Touch Keyboard and Handwriting Panel Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Update Orchestrator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="UPnP Device Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="User Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="User Profile Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="uvnc_service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="VIA Karaoke digital mixer Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Virtual Disk" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Volume Shadow Copy" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="WalletService" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="WebClient" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Audio" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Audio Endpoint Builder" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Windows Backup" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Windows Biometric Service" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Windows Colour System" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Connect Now - Config Registrar" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Connection Manager" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Windows Defender Network Inspection Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Defender Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Driver Foundation - User-mode Driver Framework" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows Encryption Provider Host Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Error Reporting Service" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Windows Event Collector" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Windows Event Log" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Firewall" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Windows Font Cache Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Image Acquisition (WIA)" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Windows Installer" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows License Manager Service" startmode="Manual" started="True" startname="NT Authority\LocalService" />
+  <service name="Windows Management Instrumentation" startmode="Auto" started="True" startname="localSystem" />
+  <service name="Windows Media Player Network Sharing Service" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Windows Mobile Hotspot Service" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Windows Modules Installer" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Windows Presentation Foundation Font Cache 3.0.0.0" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Windows Push Notifications Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Remote Management (WS-Management)" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Windows Search" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Windows Server Essentials Client Computer Management Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Client Computer Monitoring Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows Server Essentials Health Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Notification Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Provider Registry Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Store Service (WSService)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Time" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Update" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="WinHTTP Web Proxy Auto-Discovery Service" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Wired AutoConfig" startmode="Manual" started="False" startname="localSystem" />
+  <service name="WLAN AutoConfig" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="WMI Performance Adapter" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Work Folders" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Workstation" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="WWAN AutoConfig" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Xbox Live Auth Manager" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Xbox Live Game Save" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Xbox Live Networking Service" startmode="Manual" started="False" startname="LocalSystem" />
+ </services>
+ <shares>
+  <share name="ADMIN$" path="C:\WINDOWS" description="Remote Admin" />
+  <share name="C$" path="C:\" description="Default share" />
+  <share name="E$" path="E:\" description="Default share" />
+  <share name="IPC$" path="" description="Remote IPC" />
+ </shares>
+ <win32_startupcommand>
+  <command user="ARROWHERTS\administrator" name="OneDriveSetup" command="C:\Windows\SysWOW64\OneDriveSetup.exe /thfirstsetup" />
+  <command user="ARROWHERTS\administrator" name="Steam" command="&quot;C:\Steam\steam.exe&quot; -silent" />
+  <command user="ARROWHERTS\arikf" name="EADM" command="&quot;C:\Program Files (x86)\Origin\Origin.exe&quot; -AutoStart" />
+  <command user="ARROWHERTS\arikf" name="Lync" command="&quot;C:\Program Files (x86)\Microsoft Office\Root\Office16\lync.exe&quot; /fromrunkey" />
+  <command user="ARROWHERTS\arikf" name="OneDrive" command="&quot;C:\Users\arikf\AppData\Local\Microsoft\OneDrive\OneDrive.exe&quot; /background" />
+  <command user="ARROWHERTS\arikf" name="OneDrive for Business" command="OneDrive for Business.lnk" />
+  <command user="ARROWHERTS\arikf" name="PeerBlock" command="C:\Program Files\PeerBlock\peerblock.exe" />
+  <command user="ARROWHERTS\arikf" name="Send to OneNote" command="Send to OneNote.lnk" />
+  <command user="ARROWHERTS\arikf" name="SideSync" command="C:\Program Files (x86)\Samsung\SideSync4\SideSync.exe" />
+  <command user="ARROWHERTS\arikf" name="Steam" command="&quot;C:\Steam\steam.exe&quot; -silent" />
+  <command user="ARROWHERTS\arikf" name="Unified Remote V3" command="&quot;C:\Program Files (x86)\Unified Remote 3\RemoteServerWin.exe&quot;" />
+  <command user="NT AUTHORITY\LOCAL SERVICE" name="OneDriveSetup" command="C:\Windows\SysWOW64\OneDriveSetup.exe /thfirstsetup" />
+  <command user="NT AUTHORITY\NETWORK SERVICE" name="OneDriveSetup" command="C:\Windows\SysWOW64\OneDriveSetup.exe /thfirstsetup" />
+  <command user="Public" name="AdobeAAMUpdater-1.0" command="&quot;C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\UpdaterStartupUtility.exe&quot;" />
+  <command user="Public" name="EssentialsTrayApp" command="C:\WINDOWS\System32\Essentials\EssentialsTrayApp.exe -autostart" />
+  <command user="Public" name="HDAudDeck" command="C:\Program Files (x86)\VIA\VIAudioi\VDeck\VDeck.exe -r" />
+  <command user="Public" name="NvBackend" command="&quot;C:\Program Files (x86)\NVIDIA Corporation\Update Core\NvBackend.exe&quot;" />
+  <command user="Public" name="ShadowPlay" command="&quot;C:\WINDOWS\system32\rundll32.exe&quot; C:\WINDOWS\system32\nvspcap64.dll,ShadowPlayOnSystemStart" />
+  <command user="Public" name="tvncontrol" command="&quot;C:\Program Files\TightVNC\tvnserver.exe&quot; -controlservice -slave" />
+ </win32_startupcommand>
+ <pagefiles>
+ </pagefiles>
+ <registry currentsize="143" maximumsize="4095" />
+</computer>

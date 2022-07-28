@@ -1,0 +1,24 @@
+0003
+\net\card0\$
+\net\card1\$
+\net\card2\$
+0013 : Number of devices
+14E4 16A8 0001 : Broadcom NetXtreme B57XX Chipset      $
+14E4 1648 0001 : Broadcom NetXtreme B57XX Chipset      $
+14E4 169C 0001 : Broadcom NetXtreme B57XX Chipset      $
+8086 1029 0002 : Intel(R) PRO/100 M Mobile Connection  $
+8086 1059 0002 : Intel(R) PRO/100 M Mobile Connection  $
+8086 1031 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1032 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1033 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1034 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1035 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1036 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1038 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 1039 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 103A 0002 : Intel(R) PRO/100 VE Network Connection$
+8086 103B 0002 : Intel(R) PRO/100 VM Network Connection$
+8086 1229 0002 : Intel(R) 82557 Based Adapter          $
+8086 2449 0002 : Intel(R) PRO/100E Adapter             $
+8086 100E 0003 : Intel Pro E1000                       $
+8086 1019 0003 : Intel Pro E1000                       $

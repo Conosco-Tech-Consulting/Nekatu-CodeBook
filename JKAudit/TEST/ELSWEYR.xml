@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<computer>
+ <generated script="sydi-server" version="2.3" scantime="02/02/2016 12:05:16" />
+ <system name="ELSWEYR" />
+ <operatingsystem name="Microsoft Windows Server 2012 Standard" servicepack="" />
+ <fqdn name="elsweyr.arrowherts.local" />
+ <roles>
+  <role name="File" />
+ </roles>
+ <machineinfo manufacturer="Dell Computer Corporation" productname="PowerEdge SC1425" identifyingnumber="31GKQ1J" chassis="Rack Mount chassis" />
+ <processor count="2" name="Intel(R) Xeon(TM) CPU 2.80GHz" description="Intel64 Family 15 Model 4 Stepping 1" speed="2800" l2cachesize="1024" externalclock="800" htsystem="False" />
+ <memory totalsize="6143">
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+  <memorybank bank="" capacity="1024" formfactor="DIMM" memorytype="Unknown" />
+ </memory>
+ <win32_cdromdrive>
+ </win32_cdromdrive>
+ <videocontroller>
+  <adapter name="Microsoft Basic Display Adapter" adapterram="0" compatibility="(Standard display types)" />
+ </videocontroller>
+ <win32_sounddevice>
+ </win32_sounddevice>
+ <bios version="DELL   - 1" smbiosversion="A03" smbiosmajorversion="2" smbbiosminorversion="3">
+  <bioscharacteristics id="4" name="ISA is supported" />
+  <bioscharacteristics id="7" name="PCI is supported" />
+  <bioscharacteristics id="9" name="Plug and Play is supported" />
+  <bioscharacteristics id="11" name="BIOS is Upgradable (Flash)" />
+  <bioscharacteristics id="12" name="BIOS shadowing is allowed" />
+  <bioscharacteristics id="14" name="ESCD support is available" />
+  <bioscharacteristics id="15" name="Boot from CD is supported" />
+  <bioscharacteristics id="16" name="Selectable Boot is supported" />
+  <bioscharacteristics id="19" name="EDD (Enhanced Disk Drive) Specification is supported" />
+  <bioscharacteristics id="27" name="Int 9h, 8042 Keyboard services are supported" />
+  <bioscharacteristics id="28" name="Int 14h, Serial Services are supported" />
+  <bioscharacteristics id="30" name="Int 10h, CGA/Mono Video Services are supported" />
+  <bioscharacteristics id="32" name="ACPI supported" />
+  <bioscharacteristics id="33" name="USB Legacy is supported" />
+  <bioscharacteristics id="36" name="LS-120 boot is supported" />
+  <bioscharacteristics id="40" name="Unknown (Undocumented)" />
+  <bioscharacteristics id="41" name="Unknown (Undocumented)" />
+ </bios>
+ <osconfiguration osname="Microsoft Windows Server 2012 Standard" computerrole="Member Server" domainname="arrowherts.local" domaintype="domain" windowslocation="C:\Windows" oslanguage="English" installdate="17/02/2013 19:15:41" />
+ <lastuser name="ARROWHERTS\" />
+ <windowscomponents>
+ </windowscomponents>
+ <patches>
+  <patch description="Update" hotfixid="KB2790621" installdate="4/20/2014" />
+  <patch description="Security Update" hotfixid="KB2727528" installdate="2/22/2013" />
+  <patch description="Security Update" hotfixid="KB2736693" installdate="2/22/2013" />
+  <patch description="Security Update" hotfixid="KB2742616" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2756872" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2758246" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2761094" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2764870" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2768703" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2769034" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2769165" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2769166" installdate="2/22/2013" />
+  <patch description="Security Update" hotfixid="KB2770660" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2770917" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2771431" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2771821" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2777166" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2779768" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2780342" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2784160" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2785094" installdate="2/28/2013" />
+  <patch description="Update" hotfixid="KB2795944" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2800033" installdate="4/29/2013" />
+  <patch description="Update" hotfixid="KB2802618" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2803748" installdate="2/22/2013" />
+  <patch description="Update" hotfixid="KB2805966" installdate="5/27/2013" />
+  <patch description="Security Update" hotfixid="KB2807986" installdate="4/29/2013" />
+  <patch description="Update" hotfixid="KB2808679" installdate="9/2/2013" />
+  <patch description="Update" hotfixid="KB2811660" installdate="4/29/2013" />
+  <patch description="Update" hotfixid="KB2812829" installdate="4/29/2013" />
+  <patch description="Security Update" hotfixid="KB2813430" installdate="9/2/2013" />
+  <patch description="Update" hotfixid="KB2822241" installdate="4/29/2013" />
+  <patch description="Update" hotfixid="KB2823516" installdate="4/29/2013" />
+  <patch description="Update" hotfixid="KB2836988" installdate="5/27/2013" />
+  <patch description="Security Update" hotfixid="KB2840633" installdate="9/2/2013" />
+  <patch description="Update" hotfixid="KB2843630" installdate="2/23/2014" />
+  <patch description="Update" hotfixid="KB2845533" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2849568" installdate="9/2/2013" />
+  <patch description="Update" hotfixid="KB2850674" installdate="9/2/2013" />
+  <patch description="Update" hotfixid="KB2851234" installdate="9/22/2014" />
+  <patch description="Update" hotfixid="KB2855336" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2861704" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2862073" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2862330" installdate="10/26/2013" />
+  <patch description="Security Update" hotfixid="KB2862335" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2862768" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2862966" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2862973" installdate="2/23/2014" />
+  <patch description="Security Update" hotfixid="KB2863725" installdate="10/26/2013" />
+  <patch description="Security Update" hotfixid="KB2864202" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2866029" installdate="9/2/2013" />
+  <patch description="Security Update" hotfixid="KB2868038" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2869628" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2871389" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2871777" installdate="9/13/2013" />
+  <patch description="Security Update" hotfixid="KB2871997" installdate="10/14/2014" />
+  <patch description="Update" hotfixid="KB2876415" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2877211" installdate="10/26/2013" />
+  <patch description="Update" hotfixid="KB2877213" installdate="1/7/2014" />
+  <patch description="Update" hotfixid="KB2881468" installdate="12/11/2013" />
+  <patch description="Update" hotfixid="KB2882780" installdate="12/11/2013" />
+  <patch description="Update" hotfixid="KB2883201" installdate="10/26/2013" />
+  <patch description="Security Update" hotfixid="KB2884256" installdate="10/26/2013" />
+  <patch description="Hotfix" hotfixid="KB2884597" installdate="12/19/2015" />
+  <patch description="Security Update" hotfixid="KB2887069" installdate="1/7/2014" />
+  <patch description="Update" hotfixid="KB2889784" installdate="12/11/2013" />
+  <patch description="Update" hotfixid="KB2891804" installdate="1/7/2014" />
+  <patch description="Security Update" hotfixid="KB2892074" installdate="1/7/2014" />
+  <patch description="Security Update" hotfixid="KB2893294" installdate="1/7/2014" />
+  <patch description="Security Update" hotfixid="KB2894851" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2894855" installdate="9/22/2014" />
+  <patch description="Hotfix" hotfixid="KB2894875" installdate="12/19/2015" />
+  <patch description="Update" hotfixid="KB2896496" installdate="12/11/2013" />
+  <patch description="Security Update" hotfixid="KB2898870" installdate="2/23/2014" />
+  <patch description="Security Update" hotfixid="KB2900986" installdate="12/11/2013" />
+  <patch description="Update" hotfixid="KB2901982" installdate="2/14/2015" />
+  <patch description="Update" hotfixid="KB2903938" installdate="1/7/2014" />
+  <patch description="Security Update" hotfixid="KB2912390" installdate="2/23/2014" />
+  <patch description="Update" hotfixid="KB2919393" installdate="2/23/2014" />
+  <patch description="Security Update" hotfixid="KB2920189" installdate="10/14/2014" />
+  <patch description="Update" hotfixid="KB2928678" installdate="3/20/2014" />
+  <patch description="Update" hotfixid="KB2934016" installdate="4/17/2014" />
+  <patch description="Update" hotfixid="KB2938066" installdate="9/22/2014" />
+  <patch description="Update" hotfixid="KB2955163" installdate="10/14/2014" />
+  <patch description="Update" hotfixid="KB2955808" installdate="2/22/2015" />
+  <patch description="Update" hotfixid="KB2960837" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2961072" installdate="9/22/2014" />
+  <patch description="Update" hotfixid="KB2962407" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2966825" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2966827" installdate="9/20/2014" />
+  <patch description="Security Update" hotfixid="KB2968295" installdate="10/19/2014" />
+  <patch description="Security Update" hotfixid="KB2972101" installdate="10/19/2014" />
+  <patch description="Security Update" hotfixid="KB2972212" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2972280" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2973113" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2973201" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2973351" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2973501" installdate="10/19/2014" />
+  <patch description="Update" hotfixid="KB2975331" installdate="10/14/2014" />
+  <patch description="Security Update" hotfixid="KB2976897" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2977292" installdate="10/19/2014" />
+  <patch description="Security Update" hotfixid="KB2977766" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2978042" installdate="10/19/2014" />
+  <patch description="Security Update" hotfixid="KB2978121" installdate="12/20/2014" />
+  <patch description="Security Update" hotfixid="KB2978127" installdate="12/20/2014" />
+  <patch description="Security Update" hotfixid="KB2979571" installdate="10/19/2014" />
+  <patch description="Security Update" hotfixid="KB2979577" installdate="10/19/2014" />
+  <patch description="Update" hotfixid="KB2981685" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2982998" installdate="12/20/2014" />
+  <patch description="Update" hotfixid="KB2984005" installdate="9/22/2014" />
+  <patch description="Hotfix" hotfixid="KB2985485" installdate="9/22/2014" />
+  <patch description="Security Update" hotfixid="KB2992611" installdate="1/19/2015" />
+  <patch description="Update" hotfixid="KB2993651" installdate="10/24/2015" />
+  <patch description="Update" hotfixid="KB2995387" installdate="10/19/2014" />
+  <patch description="Hotfix" hotfixid="KB2996928" installdate="1/19/2015" />
+  <patch description="Update" hotfixid="KB2999226" installdate="10/24/2015" />
+  <patch description="Update" hotfixid="KB2999323" installdate="1/19/2015" />
+  <patch description="Security Update" hotfixid="KB3000483" installdate="2/22/2015" />
+  <patch description="Update" hotfixid="KB3000853" installdate="12/20/2014" />
+  <patch description="Update" hotfixid="KB3003729" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3004361" installdate="2/22/2015" />
+  <patch description="Security Update" hotfixid="KB3004365" installdate="2/14/2015" />
+  <patch description="Security Update" hotfixid="KB3004375" installdate="2/22/2015" />
+  <patch description="Update" hotfixid="KB3004394" installdate="1/19/2015" />
+  <patch description="Hotfix" hotfixid="KB3006137" installdate="3/16/2015" />
+  <patch description="Security Update" hotfixid="KB3010788" installdate="12/20/2014" />
+  <patch description="Security Update" hotfixid="KB3011780" installdate="12/20/2014" />
+  <patch description="Update" hotfixid="KB3012702" installdate="3/24/2015" />
+  <patch description="Update" hotfixid="KB3013531" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3013767" installdate="1/19/2015" />
+  <patch description="Security Update" hotfixid="KB3014029" installdate="2/14/2015" />
+  <patch description="Update" hotfixid="KB3018238" installdate="1/19/2015" />
+  <patch description="Security Update" hotfixid="KB3019215" installdate="2/14/2015" />
+  <patch description="Security Update" hotfixid="KB3019978" installdate="2/14/2015" />
+  <patch description="Update" hotfixid="KB3020338" installdate="2/22/2015" />
+  <patch description="Security Update" hotfixid="KB3022777" installdate="2/14/2015" />
+  <patch description="Security Update" hotfixid="KB3023217" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3023223" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3030377" installdate="3/24/2015" />
+  <patch description="Update" hotfixid="KB3032613" installdate="3/24/2015" />
+  <patch description="Security Update" hotfixid="KB3035126" installdate="3/24/2015" />
+  <patch description="Security Update" hotfixid="KB3035132" installdate="3/24/2015" />
+  <patch description="Security Update" hotfixid="KB3035486" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3035489" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3037575" installdate="4/19/2015" />
+  <patch description="Security Update" hotfixid="KB3037580" installdate="6/18/2015" />
+  <patch description="Hotfix" hotfixid="KB3038701" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3040272" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3042058" installdate="10/24/2015" />
+  <patch description="Security Update" hotfixid="KB3042553" installdate="4/19/2015" />
+  <patch description="Update" hotfixid="KB3043812" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3044673" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3045645" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3045685" installdate="4/19/2015" />
+  <patch description="Update" hotfixid="KB3045992" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3046017" installdate="10/3/2015" />
+  <patch description="Update" hotfixid="KB3048778" installdate="4/19/2015" />
+  <patch description="Update" hotfixid="KB3054204" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3055642" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3058163" installdate="10/24/2015" />
+  <patch description="Update" hotfixid="KB3058168" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3059317" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3060383" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3060716" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3061518" installdate="6/18/2015" />
+  <patch description="Security Update" hotfixid="KB3063858" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3064209" installdate="6/18/2015" />
+  <patch description="Update" hotfixid="KB3066441" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3067505" installdate="7/26/2015" />
+  <patch description="Security Update" hotfixid="KB3067904" installdate="7/26/2015" />
+  <patch description="Security Update" hotfixid="KB3068457" installdate="7/26/2015" />
+  <patch description="Security Update" hotfixid="KB3069114" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3071756" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3072306" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3072595" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3072630" installdate="7/26/2015" />
+  <patch description="Security Update" hotfixid="KB3072633" installdate="7/26/2015" />
+  <patch description="Security Update" hotfixid="KB3074229" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3074544" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3074549" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3075220" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3076949" installdate="10/3/2015" />
+  <patch description="Update" hotfixid="KB3077715" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3078601" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3080446" installdate="10/24/2015" />
+  <patch description="Security Update" hotfixid="KB3081320" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3082089" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3083992" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3084135" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3086255" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3087039" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3088195" installdate="10/24/2015" />
+  <patch description="Security Update" hotfixid="KB3092601" installdate="12/31/2015" />
+  <patch description="Update" hotfixid="KB3092627" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3093983" installdate="10/24/2015" />
+  <patch description="Update" hotfixid="KB3096053" installdate="10/3/2015" />
+  <patch description="Security Update" hotfixid="KB3097966" installdate="10/24/2015" />
+  <patch description="Security Update" hotfixid="KB3097991" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3097995" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3098780" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3099863" installdate="12/31/2015" />
+  <patch description="Update" hotfixid="KB3102429" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3102939" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3104002" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3105216" installdate="10/24/2015" />
+  <patch description="Update" hotfixid="KB3107998" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3108347" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3108381" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3109094" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3109103" installdate="12/31/2015" />
+  <patch description="Update" hotfixid="KB3112148" installdate="12/31/2015" />
+  <patch description="Security Update" hotfixid="KB3132372" installdate="12/31/2015" />
+ </patches>
+ <installedapplications>
+  <msiapplication productname="Dell OpenManage Systems Management Software" vendor="Dell" version="7.2.0" installdate="20130218" />
+  <msiapplication productname="Dell System E-support Tool" vendor="Dell Inc." version="2.2" installdate="20140421" />
+  <msiapplication productname="Java 7 Update 51" vendor="Oracle" version="7.0.250" installdate="20130630" />
+  <msiapplication productname="Java Auto Updater" vendor="Sun Microsystems, Inc." version="2.1.9.8" installdate="20140223" />
+  <msiapplication productname="Meraki Systems Manager Agent" vendor="Meraki" version="1.0.87" installdate="20140322" />
+  <msiapplication productname="Microsoft Exchange 2007 Enterprise Anti-spam Signatures" vendor="Microsoft Corporation" version="3.3.4604.600" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange 2007 Enterprise Block List Updates" vendor="Microsoft Corporation" version="3.3.4604.001" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange 2007 Standard Anti-spam Filter Updates" vendor="Microsoft Corporation" version="3.3.15601.886" installdate="20151231" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Amharic (Ethiopia)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Arabic" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Basque" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Bengali (India)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Bulgarian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Catalan" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Chinese (Simplified)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Chinese (Traditional)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Croatian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Czech" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Danish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Dutch" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - English" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Estonian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Filipino (Philippines)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Finnish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - French" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Galician" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - German" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Greek" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Gujarati" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Hebrew" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Hindi" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Hungarian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Icelandic" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Indonesian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Italian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Japanese" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Kannada" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Kazakh" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Kiswahili" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Korean" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Latvian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Lithuanian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Malay" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Malayalam (India)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Marathi" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Norwegian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Norwegian, Nynorsk (Norway)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Oriya (India)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Persian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Polish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Portuguese" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Portuguese (Portugal)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Romanian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Russian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Serbian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Serbian (Cyrillic, Serbia)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Slovak" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Slovenian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Spanish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Swedish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Tamil" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Telugu" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Thai" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Turkish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Ukrainian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Urdu" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Vietnamese" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Client Language Pack - Welsh (United Kingdom)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Chinese (Simplified)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Chinese (Traditional)" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - English" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - French" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - German" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Italian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Japanese" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Korean" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Portuguese" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Russian" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Server Language Pack - Spanish" vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Exchange Speech - (en-US) " vendor="Microsoft Corporation" version="15.0.1130.7" installdate="20151219" />
+  <msiapplication productname="Microsoft Filter Pack 2.0" vendor="Microsoft Corporation" version="14.0.7015.1000" installdate="20150418" />
+  <msiapplication productname="Microsoft Lync Server 2013, Bootstrapper Prerequisites Installer Package" vendor="Microsoft Corporation" version="5.0.8308.0" installdate="20130217" />
+  <msiapplication productname="Microsoft Server Speech Platform Runtime (x64)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130217" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (ca-ES)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (da-DK)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (de-DE)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (en-AU)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (en-CA)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (en-GB)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (en-IN)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (en-US)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20151219" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (es-ES)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (es-MX)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (fi-FI)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (fr-CA)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (fr-FR)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (it-IT)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (ja-JP)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (ko-KR)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (nb-NO)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (nl-NL)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (pl-PL)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (pt-BR)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (pt-PT)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (ru-RU)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (sv-SE)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (zh-CN)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (zh-HK)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TELE (zh-TW)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130501" />
+  <msiapplication productname="Microsoft Server Speech Recognition Language - TRANS (en-US)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20151219" />
+  <msiapplication productname="Microsoft Server Speech Text to Speech Voice (en-US, Helen)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20151219" />
+  <msiapplication productname="Microsoft Silverlight" vendor="Microsoft Corporation" version="5.1.41105.0" installdate="20151231" />
+  <msiapplication productname="Microsoft Speech Platform VXML Runtime (x64)" vendor="Microsoft Corporation" version="11.0.7400.345" installdate="20130217" />
+  <msiapplication productname="Microsoft Unified Communications Managed API 4.0, Core Runtime 64-bit" vendor="Microsoft Corporation" version="5.0.8308.726" installdate="20140920" />
+  <msiapplication productname="Microsoft Unified Communications Managed API 4.0, Runtime" vendor="Microsoft Corporation" version="5.0.8308.0" installdate="20130217" />
+  <msiapplication productname="Microsoft Unified Communications Managed API 4.0, SSP Runtime" vendor="Microsoft Corporation" version="5.0.8308.0" installdate="20130217" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150214" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20150214" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20151231" />
+  <msiapplication productname="Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030" vendor="Microsoft Corporation" version="11.0.61030" installdate="20151231" />
+  <regapplication productname="Microsoft Exchange Server 2013 Cumulative Update 10" version="15.0.1130.7" />
+  <regapplication productname="Microsoft Unified Communications Managed API 4.0, Runtime" version="5.0.8308.0" />
+  <productkey productname="Windows Server 2012 Standard" productkey="N/A" />
+ </installedapplications>
+ <storage>
+  <drives name="HDS724040KLSA80 ATA Device" deviceid="\\.\PHYSICALDRIVE1" interface="IDE" totaldisksize="372.61">
+   <partition name="C:" size="372.27" freespace="221.21" filesystem="NTFS" />
+  </drives>
+  <drives name="HDS724040KLSA80 ATA Device" deviceid="\\.\PHYSICALDRIVE0" interface="IDE" totaldisksize="372.61">
+   <partition name="C:" size="372.27" freespace="221.21" filesystem="NTFS" />
+  </drives>
+ </storage>
+ <network>
+  <adapter description="Microsoft Network Adapter Multiplexor Driver" macaddress="00:14:22:09:4B:26">
+   <ip address="10.255.255.7" subnetmask="255.255.255.0" />
+   <ip address="fe80::b146:fbf8:6e85:84e6" subnetmask="64" />
+   <gateway address="10.255.255.254" />
+   <dnsserver address="10.255.255.1" />
+   <dnsdomain name="" />
+  </adapter>
+  <ip4routes>
+   <route destination="0.0.0.0" mask="0.0.0.0" nexthop="10.255.255.254" />
+   <route destination="10.255.255.0" mask="255.255.255.0" nexthop="0.0.0.0" />
+   <route destination="10.255.255.7" mask="255.255.255.255" nexthop="0.0.0.0" />
+   <route destination="10.255.255.255" mask="255.255.255.255" nexthop="0.0.0.0" />
+   <route destination="127.0.0.0" mask="255.0.0.0" nexthop="0.0.0.0" />
+   <route destination="127.0.0.1" mask="255.255.255.255" nexthop="0.0.0.0" />
+   <route destination="127.255.255.255" mask="255.255.255.255" nexthop="0.0.0.0" />
+   <route destination="224.0.0.0" mask="240.0.0.0" nexthop="0.0.0.0" />
+   <route destination="224.0.0.0" mask="240.0.0.0" nexthop="0.0.0.0" />
+   <route destination="255.255.255.255" mask="255.255.255.255" nexthop="0.0.0.0" />
+   <route destination="255.255.255.255" mask="255.255.255.255" nexthop="0.0.0.0" />
+  </ip4routes>
+ </network>
+ <microsoftiisv2>
+  <iiswebserversetting name="W3SVC/1" servercomment="Default Web Site">
+   <homedirectory path="C:\inetpub\wwwroot" />
+   <serverbindings hostname="" ip="" port="80" />
+   <serverbindings hostname="" ip="127.0.0.1" port="80" />
+  </iiswebserversetting>
+  <iiswebserversetting name="W3SVC/3" servercomment="Exchange Back End">
+   <homedirectory path="C:\inetpub\wwwroot" />
+   <serverbindings hostname="" ip="" port="81" />
+  </iiswebserversetting>
+ </microsoftiisv2>
+ <eventlogfiles>
+  <eventlogfile name="Application" file="C:\Windows\System32\Winevt\Logs\Application.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="HardwareEvents" file="C:\Windows\System32\Winevt\Logs\HardwareEvents.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Internet Explorer" file="C:\Windows\System32\Winevt\Logs\Internet Explorer.evtx" maximumsize="1.00390625" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Key Management Service" file="C:\Windows\System32\Winevt\Logs\Key Management Service.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="MSExchange Management" file="C:\Windows\System32\Winevt\Logs\MSExchange Management.evtx" maximumsize="150" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Security" file="C:\Windows\System32\Winevt\Logs\Security.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="System" file="C:\Windows\System32\Winevt\Logs\System.evtx" maximumsize="20" overwritepolicy="WhenNeeded" />
+  <eventlogfile name="Windows PowerShell" file="C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx" maximumsize="15" overwritepolicy="WhenNeeded" />
+ </eventlogfiles>
+ <localgroups>
+  <group name="Access Control Assistance Operators">
+  </group>
+  <group name="Administrators">
+   <member name="ELSWEYR\Administrator" />
+   <member name="ARROWHERTS\Domain Admins" />
+   <member name="ARROWHERTS\arikf" />
+  </group>
+  <group name="Backup Operators">
+  </group>
+  <group name="Certificate Service DCOM Access">
+  </group>
+  <group name="Cryptographic Operators">
+  </group>
+  <group name="Distributed COM Users">
+  </group>
+  <group name="Event Log Readers">
+  </group>
+  <group name="Guests">
+   <member name="ELSWEYR\Guest" />
+  </group>
+  <group name="Hyper-V Administrators">
+  </group>
+  <group name="IIS_IUSRS">
+  </group>
+  <group name="Network Configuration Operators">
+  </group>
+  <group name="Performance Log Users">
+  </group>
+  <group name="Performance Monitor Users">
+  </group>
+  <group name="Power Users">
+  </group>
+  <group name="Print Operators">
+  </group>
+  <group name="RDS Endpoint Servers">
+  </group>
+  <group name="RDS Management Servers">
+  </group>
+  <group name="RDS Remote Access Servers">
+  </group>
+  <group name="Remote Desktop Users">
+   <member name="ARROWHERTS\administrator" />
+  </group>
+  <group name="Remote Management Users">
+  </group>
+  <group name="Replicator">
+  </group>
+  <group name="Users">
+   <member name="ELSWEYR\INTERACTIVE" />
+   <member name="ELSWEYR\Authenticated Users" />
+  </group>
+  <group name="WinRMRemoteWMIUsers__">
+  </group>
+ </localgroups>
+ <localusers>
+  <user name="Administrator" description="Built-in account for administering the computer/domain" />
+  <user name="Guest" description="Built-in account for guest access to the computer/domain" />
+ </localusers>
+ <printspooler location="C:\Windows\system32\spool\PRINTERS" />
+ <printers>
+  <printer name="Microsoft XPS Document Writer" drivername="Microsoft XPS Document Writer v4" portname="PORTPROMPT:" />
+ </printers>
+ <regional timezone="(UTC) Dublin, Edinburgh, Lisbon, London" />
+ <processes>
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="conhost.exe" executablepath="C:\Windows\system32\conhost.exe" />
+  <process caption="csrss.exe" executablepath="C:\Windows\system32\csrss.exe" />
+  <process caption="csrss.exe" executablepath="C:\Windows\system32\csrss.exe" />
+  <process caption="csrss.exe" executablepath="C:\Windows\system32\csrss.exe" />
+  <process caption="dsm_om_connsvc64.exe" executablepath="C:\Program Files\Dell\SysMgt\oma\bin\dsm_om_connsvc64.exe" />
+  <process caption="dwm.exe" executablepath="C:\Windows\system32\dwm.exe" />
+  <process caption="dwm.exe" executablepath="C:\Windows\system32\dwm.exe" />
+  <process caption="EdgeTransport.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\edgetransport.exe" />
+  <process caption="explorer.exe" executablepath="C:\Windows\Explorer.EXE" />
+  <process caption="fms.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\FMS.exe" />
+  <process caption="ForefrontActiveDirectoryConnector.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\ForefrontActiveDirectoryConnector.exe" />
+  <process caption="hostcontrollerservice.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\HostController\hostcontrollerservice.exe" />
+  <process caption="inetinfo.exe" executablepath="C:\Windows\system32\inetsrv\inetinfo.exe" />
+  <process caption="jucheck.exe" executablepath="C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe" />
+  <process caption="jusched.exe" executablepath="C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe" />
+  <process caption="LogonUI.exe" executablepath="C:\Windows\system32\LogonUI.exe" />
+  <process caption="lsass.exe" executablepath="C:\Windows\system32\lsass.exe" />
+  <process caption="Microsoft.Exchange.AntispamUpdateSvc.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.AntispamUpdateSvc.exe" />
+  <process caption="Microsoft.Exchange.ContentFilter.Wrapper.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\agents\Hygiene\Microsoft.Exchange.ContentFilter.Wrapper.exe" />
+  <process caption="Microsoft.Exchange.Diagnostics.Service.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Diagnostics.Service.exe" />
+  <process caption="Microsoft.Exchange.Directory.TopologyService.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Directory.TopologyService.exe" />
+  <process caption="Microsoft.Exchange.EdgeSyncSvc.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.EdgeSyncSvc.exe" />
+  <process caption="Microsoft.Exchange.RpcClientAccess.Service.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\Microsoft.Exchange.RpcClientAccess.Service.exe" />
+  <process caption="Microsoft.Exchange.Search.Service.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\Microsoft.Exchange.Search.Service.exe" />
+  <process caption="Microsoft.Exchange.ServiceHost.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\Microsoft.Exchange.ServiceHost.exe" />
+  <process caption="Microsoft.Exchange.Store.Service.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\Microsoft.Exchange.Store.Service.exe" />
+  <process caption="Microsoft.Exchange.Store.Worker.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\Microsoft.Exchange.Store.Worker.exe" />
+  <process caption="Microsoft.Exchange.UM.CallRouter.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\CallRouter\Microsoft.Exchange.UM.CallRouter.exe" />
+  <process caption="mmc.exe" executablepath="C:\Windows\system32\mmc.exe" />
+  <process caption="mmc.exe" executablepath="C:\Windows\System32\mmc.exe" />
+  <process caption="mqsvc.exe" executablepath="C:\Windows\system32\mqsvc.exe" />
+  <process caption="msdtc.exe" executablepath="C:\Windows\System32\msdtc.exe" />
+  <process caption="MSExchangeDagMgmt.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeDagMgmt.exe" />
+  <process caption="MSExchangeDelivery.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeDelivery.exe" />
+  <process caption="MSExchangeFrontendTransport.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeFrontendTransport.exe" />
+  <process caption="MSExchangeHMHost.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeHMHost.exe" />
+  <process caption="MSExchangeHMWorker.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeHMWorker.exe" />
+  <process caption="MSExchangeMailboxAssistants.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeMailboxAssistants.exe" />
+  <process caption="MSExchangeMailboxReplication.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeMailboxReplication.exe" />
+  <process caption="msexchangerepl.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\msexchangerepl.exe" />
+  <process caption="MSExchangeSubmission.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeSubmission.exe" />
+  <process caption="MSExchangeThrottling.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeThrottling.exe" />
+  <process caption="MSExchangeTransport.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeTransport.exe" />
+  <process caption="MSExchangeTransportLogSearch.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeTransportLogSearch.exe" />
+  <process caption="noderunner.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Runtime\1.0\NodeRunner.exe" />
+  <process caption="noderunner.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Runtime\1.0\ResourceProfile\contentengine\NodeRunner.exe" />
+  <process caption="noderunner.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Runtime\1.0\NodeRunner.exe" />
+  <process caption="noderunner.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Runtime\1.0\NodeRunner.exe" />
+  <process caption="ParserServer.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\ParserServer\ParserServer.exe" />
+  <process caption="ParserServer.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\ParserServer\ParserServer.exe" />
+  <process caption="ParserServer.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\ParserServer\ParserServer.exe" />
+  <process caption="ParserServer.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\ParserServer\ParserServer.exe" />
+  <process caption="rdpclip.exe" executablepath="C:\Windows\System32\rdpclip.exe" />
+  <process caption="rdpinput.exe" executablepath="C:\Windows\System32\rdpinput.exe" />
+  <process caption="rundll32.exe" executablepath="C:\Windows\system32\rundll32.exe" />
+  <process caption="rundll32.exe" executablepath="C:\Windows\system32\rundll32.exe" />
+  <process caption="scanningprocess.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\scanningprocess.exe" />
+  <process caption="scanningprocess.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\scanningprocess.exe" />
+  <process caption="scanningprocess.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\scanningprocess.exe" />
+  <process caption="services.exe" executablepath="C:\Windows\system32\services.exe" />
+  <process caption="sftracing.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\TraceService\sftracing.exe" />
+  <process caption="smss.exe" executablepath="" />
+  <process caption="SMSvcHost.exe" executablepath="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe" />
+  <process caption="SMSvcHost.exe" executablepath="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe" />
+  <process caption="spoolsv.exe" executablepath="C:\Windows\System32\spoolsv.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\System32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\system32\svchost.exe" />
+  <process caption="svchost.exe" executablepath="C:\Windows\System32\svchost.exe" />
+  <process caption="System" executablepath="" />
+  <process caption="System Idle Process" executablepath="" />
+  <process caption="TabTip.exe" executablepath="C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe" />
+  <process caption="TabTip32.exe" executablepath="C:\Program Files (x86)\Common Files\Microsoft Shared\Ink\TabTip32.exe" />
+  <process caption="taskhostex.exe" executablepath="C:\Windows\system32\taskhostex.exe" />
+  <process caption="umservice.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\Bin\umservice.exe" />
+  <process caption="UMWorkerProcess.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\bin\UMworkerprocess.exe" />
+  <process caption="updateservice.exe" executablepath="C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\updateservice.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="w3wp.exe" executablepath="c:\windows\system32\inetsrv\w3wp.exe" />
+  <process caption="wininit.exe" executablepath="C:\Windows\system32\wininit.exe" />
+  <process caption="winlogon.exe" executablepath="C:\Windows\system32\winlogon.exe" />
+  <process caption="winlogon.exe" executablepath="C:\Windows\system32\winlogon.exe" />
+  <process caption="WmiPrvSE.exe" executablepath="C:\Windows\system32\wbem\wmiprvse.exe" />
+  <process caption="WmiPrvSE.exe" executablepath="C:\Windows\system32\wbem\wmiprvse.exe" />
+  <process caption="WMSvc.exe" executablepath="C:\Windows\system32\inetsrv\wmsvc.exe" />
+  <process caption="WseClientMonitorSvc.exe" executablepath="C:\Windows\System32\Essentials\WseClientMonitorSvc.exe" />
+ </processes>
+ <services>
+  <service name="ActiveX Installer (AxInstSV)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Application Experience" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Application Host Helper Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Application Identity" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Application Information" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Application Layer Gateway Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Application Management" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="ASP.NET State Service" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Background Intelligent Transfer Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Background Tasks Infrastructure Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Base Filtering Engine" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Block Level Backup Engine Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Certificate Propagation" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Claims to Windows Token Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="CNG Key Isolation" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="COM+ Event System" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="COM+ System Application" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Computer Browser" startmode="Disabled" started="False" startname="LocalSystem" />
+  <service name="Credential Manager" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Cryptographic Services" startmode="Auto" started="True" startname="NT Authority\NetworkService" />
+  <service name="DCOM Server Process Launcher" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Device Association Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Device Install Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Device Setup Manager" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="DHCP Client" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Diagnostic Policy Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Diagnostic Service Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Diagnostic System Host" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Distributed Link Tracking Client" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Distributed Transaction Coordinator" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="DNS Client" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="DSM SA Connection Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Encrypting File System (EFS)" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Extensible Authentication Protocol" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Function Discovery Provider Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Function Discovery Resource Publication" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Group Policy Client" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Health Key and Certificate Management" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Human Interface Device Access" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Data Exchange Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Guest Shutdown Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Heartbeat Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Remote Desktop Virtualization Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Hyper-V Time Synchronization Service" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Hyper-V Volume Shadow Copy Requestor" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="IIS Admin Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="IKE and AuthIP IPsec Keying Modules" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Interactive Services Detection" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Internet Connection Sharing (ICS)" startmode="Disabled" started="False" startname="LocalSystem" />
+  <service name="IP Helper" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="IPsec Policy Agent" startmode="Manual" started="True" startname="NT Authority\NetworkService" />
+  <service name="KDC Proxy Server service (KPS)" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="KtmRm for Distributed Transaction Coordinator" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Link-Layer Topology Discovery Mapper" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Local Session Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Meraki Systems Manager Agent 1.0.87" startmode="Auto" started="False" startname="LocalSystem" />
+  <service name="Message Queuing" startmode="Auto" started="True" startname="NT Authority\NetworkService" />
+  <service name="Microsoft Account Sign-in Assistant" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Exchange Active Directory Topology" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Anti-spam Update" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange DAG Management" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Diagnostics" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange EdgeSync" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Frontend Transport" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Health Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange IMAP4" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Exchange IMAP4 Backend" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft Exchange Information Store" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Mailbox Assistants" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Mailbox Replication" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Mailbox Transport Delivery" startmode="Auto" started="True" startname="NT AUTHORITY\NETWORK SERVICE" />
+  <service name="Microsoft Exchange Mailbox Transport Submission" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange POP3" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Exchange POP3 Backend" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft Exchange Replication" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange RPC Client Access" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Search" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Search Host Controller" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Server Extension for Windows Server Backup" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Exchange Service Host" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Throttling" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft Exchange Transport" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Microsoft Exchange Transport Log Search" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Unified Messaging" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Exchange Unified Messaging Call Router" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft Filtering Management Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Microsoft iSCSI Initiator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Microsoft Software Shadow Copy Provider" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Multimedia Class Scheduler" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Net.Msmq Listener Adapter" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Net.Pipe Listener Adapter" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Net.Tcp Listener Adapter" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Net.Tcp Port Sharing Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Netlogon" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Network Access Protection Agent" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Network Connections" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Network Connectivity Assistant" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Network List Service" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Network Location Awareness" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Network Store Interface Service" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Offline Files" startmode="Disabled" started="False" startname="LocalSystem" />
+  <service name="Optimize drives" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Performance Counter DLL Host" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Performance Logs &#38; Alerts" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Plug and Play" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Portable Device Enumerator Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Power" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Print Spooler" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Printer Extensions and Notifications" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Problem Reports and Solutions Control Panel Support" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Remote Access Auto Connection Manager" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Remote Access Connection Manager" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Remote Desktop Configuration" startmode="Manual" started="True" startname="localSystem" />
+  <service name="Remote Desktop Services" startmode="Manual" started="True" startname="NT Authority\NetworkService" />
+  <service name="Remote Desktop Services UserMode Port Redirector" startmode="Manual" started="True" startname="localSystem" />
+  <service name="Remote Procedure Call (RPC)" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Remote Procedure Call (RPC) Locator" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Remote Registry" startmode="Auto" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Resultant Set of Policy Provider" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Routing and Remote Access" startmode="Disabled" started="False" startname="localSystem" />
+  <service name="RPC Endpoint Mapper" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="RPC/HTTP Load Balancing Service" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Secondary Logon" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Secure Socket Tunneling Protocol Service" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Security Accounts Manager" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Server" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Shell Hardware Detection" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Smart Card" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Smart Card Removal Policy" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="SNMP Trap" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Software Protection" startmode="Auto" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Special Administration Console Helper" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Spot Verifier" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="SSDP Discovery" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Still Image Acquisition Events" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Superfetch" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="System Event Notification Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="System Events Broker" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Task Scheduler" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="TCP/IP NetBIOS Helper" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Telephony" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Themes" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Thread Ordering Server" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Time Broker" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Touch Keyboard and Handwriting Panel Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Tracing Service for Search in Exchange " startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="UPnP Device Host" startmode="Disabled" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="User Access Logging Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="User Profile Service" startmode="Auto" started="True" startname="LocalSystem" />
+  <service name="Virtual Disk" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Volume Shadow Copy" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Web Management Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="WebClient" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows All-User Install Agent" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Audio" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Audio Endpoint Builder" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Color System" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Driver Foundation - User-mode Driver Framework" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Error Reporting Service" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Windows Event Collector" startmode="Manual" started="False" startname="NT AUTHORITY\NetworkService" />
+  <service name="Windows Event Log" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Firewall" startmode="Auto" started="True" startname="NT Authority\LocalService" />
+  <service name="Windows Font Cache Service" startmode="Auto" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Image Acquisition (WIA)" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Windows Installer" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows Management Instrumentation" startmode="Auto" started="True" startname="localSystem" />
+  <service name="Windows Modules Installer" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Windows Presentation Foundation Font Cache 3.0.0.0" startmode="Manual" started="False" startname="NT Authority\LocalService" />
+  <service name="Windows Process Activation Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows Remote Management (WS-Management)" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="Windows Server Essentials Client Computer Management Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Client Computer Monitoring Service" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="Windows Server Essentials Health Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Notification Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Server Essentials Provider Registry Service" startmode="Manual" started="False" startname="LocalSystem" />
+  <service name="Windows Store Service (WSService)" startmode="Manual" started="False" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Time" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Windows Update" startmode="Manual" started="True" startname="LocalSystem" />
+  <service name="WinHTTP Web Proxy Auto-Discovery Service" startmode="Manual" started="True" startname="NT AUTHORITY\LocalService" />
+  <service name="Wired AutoConfig" startmode="Manual" started="False" startname="localSystem" />
+  <service name="WMI Performance Adapter" startmode="Manual" started="False" startname="localSystem" />
+  <service name="Workstation" startmode="Auto" started="True" startname="NT AUTHORITY\NetworkService" />
+  <service name="World Wide Web Publishing Service" startmode="Auto" started="True" startname="LocalSystem" />
+ </services>
+ <shares>
+  <share name="address" path="C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\address" description="" />
+  <share name="ADMIN$" path="C:\Windows" description="Remote Admin" />
+  <share name="C$" path="C:\" description="Default share" />
+  <share name="Ex2013" path="C:\Ex2013" description="" />
+  <share name="IPC$" path="" description="Remote IPC" />
+  <share name="WIA_WDS" path="C:\Serva\Deploy\WIA_WDS" description="" />
+ </shares>
+ <win32_startupcommand>
+  <command user="Public" name="PC Monitor Operations" command="&quot;C:\Program Files\PC Monitor\pcmontask.exe&quot;" />
+ </win32_startupcommand>
+ <pagefiles>
+ </pagefiles>
+ <registry currentsize="115" maximumsize="2048" />
+</computer>

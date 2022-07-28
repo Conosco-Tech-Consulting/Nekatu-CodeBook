@@ -1,0 +1,17 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+CDKN002OS,Andrew Norton  - ODI/Research,7016,7.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Christopher Coles  - ODI/Research,7336,4.90,Yes,,,Sales,1 - Direct
+CDKN002OS,Eva Ludi  - ODI/Research,7334,23.10,Yes,,,Sales,1 - Direct
+CDKN002OS,Francesca Iannini  - ODI/Admin,6441,256.69,Yes,,,Sales,1 - Direct
+CDKN002OS,Karen Ellis  - ODI/Research,6936,140.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Katie Harris  - ODI/Research,6842,0.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Kristy Graham  - ODI/Research,7335,3.50,Yes,,,Sales,1 - Direct
+CDKN002OS,Lindsey Jones  - ODI/Research,6442,420.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Michelle Kooy  - ODI/Research,6443,840.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Natasha Grist  - ODI/Research,7331,1211.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Neil Bird  - ODI/Research,6444,105.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Nicholas Scott  - ODI/Comms,7333,7.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Nicola Cantore  - ODI/Research,7337,3.50,Yes,,,Sales,1 - Direct
+CDKN002OS,Philip Lewis  - ODI/Admin,6843,513.31,Yes,,,Sales,1 - Direct
+CDKN002OS,Smita Nakhooda  - ODI/Research,7332,2.10,Yes,,,Sales,1 - Direct
+CDKN002OS,Tom Mitchell  - ODI/Research,6445,448.00,Yes,,,Sales,1 - Direct

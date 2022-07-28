@@ -1,0 +1,800 @@
+#PROJECTTASKUPD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+CD033909,Matthew Foley  - ODI/CD033909,6607,51.31,Yes,01/04/2012,,Char,1 - Direct
+CD033909,Matthew Foley  - ODI/CD033909,6607,51.31,Yes,01/04/2012,,Char,1 - Direct
+D0337,Christine Harmer  - ODI/D0337,6472,82.60,Yes,01/04/2011,,Char,1 - Direct
+D0337,Jennifer Benson  - ODI/D0337,7423,0.00,Yes,01/04/2011,,Char,1 - Direct
+D0337,Matthew Foley  - ODI/D0337,6473,49.00,Yes,01/04/2011,,Char,1 - Direct
+D0337,Sara Pantuliano  - ODI/D0377,6469,28.00,Yes,01/04/2011,,Char,1 - Direct
+D0337,Sarah Bailey  - ODI/D0337,6471,71.96,Yes,01/04/2011,,Char,1 - Direct
+D0337,Simon Levine  - ODI/D0337,6470,94.15,Yes,01/04/2011,,Char,1 - Direct
+F0087000,Andrew Quinn  - ODI/Admin,6292,0.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+F0087000,Caroline Harper  - ODI/Research,6291,7.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+F0087000,Leni Wild  - ODI/Research,6288,147.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+F0087000,Lisa Denney  - ODI/Research,6289,140.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+F0087000,Marta Foresti  - ODI/Research,6290,21.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+F0087000,Pilar Domingo  - ODI/Research,6287,217.00,Yes,04/04/2011,31/03/2012,Char,1 - Direct
+D0378,Jennifer Benson  - ODI/research,7319,2660.00,Yes,30/04/2010,30/04/2013,Char,1 - Direct
+D0394,Simon Levine  - ODI/D0394,7705,84.00,Yes,03/11/2011,,Char,1 - Direct
+F0092700,Sarah Bailey  - ODI/oversight,7238,231.00,Yes,27/11/2011,31/03/2012,Char,1 - Direct
+F0081100,Jodie Keane  - ODI/Poverty Impact of GSP scheme,6093,70.00,Yes,18/04/2011,30/09/2011,Char,1 - Direct
+F0081100,Mobolaji Oyeniji  - ODI/Poverty Impact of GSP scheme,6094,140.00,Yes,18/04/2011,30/09/2011,Char,1 - Direct
+F0086100,Eva Cardoso  - ODI/Admin,7178,35.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0086100,Harry Jones  - ODI/Research,6339,21.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0086100,James Docherty  - ODI/Research,6340,546.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0083400,Tom Mitchell  - ODI/IPCC SREX 2011 - AUSTRALIA MEETING,6117,35.00,Yes,17/05/2011,31/03/2012,Char,1 - Direct
+F0083400,Tom Mitchell  - ODI/IPCC SREX 2011 - UGANDA MEETING,6118,35.00,Yes,17/05/2011,31/03/2011,Char,1 - Direct
+F0082000,Jonathan Glennie  - ODI/Research,6119,63.00,Yes,16/05/2011,30/06/2011,Char,1 - Direct
+F0082000,Matthew Geddes  - ODI/Research,6120,21.00,Yes,16/05/2011,30/08/2011,Char,1 - Direct
+F0083500,Pilar Domingo  - ODI/Strengthening Policy Constituencies for Equity,6124,154.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0083500,Lisa Denney  - ODI/Strengthening Policy Constituencies for Equity,6125,56.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0083500,Leni Wild  - ODI/Strengthening Policy Constituencies for Equity,6126,133.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0083500,Alina Rocha Menocal  - ODI/Strengthening Policy Constituencies for Equity,6127,7.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0083500,Rebecca Holmes  - ODI/Strengthening Policy Constituencies for Equity,6128,7.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0081100,Jane Kennan  - ODI/Poverty Impact of GSP scheme,6135,0.00,Yes,18/04/2011,30/09/2011,Char,1 - Direct
+F0082000,Hafsa Mahtab  - ODI/Admin,6141,0.00,Yes,16/05/2011,30/06/2011,Char,1 - Direct
+F0084200,Rebecca Holmes  - ODI/PASGR SP Scoping,6170,140.00,Yes,01/06/2011,30/09/2011,Char,1 - Direct
+F0084200,Jenny Morgan  - ODI/PASGR SP Scoping,6171,35.00,Yes,01/06/2011,30/09/2011,Char,1 - Direct
+F0083500,Andrew Quinn  - ODI/Admin,6189,0.00,Yes,26/04/2011,31/03/2012,Char,1 - Direct
+F0086200,Alina Rocha Menocal  - ODI/Study on Fragility and Human Rights,6237,98.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Andrew Norton  - ODI/Study on Fragility and Human Rights,6236,35.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Andrew Quinn  - ODI/Admin,6241,0.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Leni Wild  - ODI/Study on Fragility and Human Rights,6240,98.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Lisa Denney  - ODI/Study on Fragility and Human Rights,6238,84.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Marta Foresti  - ODI/Study on Fragility and Human Rights,6239,49.07,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Pilar Domingo  - ODI/Study on Fragility and Human Rights,6235,366.66,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+CA000007,Paul Knox Clarke  - ODI/Alnap Fees & Overhead,6224,1155.00,Yes,01/04/2011,,Char,1 - Direct
+CA000007,Kim Scriven  - ODI/Alnap Fees & Overhead,6225,1295.00,Yes,01/04/2011,,Char,1 - Direct
+CA000007,Caroline Keay  - ODI/Alnap Fees & Overhead,6226,1295.00,Yes,01/04/2011,,Char,1 - Direct
+CA000007,Franziska Orphal  - ODI/Alnap Fees & Overhead,6227,1295.00,Yes,01/04/2011,,Char,1 - Direct
+CA000007,John Mitchell  - ODI/Alnap Fees & Overhead,6228,1036.00,Yes,01/04/2011,,Char,1 - Direct
+F0086200,Pilar Domingo  - ODI/Study on Fragility and Human Rights,6235,366.66,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Andrew Norton  - ODI/Study on Fragility and Human Rights,6236,35.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Alina Rocha Menocal  - ODI/Study on Fragility and Human Rights,6237,98.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Lisa Denney  - ODI/Study on Fragility and Human Rights,6238,84.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Marta Foresti  - ODI/Study on Fragility and Human Rights,6239,49.07,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Leni Wild  - ODI/Study on Fragility and Human Rights,6240,98.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0086200,Andrew Quinn  - ODI/Admin,6241,0.00,Yes,01/05/2011,31/03/2013,Char,1 - Direct
+F0083400,WILLIAM McFARLAND  - ODI/IPCC SREX 2011 - UGANDA MEETING,6245,0.00,Yes,17/05/2011,,Char,1 - Direct
+F0087700,Alina Rocha Menocal  - ODI/Event,6318,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0087700,Alina Rocha Menocal  - ODI/Event,6318,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0087700,Andrew Quinn  - ODI/Admin,6319,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0087700,Andrew Quinn  - ODI/Admin,6319,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0086100,Harry Jones  - ODI/Research,6339,21.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0086100,James Docherty  - ODI/Research,6340,546.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+F0088300,Alina Rocha Menocal  - ODI/Coordination,6375,10.71,Yes,01/06/2011,31/03/2012,Sales,1 - Direct
+F0088300,Andrew Quinn  - ODI/Coordination,6376,0.00,Yes,01/06/2011,31/03/2012,Sales,1 - Direct
+F0090500,Pedro Martins  - ODI/Research,6378,107.87,Yes,22/08/2011,,Char,1 - Direct
+CR050002,Rachel Slater  - ODI/Research,6399,945.00,Yes,01/01/2011,31/03/2012,Char,1 - Direct
+CR050002,Rachel Slater  - ODI/Research,6399,945.00,Yes,01/01/2011,31/03/2012,Char,1 - Direct
+CR050002,Marialivia Iotti  - ODI/Admin,6400,1344.00,Yes,01/01/2011,31/03/2012,Char,1 - Direct
+CR050002,Marialivia Iotti  - ODI/Admin,6400,1344.00,Yes,01/01/2011,31/03/2012,Char,1 - Direct
+CR050002,Maryam Mohsin  - ODI/Admin,6401,1183.70,Yes,09/05/2011,31/03/2012,Char,1 - Direct
+CR050002,Maryam Mohsin  - ODI/Admin,6401,1183.70,Yes,09/05/2011,31/03/2012,Char,1 - Direct
+CR050002,Richard Mallet  - ODI/Admin/ Research,6403,1276.10,Yes,11/04/2011,31/03/2012,Char,1 - Direct
+CR050002,Richard Mallet  - ODI/Admin/ Research,6403,1276.10,Yes,11/04/2011,31/03/2012,Char,1 - Direct
+CR050002,Sarah Collinson  - ODI/Research,6404,462.00,Yes,01/01/2011,31/12/2011,Char,1 - Direct
+CR050002,Sarah Collinson  - ODI/Research,6404,462.00,Yes,01/01/2011,31/12/2011,Char,1 - Direct
+CR050002,Eva Ludi  - ODI/Research,6405,84.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+CR050002,Eva Ludi  - ODI/Research,6405,84.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+CR050002,Karen Ellis  - ODI/Research,6406,84.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+CR050002,Karen Ellis  - ODI/Research,6406,84.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+CR050002,Rebecca Holmes  - ODI/Research,6407,70.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+CR050002,Rebecca Holmes  - ODI/Research,6407,70.00,Yes,15/07/2011,15/10/2011,Char,1 - Direct
+F0090500,Louise Damant  - ODI/Admin,6409,0.00,Yes,22/08/2011,,Char,1 - Direct
+CR044804,Jonathan Mitchell  - ODI/Research,6416,0.00,Yes,,,Char,1 - Direct
+CR044804,Lidia Cabral  - ODI/Research,6417,0.00,Yes,,,Char,1 - Direct
+CR044804,Emily Darko  - ODI/Admin,6418,0.00,Yes,,,Char,1 - Direct
+CR044804,Steve Wiggins  - ODI/Research,6419,0.00,Yes,,,Char,1 - Direct
+F0091800,James Docherty  - ODI/Research,6420,448.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,James Docherty  - ODI/Research,6420,448.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Jonathan Mitchell  - ODI/Research,6421,42.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Jonathan Mitchell  - ODI/Research,6421,42.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Eva Cardoso  - ODI/Admin,6422,0.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Eva Cardoso  - ODI/Admin,6422,0.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Emily Darko  - ODI/Research,6431,35.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Emily Darko  - ODI/Research,6431,35.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Jenny Morgan  - ODI/Research,6432,21.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+F0091800,Jenny Morgan  - ODI/Research,6432,21.00,Yes,01/09/2011,30/04/2012,Sales,1 - Direct
+CDKN002OS,Francesca Iannini  - ODI/Admin,6441,256.69,Yes,,,Sales,1 - Direct
+CDKN002OS,Lindsey Jones  - ODI/Research,6442,420.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Michelle Kooy  - ODI/Research,6443,840.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Neil Bird  - ODI/Research,6444,105.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Tom Mitchell  - ODI/Research,6445,448.00,Yes,,,Sales,1 - Direct
+R0454,Lidia Cabral  - ODI/Research,6454,217.00,Yes,,,Char,1 - Direct
+R0454,Matthew Geddes  - ODI/Research,6455,49.00,Yes,,,Char,1 - Direct
+R0454,Heidi Tavakoli  - ODI/Research,6456,14.00,Yes,,,Char,1 - Direct
+R0454,Samuel Moon  - ODI/Research,6457,63.00,Yes,,,Char,1 - Direct
+R0454,Emily Darko  - ODI/admin,6458,77.00,Yes,,,Char,1 - Direct
+F0090300,Nicola Cantore  - ODI/Research,6459,9.87,Yes,30/07/2011,,Char,1 - Direct
+F0090300,Mobolaji Oyeniji  - ODI/Admin,6460,0.00,Yes,30/07/2011,,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Inception Paper - Objective Leader,6474,7.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0087804,Jonathan Glennie  - ODI/OBJECTIVE LEAD,6487,952.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Matthew Geddes  - ODI/RESEARCH OFFICER,6488,3815.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Jakob Engel  - ODI/RESEARCH OFFICER,6495,210.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0096500,Mobolaji Oyeniji  - ODI/Admin,6736,0.00,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+F0096500,Nicola Cantore  - ODI/Research,6735,75.81,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+F0096500,Raphaelle Faure  - ODI/Admin,6737,0.00,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+D0391,Samir Elhawary  - ODI/D0391,6503,158.20,Yes,01/04/2011,,Char,1 - Direct
+D0391,Victoria Metcalfe  - ODI/D0391,6504,28.00,Yes,01/04/2011,,Char,1 - Direct
+F0094000,Michelle Kooy  - ODI/Research,6528,28.00,Yes,30/09/2011,,Char,1 - Direct
+CD033907,Sara Pantuliano  - ODI/CD033907,6538,140.00,Yes,01/04/2012,,Char,1 - Direct
+CD033907,Victoria Metcalfe  - ODI/CD033907,6539,140.00,Yes,01/04/2012,,Char,1 - Direct
+CD033907,Matthew Foley  - ODI/CD033907,6540,42.00,Yes,01/04/2012,,Char,1 - Direct
+CD033907,Christine Harmer  - ODI/CD033907,6541,21.00,Yes,01/04/2012,,Char,1 - Direct
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413,6547,25.34,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Heidi Tavakoli  - ODI/PPA0413,6550,17.50,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Edward Hedger  - ODI/PPA0413,6551,17.50,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Jessica Hagen-Zanker  - ODI/PPA0413,6552,17.50,Yes,01/04/2011,,Char,1 - Direct
+D0405,Sara Pantuliano  - ODI/D0405,6577,175.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Simon Levine  - ODI/D0405,6578,112.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Victoria Metcalfe  - ODI/D0405,6579,70.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Samir Elhawary  - ODI/D0405,6580,91.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Sarah Bailey  - ODI/D0405,6581,14.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Ellen Martin  - ODI/D0405,6582,28.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Simone Haysom  - ODI/D0405,6583,35.00,Yes,01/04/2011,,Char,1 - Direct
+D0405,Ashley Jackson  - ODI/D0405,6584,70.00,Yes,01/04/2011,,Char,1 - Direct
+D0343,Sarah Bailey  - ODI/D0343,6592,28.00,Yes,01/04/2011,,Char,1 - Direct
+CD033907,Simone Haysom  - ODI/CD033907,6596,140.00,Yes,01/04/2012,,Char,1 - Direct
+F0091600,John Young  - ODI/Research,6610,49.00,Yes,30/08/2011,,Char,1 - Direct
+F0091600,Karen Ellis  - ODI/Research,6611,112.00,Yes,30/08/2011,,Char,1 - Direct
+F0091600,Eva Cardoso  - ODI/Administration,6612,0.00,Yes,30/08/2011,,Char,1 - Direct
+F0094700,Rennie Campbell  - ODI/CCEF development,6651,441.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0094700,Neil Bird  - ODI/CC marketing and website development,6652,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0094700,Kristy Graham  - ODI/CC marketing and website development,6653,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0094700,Tom Mitchell  - ODI/CC marketing and website development,6654,7.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0094700,William McFarland  - ODI/Admin,6656,0.00,Yes,01/06/2011,,Char,1 - Direct
+C0087807,Alison Evans  - ODI/QA & OVERSIGHT,6662,210.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Gillian Hart  - ODI/QA & OVERSIGHT,6663,175.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,John Young  - ODI/QA & OVERSIGHT,6664,98.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Katie Fowler  - ODI/PM CORE BUDGET,6666,2590.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Keith Miller  - ODI/ACCOUNTANT,6667,5180.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Susan Nicolai  - ODI/COMMS OFFICER,6669,1709.40,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Louise Shaxson  - ODI/RF CORE BUDGET,6670,5180.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Inception Paper - Research Fellow,6671,196.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0087803,Claire Melamed  - ODI/Inception Paper - Research Fellow,6672,105.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEARCH OFFICER,6675,189.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087802,Jakob Engel  - ODI/RESEARCH OFFICER,6678,182.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+RAP0093,Fletcher Tembo  - ODI/RAP0093,6700,973.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Alina Rocha Menocal  - ODI/RAP0093,6701,14.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Sarah Hunt  - ODI/RAP0093,6702,1316.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Tristan Stubbs  - ODI/RAP0093,6703,308.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Sarah Hunt  - ODI/Travelling,6704,0.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+F0098900,Alberto Lemma  - ODI/Workshop Nov 2011,6706,21.00,Yes,16/11/2011,19/11/2011,Char,1 - Direct
+F0098900,Peter Davis  - ODI/Workshop Nov 2011,6707,21.00,Yes,16/11/2011,19/11/2011,Char,1 - Direct
+F0094700,Tristan Stubbs  - ODI/Geneva,6708,0.00,Yes,01/09/2011,,Char,1 - Direct
+F0095200,Leni Wild  - ODI/Event,6725,35.00,Yes,01/08/2011,31/03/2013,Sales,1 - Direct
+F0095200,Leni Wild  - ODI/Event,6725,35.00,Yes,01/08/2011,31/03/2013,Sales,1 - Direct
+F0095200,Andrew Quinn  - ODI/Admin,6726,0.00,Yes,01/08/2011,31/03/2013,Sales,1 - Direct
+F0095200,Andrew Quinn  - ODI/Admin,6726,0.00,Yes,01/08/2011,31/03/2013,Sales,1 - Direct
+F0094900,Jonathan Mitchell  - ODI/Research,6727,217.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct
+F0094900,Pedro Martins  - ODI/Research,6728,182.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct
+F0096500,Nicola Cantore  - ODI/Research,6735,75.81,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+F0096500,Mobolaji Oyeniji  - ODI/Admin,6736,0.00,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+F0096500,Raphaelle Faure  - ODI/Admin,6737,0.00,Yes,15/10/2011,10/12/2011,Char,1 - Direct
+CR044805,Anna Locke  - ODI/FAO Event,6746,14.00,Yes,22/11/2011,30/12/2011,Char,1 - Direct
+CR044805,Anna Locke  - ODI/FAO Event,6746,14.00,Yes,22/11/2011,30/12/2011,Char,1 - Direct
+C0087804,Samuel Moon  - ODI/RESEARCH OFFICER,6747,35.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Jessica Hagen-Zanker  - ODI/RESEARCH OFFICER,6748,14.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Jonathan Glennie  - ODI/RESEARCH FELLOW,6749,2135.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Annalisa Prizzon  - ODI/RESEARCH OFFICER,6750,315.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Edward Hedger  - ODI/RESEARCH FELLOW,6751,28.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Dirk Willem Te Velde  - ODI/RESEARCH FELLOW,6753,7.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Hafsa Mahtab  - ODI/ADMINISTRATION,6754,350.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087802,Emma Samman  - ODI/RESEARCH FELLOW,6756,1029.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0094700,Lindsey Jones  - ODI/WFP trip,6760,0.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+F0101100,Roger Calow  - ODI/Research,6763,28.00,Yes,28/11/2011,31/01/2012,Char,1 - Direct
+F0098900,Maria Bernardez  - ODI/F0098900,6764,0.00,Yes,16/11/2011,19/11/2011,Char,1 - Direct
+CR044805,Emily Darko  - ODI/admin,6766,0.00,Yes,,,Char,1 - Direct
+CR044805,Emily Darko  - ODI/admin,6766,0.00,Yes,,,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/Research,6773,325.50,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/Research,6774,315.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/Research,6774,315.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/Research,6775,280.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/Research,6775,448.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/Research,6776,210.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/Research,6776,210.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/Research,6777,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/Research,6777,91.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+F0102000,Neil Bird  - ODI/EU COP event,6783,28.00,Yes,01/12/2011,12/12/2011,Sales,1 - Direct
+F0093600,Peter Davis  - ODI/Research,6789,56.00,Yes,10/10/2011,09/01/2012,Char,1 - Direct
+F0093600,Alberto Lemma  - ODI/Research,6790,70.00,Yes,10/10/2011,09/01/2012,Char,1 - Direct
+F0093600,Carolin Williams  - ODI/Research,6791,70.00,Yes,10/10/2011,09/01/2012,Char,1 - Direct
+F0093600,Jonathan Mitchell  - ODI/Research,6792,27.16,Yes,10/10/2011,09/01/2012,Char,1 - Direct
+F0094700,Andrew Scott  - ODI/Bonn,6793,0.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+F0101100,Anu Liisanantti  - ODI/Admin,6794,0.00,Yes,28/11/2011,,Char,1 - Direct
+R0406,Steve Wiggins  - ODI/Research,6797,1375.50,Yes,14/11/2008,,Char,1 - Direct
+R0406,Emily Darko  - ODI/Research,6798,49.00,Yes,14/11/2008,,Char,1 - Direct
+R0406,Sharada Keats  - ODI/Research,6799,3717.00,Yes,14/11/2008,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+R0406,Anna Locke  - ODI/Research,6800,14.00,Yes,14/11/2008,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+R0406,Malcolm Anderson  - ODI/Research,6801,7.00,Yes,14/11/2008,,Char,1 - Direct
+R0406,Jonathan Tanner  - ODI/Research,6802,7.00,Yes,14/11/2008,,Char,1 - Direct
+R0406,Gail Wilson  - ODI/Research,6803,14.00,Yes,14/11/2008,,Char,1 - Direct
+R0309,Eva Ludi  - ODI/Research,6804,154.00,Yes,,,Char,1 - Direct
+R0309,Lidia Cabral  - ODI/Research,6805,315.00,Yes,,,Char,1 - Direct
+R0309,Steve Wiggins  - ODI/Research,6806,336.00,Yes,,,Char,1 - Direct
+R0309,Emily Darko  - ODI/Research,6807,21.00,Yes,,,Char,1 - Direct
+R0309,Anna Locke  - ODI/Research,6808,49.00,Yes,,,Char,1 - Direct
+F0102000,William McFarland  - ODI/ADMIN,6811,0.00,Yes,01/12/2011,,Sales,1 - Direct
+C0087807,Alison Evans  - ODI/RF CORE BUDGET,6815,3108.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+CDKN002OS,Katie Harris  - ODI/Research,6842,0.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Philip Lewis  - ODI/Admin,6843,513.31,Yes,,,Sales,1 - Direct
+C0101008,Roger Calow  - ODI/Research,6857,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Anu Liisanantti  - ODI/Support,6858,7.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Inception Paper - Research Officer,6862,14.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/Research,6863,126.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/Research,6864,42.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/Research,6866,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/Research,6867,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Paula Lucci  - ODI/Research,6868,217.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/Research,6869,91.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,PRACHI SETH  - ODI/Research,6871,140.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Louise Damant  - ODI/Research,6872,210.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101004,Caroline Harper  - ODI/Research,6873,56.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/Research,6874,56.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Nathaniel Mason  - ODI/Research,6883,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Sobona Mtisi  - ODI/Research,6884,77.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Eva Ludi  - ODI/Research,6885,7.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+F0097800,Nathaniel Mason  - ODI/Research,6886,35.00,Yes,,,Char,1 - Direct
+F0097800,Eva Ludi  - ODI/Research,6887,18.97,Yes,,,Char,1 - Direct
+F0097800,Anu Liisanantti  - ODI/Admin,6888,0.00,Yes,,,Char,1 - Direct
+F0100700,Karen Ellis  - ODI/Research,6900,140.00,Yes,16/12/2011,31/03/2012,Char,1 - Direct
+F0100700,Carolin Williams  - ODI/Research,6901,267.26,Yes,16/12/2011,31/03/2012,Char,1 - Direct
+F0099000,Jodie Keane  - ODI/Research,6905,35.84,Yes,21/10/2011,,Sales,1 - Direct
+F0099000,Jane Kennan  - ODI/Research,6906,35.00,Yes,21/10/2011,,Sales,1 - Direct
+F0099000,Mobolaji Oyeniji  - ODI/Admin,6907,0.00,Yes,21/10/2011,,Sales,1 - Direct
+F0085300,Fletcher Tembo  - ODI/research,6914,77.00,Yes,01/11/2011,31/12/2014,Char,1 - Direct
+F0094800,Jonathan Mitchell  - ODI/Research,6934,84.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct
+F0094800,Carolin Williams  - ODI/Research,6935,140.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct
+CDKN002OS,Karen Ellis  - ODI/Research,6936,140.00,Yes,,,Sales,1 - Direct
+F0101800,Karen Ellis  - ODI/Presentation of Study Paper,6940,63.00,Yes,14/11/2011,30/12/2012,Char,1 - Direct
+F0101800,James Docherty  - ODI/Presentation of Study Paper,6941,59.50,Yes,14/11/2011,30/12/2012,Char,1 - Direct
+F0101800,Smita Nakhooda  - ODI/Presentation of Study Paper,6942,59.50,Yes,14/11/2011,30/12/2012,Char,1 - Direct
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,6951,161.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,6951,161.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,6951,161.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,6952,56.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,6952,56.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,6952,56.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,6953,140.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,6953,140.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,6953,140.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6954,35.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6954,35.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6954,35.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6955,7.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6955,7.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6955,7.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+CR044805,Steve Wiggins  - ODI/research,6962,0.00,Yes,,,Char,1 - Direct
+CR044805,Steve Wiggins  - ODI/research,6962,0.00,Yes,,,Char,1 - Direct
+CR044805,Jonathan Mitchell  - ODI/research,6963,0.00,Yes,,,Char,1 - Direct
+CR044805,Jonathan Mitchell  - ODI/research,6963,0.00,Yes,,,Char,1 - Direct
+CR044805,Alberto Lemma  - ODI/research,6964,0.00,Yes,,,Char,1 - Direct
+CR044805,Alberto Lemma  - ODI/research,6964,0.00,Yes,,,Char,1 - Direct
+F0100500,Steve Wiggins  - ODI/Research,6967,56.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+F0100500,Emily Darko  - ODI/Admin,6968,0.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+F0102200,Smita Nakhooda  - ODI/HBF - CFU and CFF,6974,280.00,Yes,01/10/2011,,Char,1 - Direct
+F0102200,Alice Caravani  - ODI/HBF - CFU and CFF,6975,560.00,Yes,01/10/2011,,Char,1 - Direct
+F0102200,Neil Bird  - ODI/HBF - CFU and CFF,6976,35.00,Yes,01/10/2011,,Char,1 - Direct
+F0102200,Nicholas Scott  - ODI/HBF - CFU and CFF,6977,35.00,Yes,01/10/2011,,Char,1 - Direct
+F0102200,William McFarland  - ODI/Admin,6978,0.00,Yes,01/10/2011,,Char,1 - Direct
+C0101002,William McFarland  - ODI/National CF,6979,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,William McFarland  - ODI/Research Officer,6979,77.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Karen Ellis  - ODI/Research,6982,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Karen Ellis  - ODI/Research,6982,21.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+F0091600,John Young  - ODI/Development,6986,0.00,Yes,01/07/2011,29/08/2011,Char,1 - Direct
+F0104000,Christian Kingombe  - ODI/research,7006,70.00,Yes,05/12/2011,,Sales,1 - Direct
+F0104000,Mobolaji Oyeniji  - ODI/admin,7007,0.00,Yes,05/12/2011,,Sales,1 - Direct
+CDKN002OS,Andrew Norton  - ODI/Research,7016,7.00,Yes,,,Sales,1 - Direct
+F0094900,Eva Cardoso  - ODI/Admin,7019,0.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct
+F0093600,Eva Cardoso  - ODI/Admin,7020,0.00,Yes,10/10/2011,09/01/2012,Char,1 - Direct
+F0094800,Eva Cardoso  - ODI/Admin,7021,0.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct
+F0100700,Eva Cardoso  - ODI/Admin,7022,0.00,Yes,16/12/2011,31/03/2012,Char,1 - Direct
+F0101800,Eva Cardoso  - ODI/Admin,7023,0.00,Yes,01/01/2012,,Char,1 - Direct
+C0087803,Louise Damant  - ODI/Inception Paper - Objective Admin,7033,14.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0101001,Ashley Jackson  - ODI/Support,7034,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+F0104300,Fiona Samuels  - ODI/oversight and research,7052,67.13,Yes,01/12/2011,31/01/2012,Char,1 - Direct
+F0104300,David Walker  - ODI/Admin,7056,0.00,Yes,01/12/2011,31/01/2012,Char,1 - Direct
+F0098700,Michelle Kooy  - ODI/Research,7057,315.00,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0098700,Nathaniel Mason  - ODI/Research,7058,133.00,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0098700,Leni Wild  - ODI/Research,7059,224.00,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0098700,Eva Ludi  - ODI/Research,7060,10.50,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0085300,Sarah Hunt  - ODI/admin,7061,350.00,Yes,01/01/2012,31/12/2014,Char,1 - Direct
+C0087803,Susan Nicolai  - ODI/Inception Paper - Research Fellow,7071,14.00,Yes,14/06/2011,31/03/2012,Char,1 - Direct
+C0087807,Jonathan Tanner  - ODI/WORKSHOP FACILITATOR,7076,28.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+P0775,Edward Hedger  - ODI/SD Blockages,7085,26.46,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Edward Hedger  - ODI/SD Blockages,7085,26.46,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Victoria Chambers  - ODI/SD Blockages,7086,84.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Victoria Chambers  - ODI/SD Blockages,7086,84.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Marta Foresti  - ODI/SD Blockages,7087,7.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Marta Foresti  - ODI/SD Blockages,7087,7.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,David Booth  - ODI/SD Blockages,7088,35.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,David Booth  - ODI/SD Blockages,7088,35.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Daniel Harris  - ODI/SD Blockages,7089,42.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Daniel Harris  - ODI/SD Blockages,7089,42.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Maia King  - ODI/SD Blockages,7090,119.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Maia King  - ODI/SD Blockages,7090,119.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Leni Wild  - ODI/SD Blockages,7091,98.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Leni Wild  - ODI/SD Blockages,7091,98.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+F0104800,Katie Harris  - ODI/Berghof Handbook,7095,7.00,Yes,20/01/2012,09/03/2012,Char,1 - Direct
+C0101002,Edward Hedger  - ODI/Research,7097,21.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Edward Hedger  - ODI/Research,7097,36.54,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Jonathan Glennie  - ODI/Research,7098,36.54,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Jonathan Glennie  - ODI/Research,7098,35.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/Research,7099,35.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/Research,7099,35.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/Research,7100,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/Research,7100,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+F0098700,Daniel Harris  - ODI/Research,7101,10.50,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+C0087801,David Booth  - ODI/RESEARCH OFFICER,7102,3.50,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0097300,Adrian Hewitt  - ODI/Research,7108,21.00,Yes,,,Char,1 - Direct
+F0097300,Susan Barron  - ODI/Research,7109,21.00,Yes,,,Char,1 - Direct
+F0097300,Darren Lomas  - ODI/Research,7110,21.00,Yes,,,Char,1 - Direct
+F0097900,Adrian Hewitt  - ODI/Research,7111,21.00,Yes,,,Char,1 - Direct
+F0097900,Susan Barron  - ODI/Research,7112,21.00,Yes,,,Char,1 - Direct
+F0097900,Darren Lomas  - ODI/Research,7113,21.00,Yes,,,Char,1 - Direct
+F0098200,Adrian Hewitt  - ODI/Research,7117,21.00,Yes,,,Char,1 - Direct
+F0098200,Susan Barron  - ODI/Research,7118,21.00,Yes,,,Char,1 - Direct
+F0098200,Darren Lomas  - ODI/Research,7119,21.00,Yes,,,Char,1 - Direct
+F0105800,Sharada Keats  - ODI/Research,7122,70.00,Yes,,,Char,1 - Direct
+F0105800,Steve Wiggins  - ODI/Research,7123,35.00,Yes,,,Char,1 - Direct
+F0105800,Emily Darko  - ODI/Admin,7124,0.00,Yes,,,Char,1 - Direct
+F0103300,Steve Wiggins  - ODI/Start up,7130,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0103300,Anna Locke  - ODI/Start up,7131,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0103300,Sharada Keats  - ODI/Start up,7132,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0103300,Emily Darko  - ODI/Start up,7133,0.00,Yes,01/12/2011,,Char,1 - Direct
+RAP0140,Louise Shaxson  - ODI/project work,7140,28.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+RAP0140,Maren Duvendack  - ODI/case study work,7141,70.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+R0493,Emily Darko  - ODI/admin,7159,0.00,Yes,01/04/2012,,Char,1 - Direct
+R0493,Steve Wiggins  - ODI/research,7160,0.00,Yes,01/04/2012,,Char,1 - Direct
+R0493,Nicola Cantore  - ODI/research,7161,0.00,Yes,01/04/2012,,Char,1 - Direct
+R0493,Joanna Fottrell  - ODI/comms,7162,0.00,Yes,01/04/2012,,Char,1 - Direct
+F0094700,Katie Harris  - ODI/Geneva,7163,0.00,Yes,15/01/2012,,Char,1 - Direct
+F0094700,William McFarland  - ODI/CIDT workshop,7164,14.00,Yes,10/01/2012,10/02/2012,Char,1 - Direct
+F0094700,Lindsey Jones  - ODI/WFP paper,7165,42.00,Yes,01/01/2012,31/03/2012,Char,1 - Direct
+C0101004,Hanna Alder  - ODI/Support,7167,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101004,David Walker  - ODI/Support,7168,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+RAP0140,Caroline Cassidy  - ODI/comms work,7177,210.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+F0086100,Eva Cardoso  - ODI/Admin,7178,35.00,Yes,20/05/2011,30/04/2012,Char,1 - Direct
+P0690,Jonathan Glennie  - ODI/Research Fellow,7184,0.00,Yes,06/10/2009,31/03/2012,Char,1 - Direct
+CR050002,Daniel Harris  - ODI/Research,7188,35.00,Yes,15/07/2011,31/03/2012,Char,1 - Direct
+CR050002,Daniel Harris  - ODI/Research,7188,35.00,Yes,15/07/2011,31/03/2012,Char,1 - Direct
+F0094800,Anu Liisanantti  - ODI/Design,7193,21.00,Yes,20/02/2011,13/04/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - RO Secondment,7194,224.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - RO Secondment,7194,224.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - PO,7195,140.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - PO,7195,140.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct
+C0101011,Louise Shaxson  - ODI/M&E,7197,21.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101011,Andrew Norton  - ODI/M&E,7198,77.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101011,William Avis  - ODI/M&E,7199,70.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101011,Moira Malcolm  - ODI/M&E,7207,175.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101011,Muriel Paasch  - ODI/M&E,7208,140.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Roger Calow  - ODI/Innovation Water security Q1,7226,133.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Nathaniel Mason  - ODI/Innovation Water security Q1,7227,210.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Eva Ludi  - ODI/Innovation Water security Q1,7228,7.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Sobona Mtisi  - ODI/Innovation Water security Q1,7229,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Anu Liisanantti  - ODI/Project support,7230,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101004,Maren Duvendack  - ODI/Research,7231,70.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+P0778,Claire Leigh  - ODI/Governance,7234,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Claire Leigh  - ODI/Programme Management,7235,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Claire Leigh  - ODI/Network and Partnership,7236,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Claire Leigh  - ODI/Research and Dissemination,7237,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Claire Leigh  - ODI/Research and Dissemination,7237,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0773,Samuel Moon  - ODI/Uganda Claire Leigh,7239,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Marcus Manuel  - ODI/DRC,7240,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Claire Leigh  - ODI/Liberia,7241,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Claire Leigh  - ODI/Design and Development,7243,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0778,Helena Turgel  - ODI/Governance,7244,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0778,Marcus Manuel  - ODI/Governance,7245,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0778,Mafalda Marchioro  - ODI/Governance,7246,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0778,Ryan Flynn  - ODI/Governance,7247,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Helena Turgel  - ODI/Programme Management,7248,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Marcus Manuel  - ODI/Programme Management,7249,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Sonsoles Montosa  - ODI/Programme Management,7250,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Mafalda Marchioro  - ODI/Programme Management,7251,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,ODI Placeholder 1  - ODI/Programme Management,7252,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Ryan Flynn  - ODI/Programme Management,7253,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0777,Ingrid Kamikazi  - ODI/Programme Management,7254,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Alina Rocha Menocal  - ODI/Network and Partnership,7255,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Helena Turgel  - ODI/Network and Partnership,7256,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Lisa Denney  - ODI/Network and Partnership,7257,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Matthew Geddes  - ODI/Network and Partnership,7258,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Marcus Manuel  - ODI/Network and Partnership,7259,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Nicholas Scott  - ODI/Network and Partnership,7260,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Samuel Moon  - ODI/Network and Partnership,7261,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Maia King  - ODI/Network and Partnership,7262,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Mafalda Marchioro  - ODI/Network and Partnership,7263,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,ODI Placeholder 1  - ODI/Network and Partnership,7264,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,7265,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,7265,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Marcus Manuel  - ODI/Research and Dissemination,7266,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Marcus Manuel  - ODI/Research and Dissemination,7266,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Pedro Martins  - ODI/Research and Dissemination,7267,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Pedro Martins  - ODI/Research and Dissemination,7267,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Samuel Moon  - ODI/Research and Dissemination,7268,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Samuel Moon  - ODI/Research and Dissemination,7268,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Ryan Flynn  - ODI/Research and Dissemination,7272,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Ryan Flynn  - ODI/Research and Dissemination,7272,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0773,Samuel Moon  - ODI/Uganda,7277,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0773,Helena Turgel  - ODI/Uganda,7278,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0773,Ryan Flynn  - ODI/Uganda,7279,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0771,Samuel Moon  - ODI/Tajikistan,7280,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0771,Mafalda Marchioro  - ODI/Tajikistan,7281,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Mafalda Marchioro  - ODI/DRC,7282,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Claire Leigh  - ODI/DRC,7283,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Ryan Flynn  - ODI/DRC,7284,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Karen Ellis  - ODI/Liberia,7286,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Jessica Brown  - ODI/Liberia,7287,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Kristy Graham  - ODI/Liberia,7288,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Marcus Manuel  - ODI/Liberia,7289,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Samuel Moon  - ODI/Liberia,7290,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Mafalda Marchioro  - ODI/Liberia,7291,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Ryan Flynn  - ODI/Liberia,7292,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Alberto Lemma  - ODI/Liberia,7293,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Marcus Manuel  - ODI/Design and Development,7300,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Edward Hedger  - ODI/Design and Development,7301,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Samuel Moon  - ODI/Design and Development,7302,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Heidi Tavakoli  - ODI/Design and Development,7303,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Eva Cardoso  - ODI/Design and Development,7304,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Mafalda Marchioro  - ODI/Design and Development,7305,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,ODI Placeholder 1  - ODI/Design and Development,7306,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Maia King  - ODI/Design and Development,7307,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Sonsoles Montosa  - ODI/Design and Development,7308,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Helena Turgel  - ODI/Design and Development,7309,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Ryan Flynn  - ODI/Design and Development,7310,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+C0101601,Pedro Martins  - ODI/Category I expert,7312,735.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Claire Melamed  - ODI/Research Assistance,7313,42.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Gillian Hart  - ODI/Project Management,7314,1050.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Muriel Paasch  - ODI/Project Management,7315,525.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Raphaelle Faure  - ODI/Admin. assistance,7316,1050.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Raphaelle Faure  - ODI/Research Assistance,7317,280.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101601,Raphaelle Faure  - ODI/Web assistance,7318,210.00,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0101002,Lindsey Jones  - ODI/Research,7320,105.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Lindsey Jones  - ODI/Research,7320,105.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0087807,Maria Bernardez  - ODI/COMMS OFFICER,7325,0.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087801,Susan Nicolai  - ODI/RESEARCH FELLOW,7326,7.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+CDKN002OS,Natasha Grist  - ODI/Research,7331,1211.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Smita Nakhooda  - ODI/Research,7332,2.10,Yes,,,Sales,1 - Direct
+CDKN002OS,Nicholas Scott  - ODI/Comms,7333,7.00,Yes,,,Sales,1 - Direct
+CDKN002OS,Eva Ludi  - ODI/Research,7334,23.10,Yes,,,Sales,1 - Direct
+CDKN002OS,Kristy Graham  - ODI/Research,7335,3.50,Yes,,,Sales,1 - Direct
+CDKN002OS,Christopher Coles  - ODI/Research,7336,4.90,Yes,,,Sales,1 - Direct
+CDKN002OS,Nicola Cantore  - ODI/Research,7337,3.50,Yes,,,Sales,1 - Direct
+P0775,Andrew Quinn  - ODI/SD Blockages,7344,0.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Andrew Quinn  - ODI/SD Blockages,7344,0.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+C0087802,Laura Rodriguez  - ODI/RESEARCH OFFICER,7347,665.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+P0742,Jonathan Glennie  - ODI/Conference Attendance,7348,0.00,Yes,01/01/2012,31/03/2012,Char,1 - Direct
+F0107600,Roger Calow  - ODI/Research,7350,70.00,Yes,20/02/2012,30/08/2012,Char,1 - Direct
+F0107600,Josephine Tucker  - ODI/Research,7351,70.00,Yes,20/02/2012,30/08/2012,Char,1 - Direct
+F0099900,John Mitchell  - ODI/Review,7352,7.00,Yes,,31/03/2012,Char,1 - Direct
+F0099900,Eva Cardoso  - ODI/Admin,7353,7.00,Yes,,31/03/2012,Char,1 - Direct
+P0776,Sonsoles Montosa  - ODI/g7+,7354,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+F0095200,Emily Darko  - ODI/Research,7364,0.00,Yes,01/02/2012,31/03/2013,Sales,1 - Direct
+F0095200,Emily Darko  - ODI/Research,7364,0.00,Yes,01/02/2012,31/03/2013,Sales,1 - Direct
+F0109300,Pilar Domingo  - ODI/Research,7368,35.00,Yes,01/02/2012,30/04/2012,Char,1 - Direct
+F0109900,Jonathan Mitchell  - ODI/Research,7377,7.00,Yes,21/03/2012,31/03/2012,Char,1 - Direct
+F0109900,Eva Cardoso  - ODI/Admin,7378,7.00,Yes,21/03/2012,31/03/2012,Char,1 - Direct
+R0423,Jenny Morgan  - ODI/Administraton,7379,0.00,Yes,,31/08/2012,Char,1 - Direct
+R0423,Rachel Slater  - ODI/Advisory Services,7380,0.00,Yes,,01/11/2012,Char,1 - Direct
+F0098000,Susan Barron  - ODI/Research,7382,42.00,Yes,,,Char,1 - Direct
+F0098000,Adrian Hewitt  - ODI/Research,7383,63.00,Yes,,,Char,1 - Direct
+C0087807,Andrew Norton  - ODI/Project Officer,7386,0.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+P0768,Maia King  - ODI/MTEF/Budget,7389,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Maia King  - ODI/Infrastructure,7390,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Maia King  - ODI/Job Creation,7391,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Maia King  - ODI/Responsive Support,7392,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Maia King  - ODI/Coordination and Management,7393,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Mafalda Marchioro  - ODI/Coordination and Management,7394,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+F0104200,Sarah Bailey  - ODI/work,7399,42.00,Yes,12/01/2012,,Char,1 - Direct
+F0104200,Sarah Bailey  - ODI/work,7399,42.00,Yes,12/01/2012,,Char,1 - Direct
+C0087807,Jakob Engel  - ODI/RO CORE BUDGET,7416,2604.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Wendy Fenton  - ODI/F0106800,7417,77.00,Yes,01/12/2011,,Char,1 - Direct
+P0760,David Booth  - ODI/Research,7430,7.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+P0760,Hafsa Mahtab  - ODI/Admin,7431,28.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+P0760,Jonathan Glennie  - ODI/Project leader and researcher,7432,76.09,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+P0760,Matthew Geddes  - ODI/Research,7433,203.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+P0717,ODI Placeholder 1  - ODI/Somaliland,7445,7.00,Yes,01/01/2012,31/01/2015,Char,1 - Direct
+P0775,REBECCA SIMSON  - ODI/Research and Dissemination,7447,0.00,Yes,01/01/2012,31/03/2015,Char,1 - Direct
+P0775,REBECCA SIMSON  - ODI/Research and Dissemination,7447,0.00,Yes,01/01/2012,31/03/2015,Char,1 - Direct
+P0776,Ryan Flynn  - ODI/g7+,7448,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Maia King  - ODI/DRC,7450,35.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Sara Pantuliano  - ODI/F0106800,7452,98.00,Yes,01/12/2011,,Char,1 - Direct
+C0101601,ODI Placeholder 1  - ODI/Research Assistance,7457,10.50,Yes,01/01/2012,30/06/2013,Char,1 - Direct
+C0087802,Susan Nicolai  - ODI/RESEARCH FELLOW,7464,0.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087801,Fiona Samuels  - ODI/RESEARCH FELLOW,7465,14.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEACH FELLOW,7469,49.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Pedro Martins  - ODI/RESEARCH FELLOW,7471,14.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Nicola Cantore  - ODI/RESEARCH FELLOW,7472,0.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEARCH OFFICER,7474,3.50,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0101002,Maria Bernardez  - ODI/Project support,7484,0.00,Yes,01/01/2012,31/03/2012,Char,1 - Direct
+C0101002,Maria Bernardez  - ODI/Project support,7484,0.00,Yes,01/01/2012,31/03/2012,Char,1 - Direct
+C0101601,ODI Placeholder 1  - ODI/Category II Expert,7485,245.00,Yes,15/03/2012,30/06/2013,Char,1 - Direct
+P0775,Edward Hedger  - ODI/Research and Dissemination,7486,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Edward Hedger  - ODI/Research and Dissemination,7486,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q1,7503,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q1,7503,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/FG2 Strengthening the analytical framework Q1,7505,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/FG2 Strengthening the analytical framework Q1,7505,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Strengthening the analytical framework Q1,7506,101.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Strengthening the analytical framework Q1,7506,101.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Strengthening the analytical framework Q1,7507,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Strengthening the analytical framework Q1,7507,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Strengthening the analytical framework Q1,7508,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Strengthening the analytical framework Q1,7508,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q1,7511,24.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q1,7511,24.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q1,7512,112.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q1,7512,112.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q1,7513,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q1,7513,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q1,7514,168.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q1,7514,168.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q2,7517,52.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q2,7517,52.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Diagnostic studies Q2,7519,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Diagnostic studies Q2,7519,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Diagnostic studies Q2,7520,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Diagnostic studies Q2,7520,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q2,7522,24.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q2,7522,24.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Bilateral contributions to climate finance Q2,7523,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Bilateral contributions to climate finance Q2,7523,70.00,Yes,01/04/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q2,7524,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q2,7524,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q2,7525,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q2,7525,35.00,Yes,01/04/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q2,7526,77.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q2,7526,77.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q2,7528,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q2,7528,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q2,7529,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q2,7529,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q2,7530,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q2,7530,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q1,7531,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q1,7531,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q1,7532,45.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q1,7532,45.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q1,7533,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q1,7533,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,William McFarland  - ODI/Project support,7534,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101002,William McFarland  - ODI/Project support,7534,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+P0776,Philipp Krause  - ODI/g7+,7584,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Samuel Moon  - ODI/g7+,7585,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0776,Alina Rocha Menocal  - ODI/g7+,7586,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,7587,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,7587,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Ingrid Kamikazi  - ODI/Better Aid Delivery for SD,7588,0.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Ingrid Kamikazi  - ODI/Better Aid Delivery for SD,7588,0.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+P0775,Philipp Krause  - ODI/Research and Dissemination,7595,0.00,Yes,01/01/2012,31/03/2015,Char,1 - Direct
+P0775,Philipp Krause  - ODI/Research and Dissemination,7595,0.00,Yes,01/01/2012,31/03/2015,Char,1 - Direct
+P0769,Ingrid Kamikazi  - ODI/DRC,7597,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/FG1 First stage Q1,7599,245.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/FG1 First stage Q1,7600,210.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/FG1 First stage Q1,7604,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Gina Bergh  - ODI/FG1 First stage Q1,7605,175.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q1,7606,49.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q1,7607,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/FG1 First stage Q1,7608,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,PRACHI SETH  - ODI/FG1 First stage Q1,7609,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q1,7610,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Marta Foresti  - ODI/FG1 First stage Q1,7611,7.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Leni Wild  - ODI/FG1 First stage Q1,7612,28.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Lisa Denney  - ODI/FG1 First stage Q1,7614,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/FG1 First stage Q2,7615,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/FG1 First stage Q2,7616,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/FG1 First stage Q2,7619,140.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Gina Bergh  - ODI/FG1 First stage Q2,7620,161.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q2,7621,49.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q2,7622,84.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/FG1 First stage Q2,7623,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q2,7624,14.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Marta Foresti  - ODI/FG1 First stage Q2,7625,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,ODI Placeholder 1  - ODI/FG1 First stage Q2,7626,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Louise Damant  - ODI/Project support,7628,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101004,Hanna Alder  - ODI/Project support,7630,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101004,Caroline Harper  - ODI/FG4 1 Workplan  inception reports and methodologie,7631,105.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/FG4 1 Workplan  inception reports and methodologie,7632,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Fiona Samuels  - ODI/FG4 1 Workplan  inception reports and methodologie,7633,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,David Walker  - ODI/FG4 1 Workplan  inception reports and methodologie,7635,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Maren Duvendack  - ODI/FG4 1 Workplan  inception reports and methodologie,7636,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Caroline Harper  - ODI/FG4 3 Planning, consultant, country and donor liai,7640,14.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/FG4 3 Planning, consultant, country and donor liai,7641,14.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Caroline Harper  - ODI/FG4 2 Literature review  conceptual framework and,7643,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/FG4 2 Literature review  conceptual framework and,7644,98.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101004,Fiona Samuels  - ODI/FG4 3 Planning  consultant, country and donor liai,7648,14.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101004,Hanna Alder  - ODI/FG4 3 Planning  consultant  country and donor liai,7650,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101004,David Walker  - ODI/FG4 3 Planning  consultant  country and donor liai,7651,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101201,Anna McCord  - ODI/Anna McCord,7661,63.00,Yes,01/03/2012,31/05/2012,Char,1 - Direct
+C0101201,Maren Duvendack  - ODI/Maren Duvendack,7662,42.00,Yes,01/03/2012,31/05/2012,Char,1 - Direct
+C0101015,James Docherty  - ODI/Innovation Business investment in green technology,7694,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101015,Daniel Harris  - ODI/Innovation Business investment in green technology,7695,175.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101015,Karen Ellis  - ODI/Innovation Business investment in green technology,7696,56.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101015,Karen Ellis  - ODI/Innovation Business investment in green technology,7697,0.00,Yes,01/04/2012,30/09/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q1,7698,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q2,7699,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q3,7700,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct
+F0087700,Malcolm Anderson  - ODI/comms,7808,14.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0097700,John Young  - ODI/advisory work,7869,105.00,Yes,11/10/2011,31/12/2014,Char,1 - Direct
+C0101016,Alison Evans  - ODI/IPRCC Partnerships Q3,7701,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct
+C0101016,Andrew Norton  - ODI/IPRCC Partnerships Q3,7702,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Methodology Paper - Objective Leader,7707,7.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Methodology Paper - Research Fellow,7708,147.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Methodology Paper - Research Officer,7709,84.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Paula Lucci  - ODI/Methodology Paper - Research Officer,7710,42.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Susan Nicolai  - ODI/Research Outputs - Research Fellow,7711,14.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Participat Approaches - Research Fellow,7712,70.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Participat Approaches - Research Officer,7713,28.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Paula Lucci  - ODI/Participat Approaches - Research Officer,7714,21.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Analysis Paper - Research Fellow,7715,70.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Analysis Paper - Research Officer,7716,56.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Pilot Scoping - Research Fellow,7717,175.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Pilot Scoping - Research Officer,7718,112.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Louise Damant  - ODI/Pilot Scoping - Objective Admin,7719,21.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Emma Samman  - ODI/Proposal Prep - Research Fellow,7720,70.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Laura Rodriguez  - ODI/Proposal Prep - Research Officer,7721,35.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Susan Nicolai  - ODI/Proposal Prep - Research Fellow,7722,7.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Louise Damant  - ODI/Proposal Prep - Objective Admin,7723,7.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Claire Melamed  - ODI/Pilot Scoping - Research Fellow,7724,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0087803,Claire Melamed  - ODI/Proposal Prep - Research Fellow,7725,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101601,Emma Samman  - ODI/Web assistance,7726,140.00,Yes,25/03/2012,30/06/2013,Char,1 - Direct
+F0104200,Jennifer Benson  - ODI/F0104200,7728,0.00,Yes,12/01/2012,,Char,1 - Direct
+F0104200,Jennifer Benson  - ODI/F0104200,7728,0.00,Yes,12/01/2012,,Char,1 - Direct
+F0110700,Karen Ellis  - ODI/Research,7729,175.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct
+F0110700,ODI Placeholder 1  - ODI/Research,7730,420.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct
+F0110700,Carolin Williams  - ODI/Research,7731,35.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct
+C0101011,William Avis  - ODI/Monitoring of research uptake and impact Q1,7737,26.25,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101011,Andrew Norton  - ODI/M&E strategic ownership Q1,7738,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101011,Louise Shaxson  - ODI/Output to outcome workshops Q1,7739,105.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101011,William Avis  - ODI/Monitoring of research uptake and impact Q2,7740,26.25,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0087804,Susan Nicolai  - ODI/RESEARCH FELLOW,7741,0.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087807,Andrew Norton  - ODI/QA & OVERSIGHT,7744,70.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEARCH FELLOW,7745,322.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+P0775,Maia King  - ODI/Research and Dissemination,7747,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0775,Maia King  - ODI/Research and Dissemination,7747,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+F0111200,Simon Levine  - ODI/F0111200,7748,35.00,Yes,19/04/2012,,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/FG2 CAPE pro bono input Q1,7751,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/FG2 CAPE pro bono input Q1,7751,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Romilly Greenhill  - ODI/FG2 CAPE pro bono input Q1,7752,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Romilly Greenhill  - ODI/FG2 CAPE pro bono input Q1,7752,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+R0495,Eva Cardoso  - ODI/Admin,7754,35.00,Yes,01/01/2012,30/12/2012,Char,1 - Direct
+R0495,Christopher Coles  - ODI/Research,7754,35.00,Yes,01/01/2012,30/12/2012,Char,1 - Direct
+F0111800,Simon Levine  - ODI/F0111800,7755,7.00,Yes,02/04/2012,,Char,1 - Direct
+F0111400,Gail Wilson  - ODI/F0111400,7756,28.00,Yes,01/04/2012,31/05/2012,Char,1 - Direct
+F0111600,Harry Jones  - ODI/presentation Athens,7757,28.00,Yes,01/04/2012,31/05/2012,Char,1 - Direct
+F0110900,Louise Shaxson  - ODI/think and link 2012,7758,157.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 CAPE pro bono input Q1,7759,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 CAPE pro bono input Q1,7759,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+F0111800,Jennifer Benson  - ODI/F0111800,7760,0.00,Yes,02/04/2012,,Char,1 - Direct
+F0112100,Sarah Bailey  - ODI/F0112100,7762,21.00,Yes,24/04/2012,,Char,1 - Direct
+F0112100,Sarah Bailey  - ODI/F0112100,7762,14.00,Yes,24/04/2012,,Char,1 - Direct
+F0102600,Katie Harris  - ODI/Research,7767,112.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0102600,Malcolm Anderson  - ODI/Research,7768,35.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0102600,Katie Harris  - ODI/Comms,7769,35.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0111200,Jennifer Benson  - ODI/F0111200,7770,0.00,Yes,19/04/2012,,Char,1 - Direct
+P0776,Ingrid Kamikazi  - ODI/g7+,7775,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0774,Philipp Krause  - ODI/Rwanda,7776,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0773,Philipp Krause  - ODI/Uganda,7777,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0769,Philipp Krause  - ODI/DRC,7778,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0768,Philipp Krause  - ODI/Liberia,7779,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+P0717,Philipp Krause  - ODI/Design and Development,7781,0.00,Yes,01/04/2010,31/01/2015,Char,1 - Direct
+C0101001,Nicholas Scott  - ODI/Post-2015 website set-up Q1,7782,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+D0405,Clara Hawkshaw  - ODI/D0405,7783,0.00,Yes,01/04/2011,,Char,1 - Direct
+C0101002,Isabella Massa  - ODI/Research,7784,7.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+F0102600,Emma Lovell  - ODI/Flights,7785,0.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0095200,James Docherty  - ODI/Research,7786,14.00,Yes,01/01/2012,31/03/2013,Sales,1 - Direct
+F0095200,James Docherty  - ODI/Research,7786,14.00,Yes,01/01/2012,31/03/2013,Sales,1 - Direct
+S0215,William McFarland  - ODI/WM - PO billed,7787,140.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - PO billed,7787,140.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+S0215,Emily Brickell  - ODI/KB - REDDnet,7788,315.00,Yes,05/03/2012,30/06/2012,Char,1 - Direct
+S0215,Emily Brickell  - ODI/KB - REDDnet,7788,315.00,Yes,05/03/2012,30/06/2012,Char,1 - Direct
+RAP0140,Simon Hearn  - ODI/project work,7791,70.00,Yes,01/01/2012,31/03/2013,Char,1 - Direct
+C0101001,Paula Lucci  - ODI/FG1 First stage Q1,7792,84.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+F0111000,Simon Hearn  - ODI/AcT and CSOs,7795,84.00,Yes,01/04/2012,31/03/2013,Sales,1 - Direct
+F0113900,Claire Melamed  - ODI/UNICEF Article,7796,7.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+F0098400,John Young  - ODI/PIM management,7799,357.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,John Young  - ODI/PIM Management,7799,350.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,Harry Jones  - ODI/PIM research,7800,378.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,Harry Jones  - ODI/PIM research,7800,371.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEARCH OFFICER,7746,126.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0098400,Caroline Cassidy  - ODI/PIM comms,7801,392.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,Caroline Cassidy  - ODI/PIM comms,7801,385.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,Alice Gasson  - ODI/PIM admin,7802,35.00,Yes,03/02/2012,31/12/2012,Char,1 - Direct
+F0098400,Alice Gasson  - ODI/PIM admin,7802,28.00,Yes,03/02/2012,31/12/2012,Char,1 - Direct
+F0098400,Chloe Byrne  - ODI/PIM admin,7803,112.00,Yes,01/09/2012,31/03/2015,Char,1 - Direct
+F0098400,Chloe Byrne  - ODI/PIM admin,7803,105.00,Yes,01/09/2012,31/03/2015,Char,1 - Direct
+C0087804,Nicola Cantore  - ODI/RESEARCH FELLOW,6752,14.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0106800,Jennifer Benson  - ODI/F0106800,7804,0.00,Yes,01/12/2011,,Char,1 - Direct
+F0085300,Alina Rocha Menocal  - ODI/research,7806,49.00,Yes,01/04/2012,30/04/2013,Char,1 - Direct
+F0088300,Malcolm Anderson  - ODI/Comms,7807,17.50,Yes,01/06/2011,31/03/2012,Sales,1 - Direct
+F0087700,Malcolm Anderson  - ODI/comms,7808,14.00,Yes,01/06/2011,31/03/2012,Char,1 - Direct
+F0114400,Sara Pantuliano  - ODI/PDRU module contribution,7809,7.00,Yes,11/05/2012,30/06/2012,Char,1 - Direct
+F0114400,Ashley Jackson  - ODI/PDRU module contribution,7809,22.12,Yes,11/05/2012,30/06/2012,Char,1 - Direct
+F0114400,Sara Pantuliano  - ODI/PDRU module contribution,7810,15.12,Yes,11/05/2012,30/06/2012,Char,1 - Direct
+F0114400,Jennifer Benson  - ODI/F0114400,7810,0.00,Yes,11/05/2012,30/06/2012,Char,1 - Direct
+F0114500,Eva Cardoso  - ODI/F0114500,7811,0.00,Yes,20/04/2012,,Sales,1 - Direct
+F0114500,Eva Cardoso  - ODI/F0114500,7811,0.00,Yes,20/04/2012,,Sales,1 - Direct
+F0105000,John Young  - ODI/Methods Lab,7815,560.00,Yes,17/05/2012,30/06/2016,Char,1 - Direct
+F0105000,Maren Duvendack  - ODI/Methods Lab,7816,2800.00,Yes,17/05/2012,30/06/2016,Char,1 - Direct
+F0105000,Caroline Cassidy  - ODI/Methods Lab,7817,1400.00,Yes,17/05/2012,30/06/2016,Char,1 - Direct
+F0110700,Eva Cardoso  - ODI/Admin,7821,35.00,Yes,28/05/2012,,Char,1 - Direct
+R0495,Eva Cardoso  - ODI/Admin,7822,35.00,Yes,01/01/2012,30/12/2012,Char,1 - Direct
+F0114500,Karen Ellis  - ODI/F0114500,7823,0.00,Yes,20/04/2012,,Sales,1 - Direct
+F0111600,Alice Gasson  - ODI/F0111600,7824,0.00,Yes,01/04/2012,,Char,1 - Direct
+F0112100,Jennifer Benson  - ODI/F0112100,7825,0.00,Yes,24/04/2012,,Char,1 - Direct
+F0098700,Sarah Bailey  - ODI/Research,7826,105.00,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0098700,Naomi Oates  - ODI/Admin,7827,0.00,Yes,13/01/2012,31/12/2012,Char,1 - Direct
+F0096000,Louise Shaxson  - ODI/process evaluation,7830,175.00,Yes,16/04/2012,31/10/2012,Char,1 - Direct
+F0096000,Louise Shaxson  - ODI/process evaluation,7830,175.00,Yes,16/04/2012,31/10/2012,Char,1 - Direct
+F0096000,Alice Gasson  - ODI/F0096000,7831,0.00,Yes,16/04/2012,,Char,1 - Direct
+F0096000,Alice Gasson  - ODI/F0096000,7831,0.00,Yes,16/04/2012,,Char,1 - Direct
+F0105100,Caroline Cassidy  - ODI/research comms,7832,210.00,Yes,01/05/2012,31/12/2012,Char,1 - Direct
+F0105100,Louise Shaxson  - ODI/oversight,7833,42.00,Yes,01/05/2012,31/12/2012,Char,1 - Direct
+F0105100,Alice Gasson  - ODI/admin,7834,14.00,Yes,01/05/2012,31/12/2012,Char,1 - Direct
+CR050002,Rachel Slater  - ODI/Research Y2,7838,647.50,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Marialivia Iotti  - ODI/Project Manager,7839,1295.00,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Khaula Khalid  - ODI/Finance,7840,129.50,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Richard Mallet  - ODI/Research,7841,1295.00,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Maryam Mohsin  - ODI/Comms,7842,1295.00,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Jessica Hagen-Zanker  - ODI/Research,7843,105.00,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Babken Babajanian  - ODI/Research,7844,210.00,Yes,01/04/2012,,Char,1 - Direct
+CR050002,Simon Levine  - ODI/Research,7845,210.00,Yes,01/04/2012,,Char,1 - Direct
+F0150,Adrian Hewitt  - ODI/F0150,7846,12.25,Yes,01/10/2010,,Char,1 - Direct
+F0150,Susan Barron  - ODI/F0150,7847,16.24,Yes,01/10/2010,,Char,1 - Direct
+F0150,Darren Lomas  - ODI/F0150,7848,24.22,Yes,01/10/2010,,Char,1 - Direct
+F0151,Adrian Hewitt  - ODI/F0151,7849,9.03,Yes,01/10/2010,,Char,1 - Direct
+F0151,Darren Lomas  - ODI/F0151,7850,20.09,Yes,01/10/2010,,Char,1 - Direct
+F0151,Susan Barron  - ODI/F0151,7851,13.23,Yes,01/10/2010,,Char,1 - Direct
+F0155,Adrian Hewitt  - ODI/F0155,7852,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0155,Darren Lomas  - ODI/F0155,7853,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0155,Susan Barron  - ODI/F0155,7854,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0156,Adrian Hewitt  - ODI/F0156,7855,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0156,Susan Barron  - ODI/F0156,7856,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0156,Darren Lomas  - ODI/F0156,7857,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0154,Adrian Hewitt  - ODI/F0154,7858,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0154,Adrian Hewitt  - ODI/F0154,7858,7.21,Yes,01/10/2010,,Char,1 - Direct
+F0154,Susan Barron  - ODI/F0154,7859,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0154,Susan Barron  - ODI/F0154,7859,10.64,Yes,01/10/2010,,Char,1 - Direct
+F0154,Darren Lomas  - ODI/F0154,7860,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0154,Darren Lomas  - ODI/F0154,7860,16.17,Yes,01/10/2010,,Char,1 - Direct
+F0154,Adrian Hewitt  - ODI/1.03,7861,0.00,Yes,,,Char,1 - Direct
+C0101601,Alina Rocha Menocal  - ODI/Category II Expert,7868,84.00,Yes,01/05/2012,30/06/2013,Char,1 - Direct
+F0097700,John Young  - ODI/advisory work,7869,105.00,Yes,11/10/2011,31/12/2014,Char,1 - Direct
+F0157,Adrian Hewitt  - ODI/F0157,7870,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0157,Adrian Hewitt  - ODI/F0157,7870,6.30,Yes,01/10/2010,,Char,1 - Direct
+F0157,Susan Barron  - ODI/F0157,7871,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0157,Susan Barron  - ODI/F0157,7871,9.31,Yes,01/10/2010,,Char,1 - Direct
+F0157,Darren Lomas  - ODI/F0157,7872,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0157,Darren Lomas  - ODI/F0157,7872,14.14,Yes,01/10/2010,,Char,1 - Direct
+F0157,Adrian Hewitt  - ODI/0.9,7873,0.00,Yes,,,Char,1 - Direct
+F0158,Adrian Hewitt  - ODI/F0158,7874,6.02,Yes,01/10/2010,,Char,1 - Direct
+F0158,Darren Lomas  - ODI/F0158,7875,13.51,Yes,01/10/2010,,Char,1 - Direct
+F0158,Susan Barron  - ODI/F0158,7876,8.89,Yes,01/10/2010,,Char,1 - Direct
+F0160,Adrian Hewitt  - ODI/F0160,7877,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0160,Susan Barron  - ODI/F0160,7878,0.00,Yes,01/10/2010,,Char,1 - Direct
+F0160,Darren Lomas  - ODI/F0160,7879,0.00,Yes,01/10/2010,,Char,1 - Direct
+C0101601,Nicholas Scott  - ODI/Web assistance,7880,70.00,Yes,15/03/2012,30/06/2013,Char,1 - Direct
+F0089700,Karen Ellis  - ODI/Research,7881,52.50,Yes,01/04/2012,31/07/2012,Char,1 - Direct

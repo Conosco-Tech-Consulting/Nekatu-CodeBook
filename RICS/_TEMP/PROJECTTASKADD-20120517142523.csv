@@ -1,0 +1,5 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0094800,Anu Liisanantti  - ODI/Design,7193,21.00,Yes,20/02/2011,13/04/2012,Char,1 - Direct
+F0094800,Carolin Williams  - ODI/Research,6935,140.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct
+F0094800,Eva Cardoso  - ODI/Admin,7021,0.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct
+F0094800,Jonathan Mitchell  - ODI/Research,6934,84.00,Yes,01/12/2011,13/04/2012,Char,1 - Direct

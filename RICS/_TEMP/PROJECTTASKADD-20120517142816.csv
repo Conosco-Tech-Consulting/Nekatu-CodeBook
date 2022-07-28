@@ -1,0 +1,4 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0094900,Eva Cardoso  - ODI/Admin,7019,0.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct
+F0094900,Jonathan Mitchell  - ODI/Research,6727,217.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct
+F0094900,Pedro Martins  - ODI/Research,6728,182.00,Yes,02/11/2011,30/06/2012,Char,1 - Direct

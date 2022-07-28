@@ -1,0 +1,13 @@
+SHARED SECRET	PASSWORD
+Alpha		Defenestrate
+Beta		Garbology
+Gamma		Digerati
+Delta		Antipodes
+Epsilon		Hallux
+Zeta		Otiose
+Eta		Cullet
+Theta		Pellucid
+Iota		Borborygmus
+Kappa		Expropriate
+
+* All passwords are case-sensitive

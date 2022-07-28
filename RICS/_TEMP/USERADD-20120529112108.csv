@@ -1,0 +1,2 @@
+#USERADD,FirstName,LastName,EmployeeID,Email,LoginName,Password,IsUserDisabled,DeptNameLevel1,DeptNameLevel2,SupervisorLoginName,EmployeeTypeName,StartDate,EndDate,TimesheetApprovalPath,ExpenseApprovalPath,UserInfo1,UserInfo2,UserInfo3,HoursPerDay,AddUserPermission,AddUserPermission,AddUserPermission,AddSeatAssignment,AddSeatAssignment
+Claudia,Pompa,CPOM,odi@odi.org.uk,cpompa,,No,Company,PSM,gideonb,Researcher,28/05/2012,,supervisor,Project Leader and Supervisor,,,,7.000000,Personal Time Management,Programme-level Management,Project Level Management,Project,Expense

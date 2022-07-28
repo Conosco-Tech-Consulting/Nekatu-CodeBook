@@ -1,0 +1,57 @@
+$exchangeservers = Get-ExchangeServer |where-object {$_.admindisplayversion.major -eq 8 -and $_.IsMailboxServer -eq $true }
+$AllServers = @()
+
+foreach ($server in $exchangeservers)
+{
+$db = Get-MailboxDatabase -server $server
+foreach ($objItem in $db)
+{
+$edbfilepath = $objItem.edbfilepath
+$path = "`\`\" + $server + "`\" + $objItem.EdbFilePath.DriveName.Remove(1).ToString() + "$"+ $objItem.EdbFilePath.PathName.Remove(0,2)
+$dbsize = Get-ChildItem $path
+$start = $path.LastIndexOf(‘\’)
+$dbpath = $path.Substring($start +1).remove($path.Substring($start +1).length -4)
+$mailboxpath = "$server\$dbpath"
+$mailboxcount = Get-MailboxStatistics -database "$mailboxpath" |measure-object
+$ReturnedObj = New-Object PSObject
+$ReturnedObj | Add-Member NoteProperty -Name "Server\StorageGroup\Database" -Value $objItem.Identity
+$ReturnedObj | Add-Member NoteProperty -Name "Size (MB)" -Value ("{0:n2}" -f ($dbsize.Length/1024KB))
+$ReturnedObj | Add-Member NoteProperty -Name "Mailbox Count" -Value $mailboxcount.count
+$AllServers += $ReturnedObj
+}
+$mailbox_size=Get-MailboxStatistics -server $server | Sort-Object TotalItemSize -Descending |  Select-Object "DisplayName", @{name=‘TotalItemSize(MB)’;expression={$_.totalitemsize/1MB}}, @{name=‘TotalDeletedItemSize(MB)’;expression={$_.totalDeletedItemSize/1MB}} , "ItemCount", "LastLoggedOnUserAccount", "LastLogonTime" ,"Database", "StorageLimitStatus"
+}
+
+$exp_msize=  $mailbox_size | ConvertTo-Html -Title "Mailbox Status on Servers" -Body "
+<h2>Mailbox Status on Servers</h2>
+"  | foreach {$_ -replace "
+", " "}
+$exp_allsrv = $AllServers  |  ConvertTo-Html -Title "Server Storage Status" -Body "
+<h2>Server Storage Status</h2>
+"  -head "
+<!– td{font-size:smaller;padding:0 0 0 5px;border: 1px solid #003366;}table{border: 1px solid #003366;margin:0;padding:0}tr{margin:0;padding:0;}h2{color:red};th{font-size:smaller;text-align:left;border: 1px solid #003366;background-color:#aaa;} –>
+
+" | foreach {$_ -replace "
+<table border='0' cellspacing='0'>
+<tbody></tbody></table>
+", " "}
+
+function sendmail($body, $body1)
+{
+$today = Get-Date
+$SmtpClient = new-object system.net.mail.smtpClient
+$mailmessage = New-Object system.net.mail.mailmessage
+$SmtpClient.Host = "127.0.0.1"
+$mailmessage.from = "administrator@comhub.org.uk"
+$mailmessage.To.add("itsupport@comhub.org.uk")
+$mailmessage.Subject = “Exchange Database Size Report”
+$mailmessage.IsBodyHtml = $true
+$mailmessage.Body = "
+<h4>Generated on : $today `n</h4>
+"  + $body
+$mailmessage.Body += "`n" +  $body1
+
+$smtpclient.Send($mailmessage)
+}
+
+sendmail  $exp_allsrv $exp_msize

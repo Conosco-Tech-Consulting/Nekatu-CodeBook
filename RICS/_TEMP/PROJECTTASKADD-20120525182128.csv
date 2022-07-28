@@ -1,0 +1,6 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+F0091600,Eva Cardoso  - ODI/Administration,6612,0.00,Yes,30/08/2011,,Char,1 - Direct
+F0091600,John Young  - ODI/Development,6985,0.00,Yes,01/07/2011,29/08/2011,Char,1 - Direct
+F0091600,John Young  - ODI/Development,6986,0.00,Yes,01/07/2011,29/08/2011,Char,1 - Direct
+F0091600,John Young  - ODI/Research,6610,49.00,Yes,30/08/2011,,Char,1 - Direct
+F0091600,Karen Ellis  - ODI/Research,6611,112.00,Yes,30/08/2011,,Char,1 - Direct

@@ -1,0 +1,41 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q1,7533,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q2,7530,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q1,7532,45.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q2,7529,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q1,7514,168.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q2,7526,77.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Charlene Watson  - ODI/Research,7100,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Edward Hedger  - ODI/Research,7097,36.54,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/FG2 CAPE pro bono input Q1,7751,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Heidi Tavakoli  - ODI/Research,7099,35.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Isabella Massa  - ODI/Research,7784,7.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Jonathan Glennie  - ODI/Research,7098,35.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Karen Ellis  - ODI/Research,6982,21.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Lindsey Jones  - ODI/Research,7320,105.00,Yes,01/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Maria Bernardez  - ODI/Project support,7484,0.00,Yes,01/01/2012,31/03/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 CAPE pro bono input Q1,7759,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Diagnostic studies Q2,7519,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q1,7503,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Outreach Q2,7517,52.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/FG2 Strengthening the analytical framework Q1,7506,101.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Neil Bird  - ODI/Research,6774,315.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Romilly Greenhill  - ODI/FG2 CAPE pro bono input Q1,7752,0.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Bilateral contributions to climate finance Q2,7523,70.00,Yes,01/04/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Diagnostic studies Q2,7520,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q1,7513,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q2,7525,35.00,Yes,01/04/2012,30/09/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/FG2 Strengthening the analytical framework Q1,7508,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Shelagh Whitley  - ODI/Research,6775,448.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q1,7511,24.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q2,7522,24.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q1,7531,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q2,7528,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q1,7512,112.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q2,7524,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/FG2 Strengthening the analytical framework Q1,7507,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Smita Nakhooda  - ODI/Research,6776,210.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/FG2 Strengthening the analytical framework Q1,7505,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101002,Tom Mitchell  - ODI/Research,6777,91.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101002,William McFarland  - ODI/Project support,7534,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101002,William McFarland  - ODI/Research Officer,6979,77.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct

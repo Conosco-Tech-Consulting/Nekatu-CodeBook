@@ -1,0 +1,5 @@
+- check windows updates
+- check exchange mail store sizes
+- check event logs for errors
+- list installed applications
+- 

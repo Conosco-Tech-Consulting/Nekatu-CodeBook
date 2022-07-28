@@ -1,0 +1,327 @@
+
+C:\Users\Administrator\Documents\Projects\UACT>rem @ECHO off 
+
+C:\Users\Administrator\Documents\Projects\UACT>TITLE  User Account Creation Tool (BETA) 
+
+C:\Users\Administrator\Documents\Projects\UACT>CALL :CLEANUP 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET FNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET LNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UPSWD= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADORG= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADGRP= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET INTERN= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXMAIL= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXADDR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXSTOR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET COUNT= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET CONFIRM= 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM ------------------------------------------------------------------------------- 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM Script:    UACT.cmd (and ./bin contents) 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM Created:   29/07/2008 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM Modified:  29/07/2008 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM Author:    Arik Fletcher 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM ------------------------------------------------------------------------------- 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM Description: This script creates user accounts and mailboxes. 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM ------------------------------------------------------------------------------- 
+
+C:\Users\Administrator\Documents\Projects\UACT>IF NOT "C:\Users\Administrator\Documents\Projects\UACT\bulk.csv" == "" (
+CALL :BULKCHECK C:\Users\Administrator\Documents\Projects\UACT\bulk.csv  
+ GOTO :EXIT 
+) 
+
+C:\Users\Administrator\Documents\Projects\UACT>FOR /F "tokens=1-10 delims=," %a in (C:\Users\Administrator\Documents\Projects\UACT\bulk.csv) do (
+CALL :BANNER  
+ ECHO. 
+ ECHO Bulk User Mode  
+ ECHO. 
+ SET FNAME=%a  
+ SET LNAME=%b  
+ SET UNAME=%c  
+ SET UPSWD=%d  
+ SET ADORG=%e  
+ SET ADGRP=%f  
+ SET INTERN=%g  
+ SET EXMAIL=%h  
+ SET EXADDR=%i  
+ SET EXSTOR=%j  
+ ECHO. 
+ ECHO - Full Name:	   
+ ECHO - Department:	  
+ ECHO - Intern User:	  
+ ECHO. 
+ ECHO - User Name:	  
+ ECHO - Password:	  
+ ECHO. 
+ ECHO - Mailbox:	  
+ IF DEFINED ExADDR ECHO - Email:	  
+ ECHO. 
+ CALL :CREATE  
+ SET COUNT=+1  
+ ECHO  User(s) Created 
+) 
+
+C:\Users\Administrator\Documents\Projects\UACT>(
+CALL :BANNER  
+ ECHO. 
+ ECHO Bulk User Mode  
+ ECHO. 
+ SET FNAME=FNAME  
+ SET LNAME=LNAME  
+ SET UNAME=UNAME  
+ SET UPSWD=UPSWD  
+ SET ADORG=ADORG  
+ SET ADGRP=ADGRP  
+ SET INTERN=INTERN  
+ SET EXMAIL=EXMAIL  
+ SET EXADDR=EXADDR  
+ SET EXSTOR=EXSTOR  
+ ECHO. 
+ ECHO - Full Name:	   
+ ECHO - Department:	  
+ ECHO - Intern User:	  
+ ECHO. 
+ ECHO - User Name:	  
+ ECHO - Password:	  
+ ECHO. 
+ ECHO - Mailbox:	  
+ IF DEFINED ExADDR ECHO - Email:	  
+ ECHO. 
+ CALL :CREATE  
+ SET COUNT=+1  
+ ECHO  User(s) Created 
+) 
+
+C:\Users\Administrator\Documents\Projects\UACT>CLS
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO =============================================================================== 
+===============================================================================
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO.
+
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO  User Account Creation Tool (BETA) 
+ User Account Creation Tool (BETA)
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO  Copyright (c) Co-Operative Systems 
+ Copyright (c) Co-Operative Systems
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO.
+
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO =============================================================================== 
+===============================================================================
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+Bulk User Mode
+
+
+- Full Name:	 
+- Department:	
+- Intern User:	
+
+- User Name:	
+- Password:	
+
+- Mailbox:	
+- Email:	
+
+
+C:\Users\Administrator\Documents\Projects\UACT>rem dsadd user "CN=FNAME LNAME,OU=ADORG,OU=odi,DC=org,DC=uk" -samid UNAME -upn UNAME -fn FNAME -ln LNAME -display "FNAME LNAME" -pwd odi753 -memberof "CN=ADGRP,OU=ADORG,OU=odi,DC=org,DC=uk" -hmdir \\ODI5\Home\UNAME -hmdrv P:  
+
+C:\Users\Administrator\Documents\Projects\UACT>REM exchmbx -b "CN=FNAME LNAME,OU=ADORG,OU=odi,DC=org,DC=uk" -cr "EXSTOR" 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM MD "G:\Users Shared Folders\FNAME.LNAME" 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM fileacl.exe "G:\Users Shared Folders\FNAME.LNAME" /S "FNAME.LNAME":F 
+
+C:\Users\Administrator\Documents\Projects\UACT>CALL :CLEANUP 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET FNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET LNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UPSWD= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADORG= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADGRP= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET INTERN= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXMAIL= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXADDR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXSTOR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET COUNT= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET CONFIRM= 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+ User(s) Created
+
+C:\Users\Administrator\Documents\Projects\UACT>(
+CALL :BANNER  
+ ECHO. 
+ ECHO Bulk User Mode  
+ ECHO. 
+ SET FNAME=Arik  
+ SET LNAME=Fletcher  
+ SET UNAME=Afletcher  
+ SET UPSWD=P@ssw0rd  
+ SET ADORG=IT  
+ SET ADGRP=IT  
+ SET INTERN=Yes  
+ SET EXMAIL=Yes  
+ SET EXADDR=  
+ SET EXSTOR=  
+ ECHO. 
+ ECHO - Full Name:	   
+ ECHO - Department:	  
+ ECHO - Intern User:	  
+ ECHO. 
+ ECHO - User Name:	  
+ ECHO - Password:	  
+ ECHO. 
+ ECHO - Mailbox:	  
+ IF DEFINED ExADDR ECHO - Email:	  
+ ECHO. 
+ CALL :CREATE  
+ SET COUNT=+1  
+ ECHO  User(s) Created 
+) 
+
+C:\Users\Administrator\Documents\Projects\UACT>CLS
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO =============================================================================== 
+===============================================================================
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO.
+
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO  User Account Creation Tool (BETA) 
+ User Account Creation Tool (BETA)
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO  Copyright (c) Co-Operative Systems 
+ Copyright (c) Co-Operative Systems
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO.
+
+
+C:\Users\Administrator\Documents\Projects\UACT>ECHO =============================================================================== 
+===============================================================================
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+Bulk User Mode
+
+
+- Full Name:	 
+- Department:	
+- Intern User:	
+
+- User Name:	
+- Password:	
+
+- Mailbox:	
+
+
+C:\Users\Administrator\Documents\Projects\UACT>rem dsadd user "CN=Arik Fletcher,OU=IT,OU=odi,DC=org,DC=uk" -samid Afletcher -upn Afletcher -fn Arik -ln Fletcher -display "Arik Fletcher" -pwd odi753 -memberof "CN=IT,OU=IT,OU=odi,DC=org,DC=uk" -hmdir \\ODI5\Home\Afletcher -hmdrv P:  
+
+C:\Users\Administrator\Documents\Projects\UACT>REM exchmbx -b "CN=Arik Fletcher,OU=IT,OU=odi,DC=org,DC=uk" -cr "" 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM MD "G:\Users Shared Folders\Arik.Fletcher" 
+
+C:\Users\Administrator\Documents\Projects\UACT>REM fileacl.exe "G:\Users Shared Folders\Arik.Fletcher" /S "Arik.Fletcher":F 
+
+C:\Users\Administrator\Documents\Projects\UACT>CALL :CLEANUP 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET FNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET LNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UPSWD= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADORG= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADGRP= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET INTERN= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXMAIL= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXADDR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXSTOR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET COUNT= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET CONFIRM= 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+ User(s) Created
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+C:\Users\Administrator\Documents\Projects\UACT>CALL :CLEANUP 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET FNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET LNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UNAME= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET UPSWD= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADORG= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET ADGRP= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET INTERN= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXMAIL= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXADDR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET EXSTOR= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET COUNT= 
+
+C:\Users\Administrator\Documents\Projects\UACT>SET CONFIRM= 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 
+
+C:\Users\Administrator\Documents\Projects\UACT>GOTO :EOF 

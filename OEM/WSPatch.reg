@@ -1,0 +1,143 @@
+Windows Registry Editor Version 5.00 
+
+;Allow RDP Connections
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"fDenyTSConnections"=dword:00000000
+
+;Disable Offline Files
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\NetCache]
+"Enabled"=dword:00000000
+
+;Disable Automatic Restart in the event of a BSOD
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
+"AutoReboot"=dword:00000000
+
+;Speed up shutdown
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="3000"
+
+;Disable the Desktop Cleanup Wizard
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"=dword:00000001
+
+;Do not use Simple File Sharing
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"forceguest"=dword:00000000
+
+;Speed up Network Browsing by removing Network Scheduled Tasks
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+
+;Disables Windows Tour bubble popup
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount"=dword:00000000
+
+;Disable Messenger Service (to stop spam. Does not affect MSN or Windows Messenger)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Messenger]
+"Start"=dword:00000004
+
+;Disable Remote Registry Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry]
+"Start"=dword:00000004
+
+;Disable SSDP Discovery Service (Universal Plug'n'Play)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SSDPSRV]
+"Start"=dword:00000004
+
+;Disable Universal Plug'n'Play Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\upnphost]
+"Start"=dword:00000004
+
+;Disable Windows Time Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time]
+"Start"=dword:00000004
+
+;This will add "Services" to the right-click menu of "My Computer" 
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\services] 
+@=hex(2):53,00,65,00,72,00,76,00,69,00,63,00,65,00,73,00,00,00 
+"SuppressionPolicy"=dword:4000003c 
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\services\command] 
+@=hex(2):25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,73,00,79,00,73, 00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,6d,00,63,00,2e,00,65,00,78,00, 65,00,20,00,2f,00,73,00,20,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52, 00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00, 32,00,5c,00,73,00,65,00,72,00,76,00,69,00,63,00,65,00,73,00,2e,00,6d,00,73, 00,63,00,20,00,2f,00,73,00,00,00
+
+;This adds the "Open Command Window Here" on the right click menu for folders
+[HKEY_CLASSES_ROOT\Directory\shell\cmd]
+@="Open Command Window Here"
+[HKEY_CLASSES_ROOT\Directory\shell\cmd\command]
+@="cmd.exe /k \"cd %L\""
+[HKEY_CLASSES_ROOT\Drive\shell\cmd]
+@="Open Command Window Here"
+[HKEY_CLASSES_ROOT\Drive\shell\cmd\command]
+@="cmd.exe /k \"cd %L\""
+
+;Remove Shared Documents from My Computer
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\DelegateFolders\{59031a47-3f72-44a7-89c5-5595fe6b30ee}]
+
+;Full path in title bar and address bar.
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"FullPathAddress"=dword:00000001
+"Settings"=hex:0c,00,02,00,1b,01,e7,77,60,00,00,00
+
+;Allow renaming of Recycle Bin
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\ShellFolder]
+"Attributes"=hex:50,01,00,20
+"CallForAttributes"=dword:00000000
+
+;NoLowDiskSpaceChecks won't check if you are low on diskspace and pop up a balloon telling you.
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001
+
+;Max your Internet Explorer's simultaneous downloads to 10 (default was 2)
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPer1_0Server"=dword:0000000a
+"MaxConnectionsPerServer"=dword:0000000a
+
+;Removes Sign up with Passport Wizard when trying to sign in MSN Messenger
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Passport]
+"RegistrationCompleted"=dword:00000001
+
+; Disable GDI+ Tool
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\GdiDetectionTool]
+"GDITool"=dword:00000001
+
+;Disables Preview of Movie file formats (allowing you to move/rename/delete without errors)
+[-HKEY_CLASSES_ROOT\.avi\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpg\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpe\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpeg\ShellEx]
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}]
+@="Joskos Solutions Website"
+"InfoTip"="Click here to visit the Joskos Website (requires internet connection)"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
+@=hex(2):63,00,3a,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,73,\
+  00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6a,00,6f,00,73,00,6b,00,\
+  6f,00,73,00,2e,00,69,00,63,00,6f,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  64,00,6f,00,63,00,76,00,77,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance]
+"CLSID"="{3f454f0e-42ae-4d7c-8ea3-328250d6e272}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag]
+"CLSID"="{13709620-C279-11CE-A49E-444553540000}"
+"method"="ShellExecute"
+"Command"="Joskos Solutions Website"
+"Param1"="http://www.joskos.com/solutions.html"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\shellex]
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\shellex\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\shellex\ContextMenuHandlers\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}]
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\shellex\MayChangeDefaultMenu]
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\ShellFolder]
+"Attributes"=dword:00000000

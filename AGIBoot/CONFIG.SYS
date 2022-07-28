@@ -1,0 +1,15 @@
+[menu]
+submenu=Corporate, Restore the Corporate Mode
+submenu=Personal, Restore the Personal Mode
+submenu=EXIT, Cancel and Restart the Computer
+
+[Corporate]
+
+[Personal]
+
+[EXIT]
+
+[Common]
+DEVICE=himem.sys
+device=oakcdrom.sys /d:BootCD
+LASTDRIVE = Z

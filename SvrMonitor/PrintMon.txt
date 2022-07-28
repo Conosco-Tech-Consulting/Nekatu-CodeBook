@@ -1,0 +1,18 @@
+Option Explicit
+Dim objWMI, objPrinter, colPrinters, strComputer,strPrinter,strWMIQuery
+
+strComputer = "."
+strPrinter = "Some Printer Name"
+strWMIQuery = "SELECT * FROM Win32_Printer WHERE name=""" & strPrinter & """"
+
+set objWMI = GetObject ("winmgmts:\\" & strComputer & "\root\CIMV2")
+
+set colPrinters = objWMI.ExecQuery(strWMIQuery)
+
+for each objPrinter in colPrinters
+    if not(objPrinter.PrinterStatus=3) then
+        msgbox "Turn off the Printer!",0,"Printer Is Still On!"
+    end if
+next
+
+wscript.quit

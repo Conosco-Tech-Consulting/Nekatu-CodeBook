@@ -1,0 +1,845 @@
+@ECHO off
+
+REM ==================================================================
+REM |A|B|S| - Automated Backup Script for Windows 2k/XP/2k3
+REM ==================================================================
+REM Copyright (c) Arik Fletcher, some components copyright (c) their
+REM various owners and/or publishers. See README.TXT for more info.
+REM ==================================================================
+REM Modifications to the script are not permitted unless express 
+REM permission is granted by the author. Please forward requests for 
+REM new features to the author at the email address specified above.
+REM ==================================================================
+
+
+:DEBUGMODECHECK
+
+IF /i {%1}=={/debug} (
+
+SET ABSDebug=1
+prompt $g
+ABS.CMD %2 %3 %4 %5 %6 %7 %8 %9 > ABSDebug.log
+
+) ELSE (
+
+IF "%ABSDebug%"=="1" (
+
+ECHO ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ECHO ABS Debugging Mode Output - %DATE% - %TIME%
+ECHO ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ECHO.
+
+ECHO on
+CLS
+
+) ELSE (
+
+CLS
+
+)
+
+)
+
+
+:OSCHECK
+IF not "%OS%"=="Windows_NT" ECHO ABS requires Windows 2000/XP/2003 to run. & GOTO :EOF
+
+FOR /F "tokens=4,5 delims=[.] " %%a in ('ver') do SET OSVer=%%a.%%b
+
+IF "%OSver%"=="4.0" ECHO ABS requires Windows 2000/XP/2003 to run. & GOTO :EOF
+IF "%OSver%"=="5.00" SET OSName=Windows 2000& GOTO :INIT
+IF "%OSver%"=="5.1" SET OSName=Windows XP& GOTO :INIT
+IF "%OSver%"=="5.2" SET OSName=Windows 2003& GOTO :INIT
+
+ECHO Operating System not supported.
+ECHO ABS requires Windows 2000/XP/2003 to run.
+GOTO :EOF
+
+
+:INIT
+
+FOR /F "tokens=1,2,3,4 delims=/ " %%a in ('date /t') do SET BckpDate=%%a%%b%%c%%d
+FOR /F %%a in ('time /t') do SET starttime=%%a
+
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v CurrentVersion') do SET ABSVer=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v InstallPath') do SET ABSDir=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v MailServerAddress') do SET SMTPsvr=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v MailSender') do SET SMTPsend=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v MailReceiver') do SET SMTPrcpt=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v BackupTapeDevice') do SET BckpTapeDST=%%a
+FOR /F "skip=2 tokens=3" %%a in ('reg query "hklm\software\Joskos Solutions\ABS" /v HTMLReports') do SET HTMLReports=%%a
+
+IF /i {%1}=={/test} (
+SHIFT
+SET BckpSrc=SystemState
+) ELSE (
+SET BckpSrc="@%ABSDir%\data.bks"
+)
+
+IF /i "%HTMLReports%"=="0x0" (
+SET Bckprprt=%ABSdir%\logs\%BckpDate%-REPORT.log
+) ELSE (
+SET Bckprprt=%ABSdir%\logs\%BckpDate%-REPORT.htm
+)
+
+SET ABSLogs=%ABSDir%\Logs
+SET TMPDir=%USERPROFILE%\Local Settings\Application Data\Microsoft\Windows NT\NTBackup\data
+SET TMPLogs=%USERPROFILE%\Local Settings\Application Data\Microsoft\Windows NT\NTBackup\data\*.log
+SET BckpFileDst=%ABSDir%\%BckpDate%.bkf
+SET Bckplog=%ABSdir%\logs\%BckpDate%-%2.log
+SET Bckpzip=%ABSdir%\logs\%BckpDate%-%2.zip
+
+
+:START
+
+TITLE ABS - Automated Backup Script %ABSver% - Copyright (c) Arik Fletcher
+
+ECHO ==================================================================
+ECHO ^|A^|B^|S^| - Automated Backup Script %ABSver% for Windows 2k/XP/2k3
+ECHO ==================================================================
+ECHO Copyright (c) Arik Fletcher, some components copyright (c) their
+ECHO various owners and/or publishers. See README.TXT for more info.
+ECHO ==================================================================
+ECHO.
+ECHO Author:  Arik Fletcher
+ECHO Contact: arikf@joskos.com
+ECHO.
+ECHO ABS performs an automated NTBackup based on several environmental
+ECHO variables SET within this script. Throughout the session, a report
+ECHO is generated, displayed on the screen, then emailed to a specified
+ECHO address. ABS will also compress the NTBackup log and move it to a
+ECHO specified location and then analyse the log for errors.
+ECHO.
+ECHO ==================================================================
+ECHO.
+ECHO NB: Modifications to the script are not permitted unless express 
+ECHO permission is granted by the author. Please forward requests for 
+ECHO new features to the author at the email address specified above.
+ECHO.
+ECHO ==================================================================
+ECHO.
+
+IF /i {%1}=={/?} GOTO :HELP
+IF /i {%1}=={/help} GOTO :HELP
+IF /i {%1}=={/update} GOTO :UPDATE
+IF /i {%1}=={/uninstall} GOTO :UNINSTALL
+IF /i {%1}=={/backup} GOTO :BACKUPTYPE
+
+
+:HELP
+CLS
+ECHO Usage:
+ECHO   ABS.CMD [Operation] [Optional Parameters]
+ECHO.
+ECHO Valid Operations:
+ECHO   File Backup   - ABS.CMD /BACKUP TAPE
+ECHO   Tape Backup   - ABS.CMD /BACKUP FILE
+ECHO   Remove ABS    - ABS.CMD /UNINSTALL
+ECHO   Update ABS    - ABS.CMD /UPDATE
+ECHO.
+ECHO For development and troubleshooting purposes it is possible to run
+ECHO ABS in 'debugging' mode via the /DEBUG switch. To run ABS in debug
+ECHO mode, enter 'ABS.CMD /DEBUG' followed by the operation you wish to
+ECHO perform, e.g. 'ABS.CMD /DEBUG /UPDATE' to run the ABS Update tool
+ECHO under debug mode or 'ABS.CMD /DEBUG /BACKUP TAPE' to run a tape
+ECHO backup operation under debug mode. Debug mode will run your chosen
+ECHO ABS operation and save all command output to a log file in the ABS
+ECHO install location called 'ABSDebug.log'. Open the log in NOTEPAD to
+ECHO troubleshoot backup issues then examine the backup logs in the ABS
+ECHO 'LOGS' folder for further details.
+
+GOTO :EOF
+
+
+:UPDATE
+
+REDSHIRT /D "%ABSdir%\update.dat" "%ABSdir%\update.log"
+FTP -v -s:%ABSdir%\update.log support.joskos.com
+DEL "%ABSdir%\update.log" /q
+MD "%ABSdir%\update"
+FBZIP -e %ABSdir%\abs.zip "%ABSdir%\update"
+"%ABSdir%\update\install.bat" update
+GOTO :EOF
+
+
+:UNINSTALL
+
+ECHO Deleting Tape Backup Job...
+SCHTASKS /DELETE /TN "ABS Tape Backup" /f
+ECHO.
+ECHO Deleting File Backup Job...
+SCHTASKS /DELETE /TN "ABS File Backup" /f
+ECHO.
+ECHO Removing ABS Registry Settings...
+REG DELETE "hklm\software\Joskos Solutions\ABS" /f
+ECHO.
+ECHO Deleting ABS Installation...
+RD /S /Q %ABSdir%
+GOTO :EOF
+
+
+:BACKUPTYPE
+
+IF /i {%2}=={file} SET BckpType=File& GOTO :BACKUP
+IF /i {%2}=={tape} SET BckpType=Tape& GOTO :BACKUP
+
+ECHO Backup media type not specified.
+ECHO Valid entries are FILE and TAPE.
+GOTO :EOF
+
+
+:BACKUP
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO =============================================== > "%BckpRprt%"
+ECHO ^|A^|B^|S^| - Automated Backup Script >> "%BckpRprt%"
+ECHO           %ABSver% %BckpType% Backup Edition >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO Copyright ^(c^) Arik Fletcher, some components >> "%BckpRprt%"
+ECHO ^(c^) their various owners and/or publishers. >> "%BckpRprt%"
+ECHO =============================================== >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO BACKUP SETTINGS >> "%BckpRprt%"
+ECHO - Server:       "%COMPUTERNAME%" >> "%BckpRprt%"
+ECHO - OS Version:   "%OSName%" >> "%BckpRprt%"
+ECHO - Operator:     "%USERDOMAIN%\%USERNAME%" >> "%BckpRprt%"
+ECHO - Log Location: "%BckpZip%" >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO REPORT SETTINGS >> "%BckpRprt%"
+ECHO - Mail Server:  "%SMTPsvr%" >> "%BckpRprt%"
+ECHO - Sender:       "%SMTPsend%" >> "%BckpRprt%"
+ECHO - Recipient:    "%SMTPrcpt%" >> "%BckpRprt%"
+ECHO - Report Date:  "%DATE%" >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO =============================================== >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<html^> > "%BckpRprt%"
+ECHO ^<head^> >> "%BckpRprt%"
+ECHO ^<title^>ABS Backup Report - %BckpDate%^<^/title^> >> "%BckpRprt%"
+ECHO ^<style type="text/css"^> >> "%BckpRprt%"
+ECHO ^<!-- >> "%BckpRprt%"
+ECHO body,td,th {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000} >> "%BckpRprt%"
+ECHO body {background-color: #FFFFFF} >> "%BckpRprt%"
+ECHO .heading {font-size: 36px} >> "%BckpRprt%"
+ECHO .sectiontitle {font-size: 12px; font-weight: bold; color: #FFFFFF} >> "%BckpRprt%"
+ECHO --^> >> "%BckpRprt%"
+ECHO ^<^/style^> >> "%BckpRprt%"
+ECHO ^<^/head^> >> "%BckpRprt%"
+ECHO ^<body^> >> "%BckpRprt%"
+ECHO ^<table width="500" border="0" cellpadding="0" cellspacing="0"^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="150"^>^<span class="heading"^>^|A^|B^|S^|^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td width="364"^>Automated Backup Script^<br^> >> "%BckpRprt%"
+ECHO %ABSver% %BckpType% Backup Edition ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>Copyright ^(c^) Arik Fletcher, some components ^(c^) their various owners and^/or publishers.^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#000066"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#000066"^> >> "%BckpRprt%"
+ECHO ^<td height="30" colspan="2"^>^<span class="sectiontitle"^>BACKUP SETTINGS ^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Server^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%COMPUTERNAME%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>OS Version^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%OSNAME%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Operator^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%USERDOMAIN%\%USERNAME%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Log Location ^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%BckpZIP%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#000066"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#000066"^> >> "%BckpRprt%"
+ECHO ^<td height="30" colspan="2"^>^<span class="sectiontitle"^>REPORT SETTINGS ^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Mail Server^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%SMTPsvr%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Sender Address ^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%SMTPsend%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td width="110" bgcolor="#9999FF"^>^<strong^>Receiver Address ^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%SMTPrcpt%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td bgcolor="#9999FF"^>^<strong^>Report Date ^<^/strong^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<td^>%Date%^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+:OLDLOGS
+
+FOR /F %%a in ('time /t') do SET OLDLOGSTART=%%a
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO. >> "%BckpRprt%"
+ECHO %OLDLOGSTART% - Removing redundant Backup Logs ^(IF present^)... >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#0066FF"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#3300FF"^> >> "%BckpRprt%"
+ECHO ^<td height="30" bgcolor="#3300FF"^>^<span class="sectiontitle"^>%OLDLOGSTART% - Removing Redundant Backup Logs ^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+IF exist "%TMPlogs%" (
+
+DEL "%TMPlogs%" /f /q
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Redundant Backup Logs removed successfully. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Redundant Backup Logs removed successfully.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * No redundant logs found. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=red^>No redundant logs found.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+)
+
+FOR /F %%a in ('time /t') do SET OLDLOGEND=%%a
+
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %oldlogstart%') do SET STARTHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %oldlogstart%') do SET STARTMINS=%%a
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %oldlogend%') do SET ENDHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %oldlogend%') do SET ENDMINS=%%a
+
+SET /a HOURSRUN=%ENDHOUR%-%STARTHOUR%
+
+IF /i "%ENDMINS%" LSS "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)
+IF /i "%ENDMINS%" GEQ "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)-60
+
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO ------------------------------ >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO Time Elapsed: %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO Time Elapsed: %HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+ECHO ------------------------------ >> "%BckpRprt%"
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+
+:BCKPINIT
+
+FOR /F %%a in ('time /t') do SET BCKPINITSTART=%%a
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO. >> "%BckpRprt%"
+ECHO %BCKPINITSTART% - Performing Backup... >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="20" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#0066FF"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#3300FF"^> >> "%BckpRprt%"
+ECHO ^<td height="30" bgcolor="#3300FF"^>^<span class="sectiontitle"^>%BCKPINITSTART% - Performing Backup^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+IF /i {%bckptype%}=={tape} GOTO :BCKPTAPE
+IF /i {%bckptype%}=={file} GOTO :BCKPFILE
+
+
+:BCKPTAPE
+
+IF "%OSVer%"=="5.00" SET BckpParams=%BckpSrc% /j "%BckpDate%" /n "%BckpDate%" /p "%BckpTapeDst%" /V:yes /L:f /HC:on /M normal /UM
+IF "%OSVer%"=="5.1" SET BckpParam=%BckpSrc% /j "%BckpDate%" /n "%BckpDate%" /p "%BckpTapeDst%" /V:yes /L:f /HC:on /SNAP:on /M normal /UM
+IF "%OSVer%"=="5.2" SET BckpParams=%BckpSrc% /j "%BckpDate%" /n "%BckpDate%" /p "%BckpTapeDst%" /V:yes /L:f /HC:on /SNAP:on /M normal /UM
+
+GOTO :BCKPSTART
+
+
+:BCKPFILE
+
+IF "%OSVer%"=="5.00" SET BckpParams=%BckpSrc% /j "%BckpDate%" /f "%BckpFileDst%" /V:yes /L:f /M normal
+IF "%OSVer%"=="5.1" SET BckpParams=%BckpSrc% /j "%BckpDate%" /f "%BckpFileDst%" /V:yes /L:f /M normal /SNAP:on
+IF "%OSVer%"=="5.2" SET BckpParams=%BckpSrc% /j "%BckpDate%" /f "%BckpFileDst%" /V:yes /L:f /M normal /SNAP:on
+
+GOTO :BCKPSTART
+
+
+:BCKPSTART
+
+redshirt /d "%absdir%\files.dat" "%absdir%\data.bks"
+ntbackup backup %BckpParams%
+DEL "%absdir%\data.bks" /q
+
+GOTO :TMPLOGCHECK
+
+
+:TMPLOGCHECK
+
+IF exist "%TmpLogs%" (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup Log created successfully. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Backup Log created successfully.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+
+GOTO :BCKPSTART
+
+
+)
+
+
+FOR /F %%a in ('time /t') do SET BCKPINITEND=%%a
+
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %bckpinitstart%') do SET STARTHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %bckpinitstart%') do SET STARTMINS=%%a
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %bckpinitend%') do SET ENDHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %bckpinitend%') do SET ENDMINS=%%a
+
+SET /a HOURSRUN=%ENDHOUR%-%STARTHOUR%
+
+IF /i "%ENDMINS%" LSS "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)
+IF /i "%ENDMINS%" GEQ "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)-60
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO ------------------------------ >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO Time Elapsed: %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO Time Elapsed: %HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+ECHO ------------------------------ >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+
+:LOGCHECK
+
+FOR /F %%a in ('time /t') do SET LOGCHECKSTART=%%a
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO. >> "%BckpRprt%"
+ECHO %LOGCHECKSTART% - Analysing Backup Log... >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="20" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#0066FF"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#3300FF"^> >> "%BckpRprt%"
+ECHO ^<td height="30" bgcolor="#3300FF"^>^<span class="sectiontitle"^>%LOGCHECKSTART% - Analysing Backup Log^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+)
+
+FOR /F %%g in ('type "%TmpLogs%" ^| find /c " operation "') do SET BckpChk=%%g
+
+IF "%BckpChk%"=="0" (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup completed successfully. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Backup completed successfully.^<^/font^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup did not complete successfully. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=red^>Backup did not complete successfully.^<^/font^> >> "%BckpRprt%"
+
+)
+
+)
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO   Backup reported %BckpChk% error^(s^). >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO Please examine the backup log for more information. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<br^>Backup reported %BckpChk% error^(s^).^<^/b^>^<^/ul^>^<^/p^> >> "%BckpRprt%"
+ECHO ^<p^>^<b^>Please examine the backup log for more information.^<^/b^>^<^/p^><^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+
+FOR /F %%g in ('type "%TmpLogs%" ^| find /c " - skipped."') do SET BckpSkip=%%g
+
+IF "%BckpSkip%"=="0" (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * No objects were skipped during backup. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>No objects were skipped during backup.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Some files/folders were found to be open or in use and were not backed up. >> "%BckpRprt%"
+ECHO   Backup reported %BckpSkip% open object^(s^) which have been skipped. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+ECHO Please examine the backup log for more information. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<ul^>^<p^>^<li^>^<b^>^<font color=red^>Some files/folders were found to be open or in use and were not backed up.^<^/b^> >> "%BckpRprt%"
+ECHO ^<br^>^<b^>Backup reported %BckpSkip% open object^(s^) which have been skipped.^<^/font^>^<^/b^>^<^/p^>^<^/ul^>^ >> "%BckpRprt%"
+ECHO ^<p^>^<b^>Please examine the backup log for more information.^<^/b^>^<^/p^><^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+)
+
+
+FOR /F %%a in ('time /t') do SET LOGCHECKEND=%%a
+
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %logcheckstart%') do SET STARTHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %logcheckstart%') do SET STARTMINS=%%a
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %logcheckend%') do SET ENDHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %logcheckend%') do SET ENDMINS=%%a
+
+SET /a HOURSRUN=%ENDHOUR%-%STARTHOUR%
+
+IF /i "%ENDMINS%" LSS "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)
+IF /i "%ENDMINS%" GEQ "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)-60
+
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO ------------------------------ >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO Time Elapsed: %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO Time Elapsed: %HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+ECHO ------------------------------ >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+
+:LOGSECURE
+
+FOR /F %%a in ('time /t') do SET LOGSECSTART=%%a
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO. >> "%BckpRprt%"
+ECHO %LOGSECSTART% - Securing Backup Log... >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="20" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<table width="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#0066FF"^> >> "%BckpRprt%"
+ECHO ^<tr bgcolor="#3300FF"^> >> "%BckpRprt%"
+ECHO ^<td height="30" bgcolor="#3300FF"^>^<span class="sectiontitle"^>%LOGSECSTART% - Securing Backup Log^<^/span^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+copy "%TmpLogs%" "%Bckplog%" /v /y
+
+IF exist "%Bckplog%" (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup Log relocated successfully. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Backup Log relocated successfully.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Log could not be relocated. >> "%BckpRprt%"
+ECHO   Please examine the original log file: >> "%BckpRprt%"
+FOR /F "delims=" %%a in ('dir /b "%TmpLogs%"') do ECHO %tmpdir%\%%a >> "%BckpRprt%"
+
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<ul^>^<p^>^<li^>^<b^>^<font color=red^>Backup Log could not be relocated.^<^/b^>^<^/p^> >> "%BckpRprt%"
+ECHO ^<p^>^<b^>Please examine the original log file:^<^/b^> >> "%BckpRprt%"
+FOR /F "delims=" %%a in ('dir /b "%TmpLogs%"') do ECHO ^<br^>ECHO %tmpdir%\%%a^<^/font^>^<^/p^>^<^/ul^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+)
+
+fbzip -a %Bckpzip% "%Bckplog%"
+
+IF exist "%Bckpzip%" (
+
+DEL "%BckpLog%"
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup Log compressed successfully. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Backup Log compressed successfully.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+) ELSE (
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO * Backup Log could not be compressed. >> "%BckpRprt%"
+ECHO. >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td^>^<p^>^<ul^>^<li^>^<b^>^<font color=green^>Backup Log could not be compressed.^<^/font^>^<^/b^>^<^/ul^>^<^/p^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+)
+
+
+FOR /F %%a in ('time /t') do SET LOGSECEND=%%a
+
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %logsecstart%') do SET STARTHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %logsecstart%') do SET STARTMINS=%%a
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %logsecend%') do SET ENDHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %logsecend%') do SET ENDMINS=%%a
+
+SET /a HOURSRUN=%ENDHOUR%-%STARTHOUR%
+
+IF /i "%ENDMINS%" LSS "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)
+IF /i "%ENDMINS%" GEQ "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)-60
+
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO ------------------------------ >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO Time Elapsed: %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO Time Elapsed: %HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+ECHO ------------------------------ >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO ^<td bgcolor="#9999FF"^>^<strong^>Time Elapsed: ^<^/strong^>%HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^)^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+
+)
+
+:BCKPEND
+
+FOR /F %%a in ('time /t') do SET endtime=%%a
+
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %starttime%') do SET STARTHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %starttime%') do SET STARTMINS=%%a
+FOR /F "tokens=1 delims=:" %%a in ('ECHO %endtime%') do SET ENDHOUR=%%a
+FOR /F "tokens=2 delims=:" %%a in ('ECHO %endtime%') do SET ENDMINS=%%a
+
+SET /a HOURSRUN=%ENDHOUR%-%STARTHOUR%
+
+IF /i "%ENDMINS%" LSS "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)
+IF /i "%ENDMINS%" GEQ "%STARTMINS%" SET /a MINSRUN=%ENDMINS%+(60-%STARTMINS%)-60
+
+IF /i "%HTMLReports%"=="0x0" (
+
+ECHO. >> "%BckpRprt%"
+ECHO =============================================== >> "%BckpRprt%"
+ECHO %ENDTIME% - ABS session completed >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO Total Time Elapsed: %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO Total Time Elapsed: %HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^) >> "%BckpRprt%"
+ECHO =============================================== >> "%BckpRprt%"
+
+) ELSE (
+
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td height="10" colspan="2"^>^<p^>^<b^>%ENDTIME% - ABS session completed^<^/b^> >> "%BckpRprt%"
+IF "%HOURSRUN%" LEQ "0" ECHO ^<br^>^<b^>Total Time Elapsed: ^<^/b^>%MINSRUN% Minute^(s^)^<^/p^> >> "%BckpRprt%" >> "%BckpRprt%"
+IF "%HOURSRUN%" GEQ "1" ECHO ^<br^>^<b^>Total Time Elapsed: ^<^/b^>%HOURSRUN% Hour^(s^) %MINSRUN% Minute^(s^)^<^/p^> >> "%BckpRprt%" >> "%BckpRprt%"
+ECHO ^<^/p^> ^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<tr^> >> "%BckpRprt%"
+ECHO ^<td colspan="2"^>^<hr^>^<^/td^> >> "%BckpRprt%"
+ECHO ^<^/tr^> >> "%BckpRprt%"
+ECHO ^<^/table^> >> "%BckpRprt%"
+ECHO ^<^/body^> >> "%BckpRprt%"
+ECHO ^<^/html^> >> "%BckpRprt%"
+
+)
+
+
+attrib +r "%BckpRprt%"
+attrib +r "%BckpZip%"
+
+blat -install "%SMTPsvr%" "%SMTPsend%"
+
+
+IF /i "%HTMLReports%"=="0x0" (
+
+blat "%BckpRprt%" -to "%SMTPrcpt%" -subject "%USERDOMAIN% Backup - %BckpChk% Error(s) - %BckpSkip% Skipped File(s)" -attach "%Bckpzip%"
+
+) ELSE (
+
+blat "%BckpRprt%" -html -to "%SMTPrcpt%" -subject "%USERDOMAIN% Backup - %BckpChk% Error(s) - %BckpSkip% Skipped File(s)" -attach "%Bckpzip%"
+
+)
+
+
+:END
+
+IF "%ABSDebug%"=="1" prompt $p$g
+GOTO :EOF

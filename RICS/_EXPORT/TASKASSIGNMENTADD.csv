@@ -1,0 +1,812 @@
+#TASKASSIGNMENTADD,ProjectName,TaskNameLevel1,AssignmentType,LoginName
+RAP0093,Alina Rocha Menocal  - ODI/RAP0093,User,Arochamenocal
+RAP0093,Fletcher Tembo  - ODI/RAP0093,User,ftembo
+RAP0093,Sarah Hunt  - ODI/RAP0093,User,SHunt
+RAP0093,Sarah Hunt  - ODI/Travelling,User,SHunt
+RAP0093,Tristan Stubbs  - ODI/RAP0093,User,tstubbs
+F0102000,Neil Bird  - ODI/EU COP event,User,nbird
+F0102000,William McFarland  - ODI/ADMIN,User,wmcfarland
+P0742,Jonathan Glennie  - ODI/Conference Attendance,User,jglennie
+P0760,David Booth  - ODI/Research,User,dbooth
+P0760,Hafsa Mahtab  - ODI/Admin,User,HMahtab
+P0760,Jonathan Glennie  - ODI/Project leader and researcher,User,jglennie
+P0760,Matthew Geddes  - ODI/Research,User,MGeddes
+F0090300,Mobolaji Oyeniji  - ODI/Admin,User,moyeniji
+F0090300,Nicola Cantore  - ODI/Research,User,ncantore
+R0493,Emily Darko  - ODI/admin,User,edarko
+R0493,Joanna Fottrell  - ODI/comms,User,jfottrell
+R0493,Nicola Cantore  - ODI/research,User,ncantore
+R0493,Steve Wiggins  - ODI/research,User,swiggins
+F0100500,Emily Darko  - ODI/Admin,User,edarko
+F0100500,Steve Wiggins  - ODI/Research,User,swiggins
+F0111800,Jennifer Benson  - ODI/F0111800,User,jbenson
+F0111800,Simon Levine  - ODI/F0111800,User,slevine
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q1,User,acaravani
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q2,User,acaravani
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q1,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q2,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q1,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q2,User,cwatson
+C0101002,Charlene Watson  - ODI/Research,User,cwatson
+C0101002,Edward Hedger  - ODI/Research,User,EHedger
+C0101002,Heidi Tavakoli  - ODI/FG2 CAPE pro bono input Q1,User,htavakoli
+C0101002,Heidi Tavakoli  - ODI/Research,User,htavakoli
+C0101002,Jonathan Glennie  - ODI/Research,User,jglennie
+C0101002,Karen Ellis  - ODI/Research,User,KEllis
+C0101002,Lindsey Jones  - ODI/Research,User,ljones
+C0101002,Maria Bernardez  - ODI/Project support,User,mbernardez
+C0101002,Neil Bird  - ODI/FG2 CAPE pro bono input Q1,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Diagnostic studies Q2,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Outreach Q1,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Outreach Q2,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Strengthening the analytical framework Q1,User,nbird
+C0101002,Neil Bird  - ODI/Research,User,nbird
+C0101002,Romilly Greenhill  - ODI/FG2 CAPE pro bono input Q1,User,rgreenhill
+C0101002,Shelagh Whitley  - ODI/FG2 Bilateral contributions to climate finance Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Diagnostic studies Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q1,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Strengthening the analytical framework Q1,User,swhitley
+C0101002,Shelagh Whitley  - ODI/Research,User,swhitley
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Strengthening the analytical framework Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/Research,User,snakhooda
+C0101002,Tom Mitchell  - ODI/FG2 Strengthening the analytical framework Q1,User,tmitchell
+C0101002,Tom Mitchell  - ODI/Research,User,tmitchell
+C0101002,William McFarland  - ODI/National CF,User,wmcfarland
+C0101002,William McFarland  - ODI/Project support,User,wmcfarland
+C0101004,Caroline Harper  - ODI/FG4 1 Workplan  inception reports and methodologie,User,charper
+C0101004,Caroline Harper  - ODI/FG4 2 Literature review  conceptual framework and,User,charper
+C0101004,Caroline Harper  - ODI/FG4 3 Planning  consultant, country and donor liai,User,charper
+C0101004,Caroline Harper  - ODI/FG4 3 Planning, consultant, country and donor liai,User,charper
+C0101004,Caroline Harper  - ODI/Research,User,charper
+C0101004,David Walker  - ODI/FG4 1 Workplan  inception reports and methodologie,User,dwalker
+C0101004,David Walker  - ODI/FG4 3 Planning  consultant  country and donor liai,User,dwalker
+C0101004,David Walker  - ODI/Support,User,dwalker
+C0101004,Fiona Samuels  - ODI/FG4 1 Workplan  inception reports and methodologie,User,fsamuels
+C0101004,Fiona Samuels  - ODI/FG4 3 Planning  consultant, country and donor liai,User,fsamuels
+C0101004,Hanna Alder  - ODI/FG4 3 Planning  consultant  country and donor liai,User,halder
+C0101004,Hanna Alder  - ODI/Project support,User,halder
+C0101004,Hanna Alder  - ODI/Support,User,halder
+C0101004,Maren Duvendack  - ODI/FG4 1 Workplan  inception reports and methodologie,User,MDuvendack
+C0101004,Maren Duvendack  - ODI/Research,User,MDuvendack
+C0101004,Nicola Jones  - ODI/FG4 1 Workplan  inception reports and methodologie,User,njones
+C0101004,Nicola Jones  - ODI/FG4 2 Literature review  conceptual framework and,User,njones
+C0101004,Nicola Jones  - ODI/FG4 3 Planning  consultant, country and donor liai,User,njones
+C0101004,Nicola Jones  - ODI/FG4 3 Planning, consultant, country and donor liai,User,njones
+C0101004,Nicola Jones  - ODI/Research,User,njones
+C0101008,Anu Liisanantti  - ODI/Project support,User,Aliisanantti
+C0101008,Anu Liisanantti  - ODI/Support,User,Aliisanantti
+C0101008,Eva Ludi  - ODI/Innovation Water security Q1,User,eludi
+C0101008,Eva Ludi  - ODI/Research,User,eludi
+C0101008,Nathaniel Mason  - ODI/Innovation Water security Q1,User,nmason
+C0101008,Nathaniel Mason  - ODI/Research,User,nmason
+C0101008,Roger Calow  - ODI/Innovation Water security Q1,User,RCalow
+C0101008,Roger Calow  - ODI/Research,User,RCalow
+C0101008,Sobona Mtisi  - ODI/Innovation Water security Q1,User,SMtisi
+C0101008,Sobona Mtisi  - ODI/Research,User,SMtisi
+C0101011,Andrew Norton  - ODI/M&E,User,anorton
+C0101011,Andrew Norton  - ODI/M&E strategic ownership Q1,User,anorton
+C0101011,Louise Shaxson  - ODI/M&E,User,LShaxson
+C0101011,Louise Shaxson  - ODI/Output to outcome workshops Q1,User,LShaxson
+C0101011,Moira Malcolm  - ODI/M&E,User,mmalcolm
+C0101011,Muriel Paasch  - ODI/M&E,User,mpaasch
+C0101011,William Avis  - ODI/M&E,User,wavis
+C0101011,William Avis  - ODI/Monitoring of research uptake and impact Q1,User,wavis
+C0101011,William Avis  - ODI/Monitoring of research uptake and impact Q2,User,wavis
+C0101015,Daniel Harris  - ODI/Innovation Business investment in green technology,User,dharris
+C0101015,James Docherty  - ODI/Innovation Business investment in green technology,User,jdocherty
+C0101015,Karen Ellis  - ODI/Innovation Business investment in green technology,User,KEllis
+C0101016,Alison Evans  - ODI/IPRCC Partnerships Q3,User,aevans
+C0101016,Andrew Norton  - ODI/IPRCC Partnerships Q3,User,anorton
+C0101016,John Young  - ODI/IPRCC Partnerships Q1,User,jyoung
+C0101016,John Young  - ODI/IPRCC Partnerships Q2,User,jyoung
+C0101016,John Young  - ODI/IPRCC Partnerships Q3,User,jyoung
+C0087801,David Booth  - ODI/RESEARCH OFFICER,User,dbooth
+C0087801,Fiona Samuels  - ODI/RESEARCH FELLOW,User,fsamuels
+C0087801,Jakob Engel  - ODI/RESEACH FELLOW,User,Jengel
+C0087801,Jakob Engel  - ODI/RESEARCH FELLOW,User,Jengel
+C0087801,Jakob Engel  - ODI/RESEARCH OFFICER,User,Jengel
+C0087801,Susan Nicolai  - ODI/RESEARCH FELLOW,User,snicolai
+C0087802,Emma Samman  - ODI/RESEARCH FELLOW,User,esamman
+C0087802,Jakob Engel  - ODI/RESEARCH OFFICER,User,Jengel
+C0087802,Laura Rodriguez  - ODI/RESEARCH OFFICER,User,lrodriguez
+C0087802,Susan Nicolai  - ODI/RESEARCH FELLOW,User,snicolai
+C0087803,Claire Melamed  - ODI/Inception Paper - Research Fellow,User,cmelamed
+C0087803,Claire Melamed  - ODI/Pilot Scoping - Research Fellow,User,cmelamed
+C0087803,Claire Melamed  - ODI/Proposal Prep - Research Fellow,User,cmelamed
+C0087803,Emma Samman  - ODI/Analysis Paper - Research Fellow,User,esamman
+C0087803,Emma Samman  - ODI/Inception Paper - Objective Leader,User,esamman
+C0087803,Emma Samman  - ODI/Inception Paper - Research Fellow,User,esamman
+C0087803,Emma Samman  - ODI/Methodology Paper - Objective Leader,User,esamman
+C0087803,Emma Samman  - ODI/Methodology Paper - Research Fellow,User,esamman
+C0087803,Emma Samman  - ODI/Participat Approaches - Research Fellow,User,esamman
+C0087803,Emma Samman  - ODI/Pilot Scoping - Research Fellow,User,esamman
+C0087803,Emma Samman  - ODI/Proposal Prep - Research Fellow,User,esamman
+C0087803,Laura Rodriguez  - ODI/Analysis Paper - Research Officer,User,lrodriguez
+C0087803,Laura Rodriguez  - ODI/Inception Paper - Research Officer,User,lrodriguez
+C0087803,Laura Rodriguez  - ODI/Methodology Paper - Research Officer,User,lrodriguez
+C0087803,Laura Rodriguez  - ODI/Participat Approaches - Research Officer,User,lrodriguez
+C0087803,Laura Rodriguez  - ODI/Pilot Scoping - Research Officer,User,lrodriguez
+C0087803,Laura Rodriguez  - ODI/Proposal Prep - Research Officer,User,lrodriguez
+C0087803,Louise Damant  - ODI/Inception Paper - Objective Admin,User,ldamant
+C0087803,Louise Damant  - ODI/Pilot Scoping - Objective Admin,User,ldamant
+C0087803,Louise Damant  - ODI/Proposal Prep - Objective Admin,User,ldamant
+C0087803,Paula Lucci  - ODI/Methodology Paper - Research Officer,User,plucci
+C0087803,Paula Lucci  - ODI/Participat Approaches - Research Officer,User,plucci
+C0087803,Susan Nicolai  - ODI/Inception Paper - Research Fellow,User,snicolai
+C0087803,Susan Nicolai  - ODI/Proposal Prep - Research Fellow,User,snicolai
+C0087803,Susan Nicolai  - ODI/Research Outputs - Research Fellow,User,snicolai
+C0087804,Annalisa Prizzon  - ODI/RESEARCH OFFICER,User,APrizzon
+C0087804,Dirk Willem Te Velde  - ODI/RESEARCH FELLOW,User,DteVelde
+C0087804,Edward Hedger  - ODI/RESEARCH FELLOW,User,EHedger
+C0087804,Hafsa Mahtab  - ODI/ADMINISTRATION,User,HMahtab
+C0087804,Jakob Engel  - ODI/RESEARCH OFFICER,User,Jengel
+C0087804,Jessica Hagen-Zanker  - ODI/RESEARCH OFFICER,User,jhagen-zanker
+C0087804,Jonathan Glennie  - ODI/OBJECTIVE LEAD,User,jglennie
+C0087804,Jonathan Glennie  - ODI/RESEARCH FELLOW,User,jglennie
+C0087804,Matthew Geddes  - ODI/RESEARCH OFFICER,User,MGeddes
+C0087804,Nicola Cantore  - ODI/RESEARCH FELLOW,User,ncantore
+C0087804,Pedro Martins  - ODI/RESEARCH FELLOW,User,pmartins
+C0087804,Samuel Moon  - ODI/RESEARCH OFFICER,User,smoon
+C0087804,Susan Nicolai  - ODI/RESEARCH FELLOW,User,snicolai
+C0087807,Alison Evans  - ODI/QA & OVERSIGHT,User,aevans
+C0087807,Alison Evans  - ODI/RF CORE BUDGET,User,aevans
+C0087807,Andrew Norton  - ODI/Project Officer,User,anorton
+C0087807,Andrew Norton  - ODI/QA & OVERSIGHT,User,anorton
+C0087807,Gillian Hart  - ODI/QA & OVERSIGHT,User,ghart
+C0087807,Jakob Engel  - ODI/RO CORE BUDGET,User,Jengel
+C0087807,John Young  - ODI/QA & OVERSIGHT,User,jyoung
+C0087807,Jonathan Tanner  - ODI/WORKSHOP FACILITATOR,User,jtanner
+C0087807,Katie Fowler  - ODI/PM CORE BUDGET,User,Kfowler
+C0087807,Keith Miller  - ODI/ACCOUNTANT,User,kmiller
+C0087807,Louise Shaxson  - ODI/RF CORE BUDGET,User,LShaxson
+C0087807,Maria Bernardez  - ODI/COMMS OFFICER,User,mbernardez
+C0087807,Susan Nicolai  - ODI/COMMS OFFICER,User,snicolai
+F0110200,Simon Levine  - ODI/draft chapter,User,slevine
+F0084200,Jenny Morgan  - ODI/PASGR SP Scoping,User,jmorgan
+F0084200,Rebecca Holmes  - ODI/PASGR SP Scoping,User,rholmes
+F0094000,Michelle Kooy  - ODI/Research,User,mkooy
+F0082000,Hafsa Mahtab  - ODI/Admin,User,HMahtab
+F0082000,Jonathan Glennie  - ODI/Research,User,jglennie
+F0082000,Matthew Geddes  - ODI/Research,User,MGeddes
+F0090500,Louise Damant  - ODI/Admin,User,ldamant
+F0090500,Pedro Martins  - ODI/Research,User,pmartins
+F0081100,Jane Kennan  - ODI/Poverty Impact of GSP scheme,User,jkennan
+F0081100,Jodie Keane  - ODI/Poverty Impact of GSP scheme,User,JKeane
+F0081100,Mobolaji Oyeniji  - ODI/Poverty Impact of GSP scheme,User,moyeniji
+F0099000,Jane Kennan  - ODI/Research,User,jkennan
+F0099000,Jodie Keane  - ODI/Research,User,JKeane
+F0099000,Mobolaji Oyeniji  - ODI/Admin,User,moyeniji
+F0083500,Alina Rocha Menocal  - ODI/Strengthening Policy Constituencies for Equity,User,Arochamenocal
+F0083500,Andrew Quinn  - ODI/Admin,User,aquinn
+F0083500,Leni Wild  - ODI/Strengthening Policy Constituencies for Equity,User,lwild
+F0083500,Lisa Denney  - ODI/Strengthening Policy Constituencies for Equity,User,ldenney
+F0083500,Pilar Domingo  - ODI/Strengthening Policy Constituencies for Equity,User,pdomingo
+F0083500,Rebecca Holmes  - ODI/Strengthening Policy Constituencies for Equity,User,rholmes
+F0101100,Anu Liisanantti  - ODI/Admin,User,Aliisanantti
+F0101100,Roger Calow  - ODI/Research,User,RCalow
+P0768,Alberto Lemma  - ODI/Liberia,User,ALemma
+P0768,Claire Leigh  - ODI/Liberia,User,cleigh
+P0768,Jessica Brown  - ODI/Liberia,User,JBrown
+P0768,Karen Ellis  - ODI/Liberia,User,KEllis
+P0768,Kristy Graham  - ODI/Liberia,User,kgraham
+P0768,Mafalda Marchioro  - ODI/Coordination and Management,User,mmarchioro
+P0768,Mafalda Marchioro  - ODI/Liberia,User,mmarchioro
+P0768,Maia King  - ODI/Coordination and Management,User,mking
+P0768,Maia King  - ODI/Infrastructure,User,mking
+P0768,Maia King  - ODI/Job Creation,User,mking
+P0768,Maia King  - ODI/MTEF/Budget,User,mking
+P0768,Maia King  - ODI/Responsive Support,User,mking
+P0768,Marcus Manuel  - ODI/Liberia,User,mmanuel
+P0768,Philipp Krause  - ODI/Liberia,User,pkrause
+P0768,Ryan Flynn  - ODI/Liberia,User,rflynn
+P0768,Samuel Moon  - ODI/Liberia,User,smoon
+P0769,Claire Leigh  - ODI/DRC,User,cleigh
+P0769,Ingrid Kamikazi  - ODI/DRC,User,ikamikazi
+P0769,Mafalda Marchioro  - ODI/DRC,User,mmarchioro
+P0769,Maia King  - ODI/DRC,User,mking
+P0769,Marcus Manuel  - ODI/DRC,User,mmanuel
+P0769,Philipp Krause  - ODI/DRC,User,pkrause
+P0769,Ryan Flynn  - ODI/DRC,User,rflynn
+P0771,Mafalda Marchioro  - ODI/Tajikistan,User,mmarchioro
+P0771,Samuel Moon  - ODI/Tajikistan,User,smoon
+P0773,Helena Turgel  - ODI/Uganda,User,hturgel
+P0773,Philipp Krause  - ODI/Uganda,User,pkrause
+P0773,Ryan Flynn  - ODI/Uganda,User,rflynn
+P0773,Samuel Moon  - ODI/Uganda,User,smoon
+P0773,Samuel Moon  - ODI/Uganda Claire Leigh,User,smoon
+P0774,Philipp Krause  - ODI/Rwanda,User,pkrause
+P0775,Andrew Quinn  - ODI/SD Blockages,User,aquinn
+P0775,Claire Leigh  - ODI/Research and Dissemination,User,cleigh
+P0775,Daniel Harris  - ODI/SD Blockages,User,dharris
+P0775,David Booth  - ODI/SD Blockages,User,dbooth
+P0775,Edward Hedger  - ODI/Research and Dissemination,User,EHedger
+P0775,Edward Hedger  - ODI/SD Blockages,User,EHedger
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,User,htavakoli
+P0775,Ingrid Kamikazi  - ODI/Better Aid Delivery for SD,User,ikamikazi
+P0775,Leni Wild  - ODI/SD Blockages,User,lwild
+P0775,Maia King  - ODI/Research and Dissemination,User,mking
+P0775,Maia King  - ODI/SD Blockages,User,mking
+P0775,Marcus Manuel  - ODI/Research and Dissemination,User,mmanuel
+P0775,Marta Foresti  - ODI/SD Blockages,User,mforesti
+P0775,Pedro Martins  - ODI/Research and Dissemination,User,pmartins
+P0775,Philipp Krause  - ODI/Research and Dissemination,User,pkrause
+P0775,Ryan Flynn  - ODI/Research and Dissemination,User,rflynn
+P0775,Samuel Moon  - ODI/Research and Dissemination,User,smoon
+P0775,Victoria Chambers  - ODI/SD Blockages,User,VChambers
+P0776,Alina Rocha Menocal  - ODI/g7+,User,Arochamenocal
+P0776,Alina Rocha Menocal  - ODI/Network and Partnership,User,Arochamenocal
+P0776,Claire Leigh  - ODI/Network and Partnership,User,cleigh
+P0776,Helena Turgel  - ODI/Network and Partnership,User,hturgel
+P0776,Ingrid Kamikazi  - ODI/g7+,User,ikamikazi
+P0776,Lisa Denney  - ODI/Network and Partnership,User,ldenney
+P0776,Mafalda Marchioro  - ODI/Network and Partnership,User,mmarchioro
+P0776,Maia King  - ODI/Network and Partnership,User,mking
+P0776,Marcus Manuel  - ODI/Network and Partnership,User,mmanuel
+P0776,Matthew Geddes  - ODI/Network and Partnership,User,MGeddes
+P0776,Nicholas Scott  - ODI/Network and Partnership,User,nscott
+P0776,ODI Placeholder 1  - ODI/Network and Partnership,User,admin
+P0776,Philipp Krause  - ODI/g7+,User,pkrause
+P0776,Ryan Flynn  - ODI/g7+,User,rflynn
+P0776,Samuel Moon  - ODI/g7+,User,smoon
+P0776,Samuel Moon  - ODI/Network and Partnership,User,smoon
+P0776,Sonsoles Montosa  - ODI/g7+,User,SMontosa
+P0777,Claire Leigh  - ODI/Programme Management,User,cleigh
+P0777,Helena Turgel  - ODI/Programme Management,User,hturgel
+P0777,Ingrid Kamikazi  - ODI/Programme Management,User,ikamikazi
+P0777,Mafalda Marchioro  - ODI/Programme Management,User,mmarchioro
+P0777,Marcus Manuel  - ODI/Programme Management,User,mmanuel
+P0777,ODI Placeholder 1  - ODI/Programme Management,User,admin
+P0777,Ryan Flynn  - ODI/Programme Management,User,rflynn
+P0777,Sonsoles Montosa  - ODI/Programme Management,User,SMontosa
+P0778,Claire Leigh  - ODI/Governance,User,cleigh
+P0778,Helena Turgel  - ODI/Governance,User,hturgel
+P0778,Mafalda Marchioro  - ODI/Governance,User,mmarchioro
+P0778,Marcus Manuel  - ODI/Governance,User,mmanuel
+P0778,Ryan Flynn  - ODI/Governance,User,rflynn
+D0405,Ashley Jackson  - ODI/D0405,User,ajackson
+D0405,Clara Hawkshaw  - ODI/D0405,User,chawkshaw
+D0405,Ellen Martin  - ODI/D0405,User,emartin
+D0405,Samir Elhawary  - ODI/D0405,User,SElhawary
+D0405,Sara Pantuliano  - ODI/D0405,User,spantuliano
+D0405,Sarah Bailey  - ODI/D0405,User,SBailey
+D0405,Simon Levine  - ODI/D0405,User,slevine
+D0405,Simone Haysom  - ODI/D0405,User,SHaysom
+D0405,Victoria Metcalfe  - ODI/D0405,User,vmetcalfe
+F0109300,Pilar Domingo  - ODI/Research,User,pdomingo
+F0104000,Christian Kingombe  - ODI/research,User,ckingombe
+F0104000,Mobolaji Oyeniji  - ODI/admin,User,moyeniji
+F0104300,David Walker  - ODI/Admin,User,dwalker
+F0104300,Fiona Samuels  - ODI/oversight and research,User,fsamuels
+F0095200,Andrew Quinn  - ODI/Admin,User,aquinn
+F0095200,Emily Darko  - ODI/Research,User,edarko
+F0095200,James Docherty  - ODI/Research,User,jdocherty
+F0095200,Leni Wild  - ODI/Event,User,lwild
+F0111000,Simon Hearn  - ODI/AcT and CSOs,User,SHearn
+F0113900,Claire Melamed  - ODI/UNICEF Article,User,cmelamed
+F0111400,Gail Wilson  - ODI/F0111400,User,gwilson
+F0110200,Simon Levine  - ODI/draft chapter,User,slevine
+F0110200,Simon Levine  - ODI/draft chapter,User,slevine
+F0110200,Simon Levine  - ODI/F0110200,User,slevine
+F0110900,Louise Shaxson  - ODI/think and link 2012,User,LShaxson
+F0112100,Sarah Bailey  - ODI/F0112100,User,SBailey
+F0086200,Alina Rocha Menocal  - ODI/Study on Fragility and Human Rights,User,Arochamenocal
+F0086200,Andrew Norton  - ODI/Study on Fragility and Human Rights,User,anorton
+F0086200,Andrew Quinn  - ODI/Admin,User,aquinn
+F0086200,Leni Wild  - ODI/Study on Fragility and Human Rights,User,lwild
+F0086200,Lisa Denney  - ODI/Study on Fragility and Human Rights,User,ldenney
+F0086200,Marta Foresti  - ODI/Study on Fragility and Human Rights,User,mforesti
+F0086200,Pilar Domingo  - ODI/Study on Fragility and Human Rights,User,pdomingo
+P0717,Claire Leigh  - ODI/Design and Development,User,cleigh
+P0717,Edward Hedger  - ODI/Design and Development,User,EHedger
+P0717,Eva Cardoso  - ODI/Design and Development,User,ECardoso
+P0717,Heidi Tavakoli  - ODI/Design and Development,User,htavakoli
+P0717,Helena Turgel  - ODI/Design and Development,User,hturgel
+P0717,Mafalda Marchioro  - ODI/Design and Development,User,mmarchioro
+P0717,Maia King  - ODI/Design and Development,User,mking
+P0717,Marcus Manuel  - ODI/Design and Development,User,mmanuel
+P0717,ODI Placeholder 1  - ODI/Design and Development,User,admin
+P0717,ODI Placeholder 1  - ODI/Somaliland,User,admin
+P0717,Philipp Krause  - ODI/Design and Development,User,pkrause
+P0717,Ryan Flynn  - ODI/Design and Development,User,rflynn
+P0717,Samuel Moon  - ODI/Design and Development,User,smoon
+P0717,Sonsoles Montosa  - ODI/Design and Development,User,SMontosa
+R0423,Jenny Morgan  - ODI/Administraton,User,jmorgan
+R0423,Rachel Slater  - ODI/Advisory Services,User,rslater
+P0690,Jonathan Glennie  - ODI/Research Fellow,User,jglennie
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q1,User,Arochamenocal
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q2,User,Arochamenocal
+C0101001,Andrew Scott  - ODI/FG1 First stage Q1,User,ascott
+C0101001,Andrew Scott  - ODI/FG1 First stage Q2,User,ascott
+C0101001,Andrew Scott  - ODI/Research,User,ascott
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q1,User,APrizzon
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q2,User,APrizzon
+C0101001,Annalisa Prizzon  - ODI/Research,User,APrizzon
+C0101001,Ashley Jackson  - ODI/Support,User,ajackson
+C0101001,Claire Melamed  - ODI/FG1 First stage Q1,User,cmelamed
+C0101001,Claire Melamed  - ODI/FG1 First stage Q2,User,cmelamed
+C0101001,Claire Melamed  - ODI/Research,User,cmelamed
+C0101001,Emma Samman  - ODI/FG1 First stage Q1,User,esamman
+C0101001,Emma Samman  - ODI/FG1 First stage Q2,User,esamman
+C0101001,Emma Samman  - ODI/Research,User,esamman
+C0101001,Gina Bergh  - ODI/FG1 First stage Q1,User,gbergh
+C0101001,Gina Bergh  - ODI/FG1 First stage Q2,User,gbergh
+C0101001,Leni Wild  - ODI/FG1 First stage Q1,User,lwild
+C0101001,Lisa Denney  - ODI/FG1 First stage Q1,User,ldenney
+C0101001,Louise Damant  - ODI/Project support,User,ldamant
+C0101001,Louise Damant  - ODI/Research,User,ldamant
+C0101001,Marta Foresti  - ODI/FG1 First stage Q1,User,mforesti
+C0101001,Marta Foresti  - ODI/FG1 First stage Q2,User,mforesti
+C0101001,Nicholas Scott  - ODI/Post-2015 website set-up Q1,User,nscott
+C0101001,ODI Placeholder 1  - ODI/FG1 First stage Q2,User,admin
+C0101001,Paula Lucci  - ODI/FG1 First stage Q1,User,plucci
+C0101001,Paula Lucci  - ODI/Research,User,plucci
+C0101001,Pedro Martins  - ODI/FG1 First stage Q1,User,pmartins
+C0101001,Pedro Martins  - ODI/FG1 First stage Q2,User,pmartins
+C0101001,Pedro Martins  - ODI/Research,User,pmartins
+C0101001,PRACHI SETH  - ODI/FG1 First stage Q1,User,pseth
+C0101001,PRACHI SETH  - ODI/Research,User,pseth
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q1,User,rgreenhill
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q2,User,rgreenhill
+C0101001,Romilly Greenhill  - ODI/Research,User,rgreenhill
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q1,User,acaravani
+C0101002,Alice Caravani  - ODI/FG2 Building a community of practice Q2,User,acaravani
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q1,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Building a community of practice Q2,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q1,User,cwatson
+C0101002,Charlene Watson  - ODI/FG2 Effectiveness assessments Q2,User,cwatson
+C0101002,Charlene Watson  - ODI/Research,User,cwatson
+C0101002,Edward Hedger  - ODI/Research,User,EHedger
+C0101002,Heidi Tavakoli  - ODI/FG2 CAPE pro bono input Q1,User,htavakoli
+C0101002,Heidi Tavakoli  - ODI/Research,User,htavakoli
+C0101002,Isabella Massa  - ODI/Research,User,IMassa
+C0101002,Jonathan Glennie  - ODI/Research,User,jglennie
+C0101002,Karen Ellis  - ODI/Research,User,KEllis
+C0101002,Lindsey Jones  - ODI/Research,User,ljones
+C0101002,Maria Bernardez  - ODI/Project support,User,mbernardez
+C0101002,Neil Bird  - ODI/FG2 CAPE pro bono input Q1,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Diagnostic studies Q2,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Outreach Q1,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Outreach Q2,User,nbird
+C0101002,Neil Bird  - ODI/FG2 Strengthening the analytical framework Q1,User,nbird
+C0101002,Neil Bird  - ODI/Research,User,nbird
+C0101002,Romilly Greenhill  - ODI/FG2 CAPE pro bono input Q1,User,rgreenhill
+C0101002,Shelagh Whitley  - ODI/FG2 Bilateral contributions to climate finance Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Diagnostic studies Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q1,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Effectiveness assessments Q2,User,swhitley
+C0101002,Shelagh Whitley  - ODI/FG2 Strengthening the analytical framework Q1,User,swhitley
+C0101002,Shelagh Whitley  - ODI/Research,User,swhitley
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Bilateral contributions to climate finance Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Building a community of practice Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Effectiveness assessments Q2,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/FG2 Strengthening the analytical framework Q1,User,snakhooda
+C0101002,Smita Nakhooda  - ODI/Research,User,snakhooda
+C0101002,Tom Mitchell  - ODI/FG2 Strengthening the analytical framework Q1,User,tmitchell
+C0101002,Tom Mitchell  - ODI/Research,User,tmitchell
+C0101002,William McFarland  - ODI/Project support,User,wmcfarland
+C0101002,William McFarland  - ODI/Research Officer,User,wmcfarland
+CDKN002OS,Andrew Norton  - ODI/Research,User,anorton
+CDKN002OS,Christopher Coles  - ODI/Research,User,ccoles
+CDKN002OS,Eva Ludi  - ODI/Research,User,eludi
+CDKN002OS,Francesca Iannini  - ODI/Admin,User,fiannini
+CDKN002OS,Karen Ellis  - ODI/Research,User,KEllis
+CDKN002OS,Katie Harris  - ODI/Research,User,kharris
+CDKN002OS,Kristy Graham  - ODI/Research,User,kgraham
+CDKN002OS,Lindsey Jones  - ODI/Research,User,ljones
+CDKN002OS,Michelle Kooy  - ODI/Research,User,mkooy
+CDKN002OS,Natasha Grist  - ODI/Research,User,ngrist
+CDKN002OS,Neil Bird  - ODI/Research,User,nbird
+CDKN002OS,Nicholas Scott  - ODI/Comms,User,nscott
+CDKN002OS,Nicola Cantore  - ODI/Research,User,ncantore
+CDKN002OS,Philip Lewis  - ODI/Admin,User,plewis
+CDKN002OS,Smita Nakhooda  - ODI/Research,User,snakhooda
+CDKN002OS,Tom Mitchell  - ODI/Research,User,tmitchell
+F0087700,Alina Rocha Menocal  - ODI/Event,User,Arochamenocal
+F0087700,Andrew Quinn  - ODI/Admin,User,aquinn
+F0088300,Alina Rocha Menocal  - ODI/Coordination,User,Arochamenocal
+F0088300,Andrew Quinn  - ODI/Coordination,User,aquinn
+F0088300,Malcolm Anderson  - ODI/Comms,User,manderson
+F0087700,Alina Rocha Menocal  - ODI/Event,User,Arochamenocal
+F0087700,Andrew Quinn  - ODI/Admin,User,aquinn
+F0087700,Malcolm Anderson  - ODI/comms,User,manderson
+F0096500,Mobolaji Oyeniji  - ODI/Admin,User,moyeniji
+F0096500,Nicola Cantore  - ODI/Research,User,ncantore
+F0096500,Raphaelle Faure  - ODI/Admin,User,rfaure
+F0106800,Jennifer Benson  - ODI/F0106800,User,jbenson
+F0106800,Sara Pantuliano  - ODI/F0106800,User,spantuliano
+F0106800,Wendy Fenton  - ODI/F0106800,User,wfenton
+F0111200,Jennifer Benson  - ODI/F0111200,User,jbenson
+F0111200,Simon Levine  - ODI/F0111200,User,slevine
+F0114400,Sara Pantuliano  - ODI/PDRU module contribution,User,spantuliano
+C0101201,Anna McCord  - ODI/Anna McCord,User,AMcCord
+C0101201,Maren Duvendack  - ODI/Maren Duvendack,User,MDuvendack
+F0114500,Eva Cardoso  - ODI/F0114500,User,ECardoso
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,User,cwilliams
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,User,ccoles
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,User,ECardoso
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,User,jmitchell2
+F0091800,Emily Darko  - ODI/Research,User,edarko
+F0091800,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0091800,James Docherty  - ODI/Research,User,jdocherty
+F0091800,Jenny Morgan  - ODI/Research,User,jmorgan
+F0091800,Jonathan Mitchell  - ODI/Research,User,jmitchell2
+RAP0140,Caroline Cassidy  - ODI/comms work,User,ccassidy
+RAP0140,Louise Shaxson  - ODI/project work,User,LShaxson
+RAP0140,Maren Duvendack  - ODI/case study work,User,MDuvendack
+RAP0140,Simon Hearn  - ODI/project work,User,SHearn
+S0215,Emily Brickell  - ODI/KB - REDDnet,User,ebrickell
+S0215,William McFarland  - ODI/WM - PO,User,wmcfarland
+S0215,William McFarland  - ODI/WM - PO billed,User,wmcfarland
+S0215,William McFarland  - ODI/WM - RO Secondment,User,wmcfarland
+F0094800,Anu Liisanantti  - ODI/Design,User,Aliisanantti
+F0094800,Carolin Williams  - ODI/Research,User,cwilliams
+F0094800,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0094800,Jonathan Mitchell  - ODI/Research,User,jmitchell2
+F0094900,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0094900,Jonathan Mitchell  - ODI/Research,User,jmitchell2
+F0094900,Pedro Martins  - ODI/Research,User,pmartins
+R0495,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0100700,Carolin Williams  - ODI/Research,User,cwilliams
+F0100700,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0100700,Karen Ellis  - ODI/Research,User,KEllis
+F0109900,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0109900,Jonathan Mitchell  - ODI/Research,User,jmitchell2
+F0114400,Ashley Jackson  - ODI/PDRU module contribution,User,ajackson
+F0114400,Jennifer Benson  - ODI/F0114400,User,jbenson
+F0098400,Alice Gasson  - ODI/PIM admin,User,agasson
+F0098400,Caroline Cassidy  - ODI/PIM comms,User,ccassidy
+F0098400,Chloe Byrne  - ODI/PIM admin,User,CByrne
+F0098400,Harry Jones  - ODI/PIM research,User,hjones
+F0098400,John Young  - ODI/PIM management,User,jyoung
+F0095200,Andrew Quinn  - ODI/Admin,User,aquinn
+F0095200,Emily Darko  - ODI/Research,User,edarko
+F0095200,James Docherty  - ODI/Research,User,jdocherty
+F0095200,Leni Wild  - ODI/Event,User,lwild
+F0103300,Anna Locke  - ODI/Start up,User,alocke
+F0103300,Emily Darko  - ODI/Start up,User,edarko
+F0103300,Sharada Keats  - ODI/Start up,User,skeats
+F0103300,Steve Wiggins  - ODI/Start up,User,swiggins
+F0105800,Emily Darko  - ODI/Admin,User,edarko
+F0105800,Sharada Keats  - ODI/Research,User,skeats
+F0105800,Steve Wiggins  - ODI/Research,User,swiggins
+R0406,Anna Locke  - ODI/Research,User,alocke
+R0406,Emily Darko  - ODI/Research,User,edarko
+R0406,Gail Wilson  - ODI/Research,User,gwilson
+R0406,Jonathan Tanner  - ODI/Research,User,jtanner
+R0406,Malcolm Anderson  - ODI/Research,User,manderson
+R0406,Sharada Keats  - ODI/Research,User,skeats
+R0406,Steve Wiggins  - ODI/Research,User,swiggins
+R0495,Christopher Coles  - ODI/Research,User,ccoles
+R0495,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0114500,Eva Cardoso  - ODI/F0114500,User,ECardoso
+F0114500,Karen Ellis  - ODI/F0114500,User,KEllis
+F0111600,Alice Gasson  - ODI/F0111600,User,agasson
+F0111600,Harry Jones  - ODI/presentation Athens,User,hjones
+F0085300,Alina Rocha Menocal  - ODI/research,User,Arochamenocal
+F0085300,Fletcher Tembo  - ODI/research,User,ftembo
+F0085300,Sarah Hunt  - ODI/admin,User,SHunt
+F0105000,Caroline Cassidy  - ODI/Methods Lab,User,ccassidy
+F0105000,John Young  - ODI/Methods Lab,User,jyoung
+F0105000,Maren Duvendack  - ODI/Methods Lab,User,MDuvendack
+F0110700,Carolin Williams  - ODI/Research,User,cwilliams
+F0110700,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0110700,Karen Ellis  - ODI/Research,User,KEllis
+F0110700,ODI Placeholder 1  - ODI/Research,User,admin
+R0309,Anna Locke  - ODI/Research,User,alocke
+R0309,Emily Darko  - ODI/Research,User,edarko
+R0309,Eva Ludi  - ODI/Research,User,eludi
+R0309,Lidia Cabral  - ODI/Research,User,lcabral
+R0309,Steve Wiggins  - ODI/Research,User,swiggins
+F0098400,Alice Gasson  - ODI/PIM admin,User,agasson
+F0098400,Caroline Cassidy  - ODI/PIM comms,User,ccassidy
+F0098400,Chloe Byrne  - ODI/PIM admin,User,CByrne
+F0098400,Harry Jones  - ODI/PIM research,User,hjones
+F0098400,John Young  - ODI/PIM Management,User,jyoung
+F0112100,Jennifer Benson  - ODI/F0112100,User,jbenson
+F0112100,Sarah Bailey  - ODI/F0112100,User,SBailey
+F0083400,Tom Mitchell  - ODI/IPCC SREX 2011 - AUSTRALIA MEETING,User,tmitchell
+F0083400,Tom Mitchell  - ODI/IPCC SREX 2011 - UGANDA MEETING,User,tmitchell
+F0083400,WILLIAM McFARLAND  - ODI/IPCC SREX 2011 - UGANDA MEETING,User,wmcfarland
+F0096000,Alice Gasson  - ODI/F0096000,User,agasson
+F0096000,Louise Shaxson  - ODI/process evaluation,User,LShaxson
+F0094700,Andrew Scott  - ODI/Bonn,User,ascott
+F0094700,Katie Harris  - ODI/Geneva,User,kharris
+F0094700,Kristy Graham  - ODI/CC marketing and website development,User,kgraham
+F0094700,Lindsey Jones  - ODI/WFP paper,User,ljones
+F0094700,Lindsey Jones  - ODI/WFP trip,User,ljones
+F0094700,Neil Bird  - ODI/CC marketing and website development,User,nbird
+F0094700,Rennie Campbell  - ODI/CCEF development,User,RCampbell
+F0094700,Tom Mitchell  - ODI/CC marketing and website development,User,tmitchell
+F0094700,Tristan Stubbs  - ODI/Geneva,User,tstubbs
+F0094700,William McFarland  - ODI/Admin,User,wmcfarland
+F0094700,William McFarland  - ODI/CIDT workshop,User,wmcfarland
+F0104800,Katie Harris  - ODI/Berghof Handbook,User,kharris
+CR050002,Daniel Harris  - ODI/Research,User,dharris
+CR050002,Eva Ludi  - ODI/Research,User,eludi
+CR050002,Jessica Hagen-Zanker  - ODI/Research,User,jhagen-zanker
+CR050002,Karen Ellis  - ODI/Research,User,KEllis
+CR050002,Khaula Khalid  - ODI/Finance,User,kkhalid
+CR050002,Marialivia Iotti  - ODI/Admin,User,miotti
+CR050002,Maryam Mohsin  - ODI/Admin,User,mmohsin
+CR050002,Rachel Slater  - ODI/Research,User,rslater
+CR050002,Rebecca Holmes  - ODI/Research,User,rholmes
+CR050002,Richard Mallet  - ODI/Admin/ Research,User,rmallett
+CR050002,Sarah Collinson  - ODI/Research,User,scollinson
+CR050002,Babken Babajanian  - ODI/Research,User,BBabajanian
+CR050002,Daniel Harris  - ODI/Research,User,dharris
+CR050002,Eva Ludi  - ODI/Research,User,eludi
+CR050002,Jessica Hagen-Zanker  - ODI/Research,User,jhagen-zanker
+CR050002,Karen Ellis  - ODI/Research,User,KEllis
+CR050002,Khaula Khalid  - ODI/Finance,User,kkhalid
+CR050002,Marialivia Iotti  - ODI/Admin,User,miotti
+CR050002,Marialivia Iotti  - ODI/Project Manager,User,miotti
+CR050002,Maryam Mohsin  - ODI/Admin,User,mmohsin
+CR050002,Maryam Mohsin  - ODI/Comms,User,mmohsin
+CR050002,Rachel Slater  - ODI/Research,User,rslater
+CR050002,Rachel Slater  - ODI/Research Y2,User,rslater
+CR050002,Rebecca Holmes  - ODI/Research,User,rholmes
+CR050002,Richard Mallet  - ODI/Admin/ Research,User,rmallett
+CR050002,Richard Mallet  - ODI/Research,User,rmallett
+CR050002,Sarah Collinson  - ODI/Research,User,scollinson
+CR050002,Simon Levine  - ODI/Research,User,slevine
+F0105100,Alice Gasson  - ODI/admin,User,agasson
+F0105100,Caroline Cassidy  - ODI/research comms,User,ccassidy
+F0105100,Louise Shaxson  - ODI/oversight,User,LShaxson
+F0150,Adrian Hewitt  - ODI/F0150,User,ahewitt
+F0150,Darren Lomas  - ODI/F0150,User,dlomas
+F0150,Susan Barron  - ODI/F0150,User,sbarron
+F0151,Adrian Hewitt  - ODI/F0151,User,ahewitt
+F0151,Darren Lomas  - ODI/F0151,User,dlomas
+F0151,Susan Barron  - ODI/F0151,User,sbarron
+F0155,Adrian Hewitt  - ODI/F0155,User,ahewitt
+F0155,Darren Lomas  - ODI/F0155,User,dlomas
+F0155,Susan Barron  - ODI/F0155,User,sbarron
+F0156,Adrian Hewitt  - ODI/F0156,User,ahewitt
+F0156,Darren Lomas  - ODI/F0156,User,dlomas
+F0156,Susan Barron  - ODI/F0156,User,sbarron
+F0154,Adrian Hewitt  - ODI/F0154,User,ahewitt
+F0154,Darren Lomas  - ODI/F0154,User,dlomas
+F0154,Susan Barron  - ODI/F0154,User,sbarron
+F0154,Adrian Hewitt  - ODI/1.03,User,ahewitt
+F0154,Adrian Hewitt  - ODI/F0154,User,ahewitt
+F0154,Darren Lomas  - ODI/F0154,User,dlomas
+F0154,Susan Barron  - ODI/F0154,User,sbarron
+F0097800,Anu Liisanantti  - ODI/Admin,User,Aliisanantti
+F0097800,Eva Ludi  - ODI/Research,User,eludi
+F0097800,Nathaniel Mason  - ODI/Research,User,nmason
+F0098700,Daniel Harris  - ODI/Research,User,dharris
+F0098700,Eva Ludi  - ODI/Research,User,eludi
+F0098700,Leni Wild  - ODI/Research,User,lwild
+F0098700,Michelle Kooy  - ODI/Research,User,mkooy
+F0098700,Naomi Oates  - ODI/Admin,User,noates
+F0098700,Nathaniel Mason  - ODI/Research,User,nmason
+F0098700,Sarah Bailey  - ODI/Research,User,SBailey
+F0107600,Josephine Tucker  - ODI/Research,User,jtucker
+F0107600,Roger Calow  - ODI/Research,User,RCalow
+CR044804,Emily Darko  - ODI/Admin,User,edarko
+CR044804,Jonathan Mitchell  - ODI/Research,User,jmitchell1
+CR044804,Lidia Cabral  - ODI/Research,User,lcabral
+CR044804,Steve Wiggins  - ODI/Research,User,swiggins
+CR044805,Alberto Lemma  - ODI/research,User,ALemma
+CR044805,Anna Locke  - ODI/FAO Event,User,alocke
+CR044805,Emily Darko  - ODI/admin,User,edarko
+CR044805,Jonathan Mitchell  - ODI/research,User,jmitchell1
+CR044805,Steve Wiggins  - ODI/research,User,swiggins
+P0775,Andrew Quinn  - ODI/SD Blockages,User,aquinn
+P0775,Claire Leigh  - ODI/Research and Dissemination,User,cleigh
+P0775,Daniel Harris  - ODI/SD Blockages,User,dharris
+P0775,David Booth  - ODI/SD Blockages,User,dbooth
+P0775,Edward Hedger  - ODI/Research and Dissemination,User,EHedger
+P0775,Edward Hedger  - ODI/SD Blockages,User,EHedger
+P0775,Heidi Tavakoli  - ODI/Research and Dissemination,User,htavakoli
+P0775,Ingrid Kamikazi  - ODI/Better Aid Delivery for SD,User,ikamikazi
+P0775,Leni Wild  - ODI/SD Blockages,User,lwild
+P0775,Maia King  - ODI/Research and Dissemination,User,mking
+P0775,Maia King  - ODI/SD Blockages,User,mking
+P0775,Marcus Manuel  - ODI/Research and Dissemination,User,mmanuel
+P0775,Marta Foresti  - ODI/SD Blockages,User,mforesti
+P0775,Pedro Martins  - ODI/Research and Dissemination,User,pmartins
+P0775,Philipp Krause  - ODI/Research and Dissemination,User,pkrause
+P0775,Ryan Flynn  - ODI/Research and Dissemination,User,rflynn
+P0775,Samuel Moon  - ODI/Research and Dissemination,User,smoon
+P0775,Victoria Chambers  - ODI/SD Blockages,User,VChambers
+F0086100,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0086100,Harry Jones  - ODI/Research,User,hjones
+F0086100,James Docherty  - ODI/Research,User,jdocherty
+F0091600,Eva Cardoso  - ODI/Administration,User,ECardoso
+F0091600,John Young  - ODI/Development,User,jyoung
+F0091600,John Young  - ODI/Research,User,jyoung
+F0091600,Karen Ellis  - ODI/Research,User,KEllis
+F0091800,Emily Darko  - ODI/Research,User,edarko
+F0091800,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0091800,James Docherty  - ODI/Research,User,jdocherty
+F0091800,Jenny Morgan  - ODI/Research,User,jmorgan
+F0091800,Jonathan Mitchell  - ODI/Research,User,jmitchell1
+F0096000,Alice Gasson  - ODI/F0096000,User,agasson
+F0096000,Louise Shaxson  - ODI/process evaluation,User,LShaxson
+F0097700,John Young  - ODI/advisory work,User,jyoung
+F0097300,Adrian Hewitt  - ODI/Research,User,ahewitt
+F0097300,Darren Lomas  - ODI/Research,User,dlomas
+F0097300,Susan Barron  - ODI/Research,User,sbarron
+F0097900,Adrian Hewitt  - ODI/Research,User,ahewitt
+F0097900,Darren Lomas  - ODI/Research,User,dlomas
+F0097900,Susan Barron  - ODI/Research,User,sbarron
+F0098000,Adrian Hewitt  - ODI/Research,User,ahewitt
+F0098000,Susan Barron  - ODI/Research,User,sbarron
+F0098200,Adrian Hewitt  - ODI/Research,User,ahewitt
+F0098200,Darren Lomas  - ODI/Research,User,dlomas
+F0098200,Susan Barron  - ODI/Research,User,sbarron
+F0157,Adrian Hewitt  - ODI/F0157,User,ahewitt
+F0157,Darren Lomas  - ODI/F0157,User,dlomas
+F0157,Susan Barron  - ODI/F0157,User,sbarron
+F0157,Adrian Hewitt  - ODI/0.9,User,ahewitt
+F0157,Adrian Hewitt  - ODI/F0157,User,ahewitt
+F0157,Darren Lomas  - ODI/F0157,User,dlomas
+F0157,Susan Barron  - ODI/F0157,User,sbarron
+F0158,Adrian Hewitt  - ODI/F0158,User,ahewitt
+F0158,Darren Lomas  - ODI/F0158,User,dlomas
+F0158,Susan Barron  - ODI/F0158,User,sbarron
+F0160,Adrian Hewitt  - ODI/F0160,User,ahewitt
+F0160,Darren Lomas  - ODI/F0160,User,dlomas
+F0160,Susan Barron  - ODI/F0160,User,sbarron
+F0102600,Emma Lovell  - ODI/Flights,User,elovell
+F0102600,Katie Harris  - ODI/Comms,User,kharris
+F0102600,Katie Harris  - ODI/Research,User,kharris
+F0102600,Malcolm Anderson  - ODI/Research,User,manderson
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,User,cwilliams
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,User,ccoles
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,User,ECardoso
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,User,jmitchell1
+F0106800,Jennifer Benson  - ODI/F0106800,User,jbenson
+F0106800,Sara Pantuliano  - ODI/F0106800,User,spantuliano
+F0106800,Wendy Fenton  - ODI/F0106800,User,wfenton
+F0089700,Carolin Williams  - ODI/Baseline and study Kenya,User,cwilliams
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,User,ccoles
+F0089700,Eva Cardoso  - ODI/Baseline and study Kenya,User,ECardoso
+F0089700,Jonathan Mitchell  - ODI/Baseline and study Kenya,User,jmitchell1
+F0089700,Karen Ellis  - ODI/Research,User,KEllis
+F0093600,Alberto Lemma  - ODI/Research,User,ALemma
+F0093600,Carolin Williams  - ODI/Research,User,cwilliams
+F0093600,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0093600,Jonathan Mitchell  - ODI/Research,User,jmitchell1
+F0093600,Peter Davis  - ODI/Research,User,pdavis
+F0099900,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0099900,John Mitchell  - ODI/Review,User,JMitchell
+F0101800,Eva Cardoso  - ODI/Admin,User,ECardoso
+F0101800,James Docherty  - ODI/Presentation of Study Paper,User,jdocherty
+F0101800,Karen Ellis  - ODI/Presentation of Study Paper,User,KEllis
+F0101800,Smita Nakhooda  - ODI/Presentation of Study Paper,User,snakhooda
+F0102200,Alice Caravani  - ODI/HBF - CFU and CFF,User,acaravani
+F0102200,Neil Bird  - ODI/HBF - CFU and CFF,User,nbird
+F0102200,Nicholas Scott  - ODI/HBF - CFU and CFF,User,nscott
+F0102200,Smita Nakhooda  - ODI/HBF - CFU and CFF,User,snakhooda
+F0102200,William McFarland  - ODI/Admin,User,wmcfarland
+C0101601,Alina Rocha Menocal  - ODI/Category II Expert,User,Arochamenocal
+C0101601,Claire Melamed  - ODI/Research Assistance,User,cmelamed
+C0101601,Emma Samman  - ODI/Web assistance,User,esamman
+C0101601,Gillian Hart  - ODI/Project Management,User,ghart
+C0101601,Muriel Paasch  - ODI/Project Management,User,mpaasch
+C0101601,Nicholas Scott  - ODI/Web assistance,User,nscott
+C0101601,ODI Placeholder 1  - ODI/Category II Expert,User,admin
+C0101601,ODI Placeholder 1  - ODI/Research Assistance,User,admin
+C0101601,Pedro Martins  - ODI/Category I expert,User,pmartins
+C0101601,Raphaelle Faure  - ODI/Admin. assistance,User,rfaure
+C0101601,Raphaelle Faure  - ODI/Research Assistance,User,rfaure
+C0101601,Raphaelle Faure  - ODI/Web assistance,User,rfaure
+S0215,Emily Brickell  - ODI/KB - REDDnet,User,ebrickell
+S0215,William McFarland  - ODI/WM - PO,User,wmcfarland
+S0215,William McFarland  - ODI/WM - PO billed,User,wmcfarland
+S0215,William McFarland  - ODI/WM - RO Secondment,User,wmcfarland
+CA000007,Caroline Keay  - ODI/Alnap Fees & Overhead,User,ckeay
+CA000007,Franziska Orphal  - ODI/Alnap Fees & Overhead,User,forphal
+CA000007,John Mitchell  - ODI/Alnap Fees & Overhead,User,JMitchell
+CA000007,Kim Scriven  - ODI/Alnap Fees & Overhead,User,kscriven
+CA000007,Paul Knox Clarke  - ODI/Alnap Fees & Overhead,User,pknoxclarke
+R0454,Emily Darko  - ODI/admin,User,edarko
+R0454,Heidi Tavakoli  - ODI/Research,User,htavakoli
+R0454,Lidia Cabral  - ODI/Research,User,lcabral
+R0454,Matthew Geddes  - ODI/Research,User,MGeddes
+R0454,Samuel Moon  - ODI/Research,User,smoon
+CR044805,Alberto Lemma  - ODI/research,User,ALemma
+CR044805,Anna Locke  - ODI/FAO Event,User,alocke
+CR044805,Emily Darko  - ODI/admin,User,edarko
+CR044805,Jonathan Mitchell  - ODI/research,User,jmitchell1
+CR044805,Steve Wiggins  - ODI/research,User,swiggins
+F0098900,Alberto Lemma  - ODI/Workshop Nov 2011,User,ALemma
+F0098900,Maria Bernardez  - ODI/F0098900,User,mbernardez
+F0098900,Peter Davis  - ODI/Workshop Nov 2011,User,pdavis
+F0081700,Jennifer Benson  - ODI/F0081700,User,jbenson
+F0081700,Matthew Foley  - ODI/F0081700,User,mfoley
+F0081700,Sarah Bailey  - ODI/F0081700,User,SBailey
+F0081700,Simon Levine  - ODI/F0081700,User,slevine
+C0101005,Adrian Wells  - ODI/Research,User,awells
+C0101005,Alberto Lemma  - ODI/FG5 Conceptual framework development Q1,User,ALemma
+C0101005,Alberto Lemma  - ODI/FG5 Conceptual framework development Q2,User,ALemma
+C0101005,Alberto Lemma  - ODI/FG5 Country engagement Q1,User,ALemma
+C0101005,Alberto Lemma  - ODI/FG5 Country engagement Q2,User,ALemma
+C0101005,Alberto Lemma  - ODI/Research,User,ALemma
+C0101005,Andrew Scott  - ODI/FG5 Conceptual framework development Q1,User,ascott
+C0101005,Andrew Scott  - ODI/FG5 Country engagement Q2,User,ascott
+C0101005,Andrew Scott  - ODI/Research,User,ascott
+C0101005,Eva Cardoso  - ODI/Project support,User,ECardoso
+C0101005,James Docherty  - ODI/FG5 Conceptual framework development Q1,User,jdocherty
+C0101005,James Docherty  - ODI/FG5 Country engagement Q2,User,jdocherty
+C0101005,James Docherty  - ODI/Research,User,jdocherty
+C0101005,Jane Kennan  - ODI/Research,User,jkennan
+C0101005,Jodie Keane  - ODI/FG5 Conceptual framework development Q1,User,JKeane
+C0101005,Jodie Keane  - ODI/Research,User,JKeane
+C0101005,Jonathan Mitchell  - ODI/Research,User,jmitchell2
+C0101005,Karen Ellis  - ODI/FG5 Conceptual framework development Q1,User,KEllis
+C0101005,Karen Ellis  - ODI/FG5 Conceptual framework development Q2,User,KEllis
+C0101005,Karen Ellis  - ODI/FG5 Country engagement Q1,User,KEllis
+C0101005,Karen Ellis  - ODI/FG5 Country engagement Q2,User,KEllis
+C0101005,Karen Ellis  - ODI/Research,User,KEllis
+C0101005,Nicola Cantore  - ODI/Research,User,ncantore
+C0101005,Shelagh Whitley  - ODI/FG5 Conceptual framework development Q1,User,swhitley
+C0101005,Shelagh Whitley  - ODI/FG5 Country engagement Q2,User,swhitley
+C0082703,Louise Shaxson  - ODI/management,User,LShaxson
+F0111300,Dirk Willem Te Velde  - ODI/Research,User,DteVelde
+F0111300,Mobolaji Oyeniji  - ODI/Admin,User,moyeniji
+C0114202,Dirk Willem Te Velde  - ODI/Travel and Presentation,User,DteVelde
+F0115100,Lindsey Jones  - ODI/Review,User,ljones
+W0057,Eva Ludi  - ODI/CPWF,User,eludi
+W0057,Josephine Tucker  - ODI/CPWF,User,jtucker
+W0057,Roger Calow  - ODI/CPWF,User,RCalow
+W0057,Anu Liisanantti  - ODI/Admin,User,Aliisanantti
+W0057,Eva Ludi  - ODI/CPWF,User,eludi
+W0057,Josephine Tucker  - ODI/CPWF,User,jtucker
+W0057,Naomi Oates  - ODI/Admin,User,noates
+W0057,Roger Calow  - ODI/CPWF,User,RCalow
+F0105700,Eva Ludi  - ODI/Communications,User,eludi
+F0105700,Eva Ludi  - ODI/Management,User,eludi
+F0105700,Eva Ludi  - ODI/Research,User,eludi
+F0105700,Lindsey Jones  - ODI/Research,User,ljones
+F0105700,Naomi Oates  - ODI/Admin,User,noates
+F0105700,Sian Herbert  - ODI/Research,User,sherbert
+F0105700,Simon Levine  - ODI/Research,User,slevine
+F0090000,David Walker  - ODI/research,User,dwalker
+F0090000,Emily Wilkinson  - ODI/research,User,ewilkinson
+F0090000,Lindsey Jones  - ODI/research,User,ljones
+F0090000,Paola Pereznieto  - ODI/research,User,ppereznieto
+F0090000,Tom Mitchell  - ODI/research,User,tmitchell
+F0081700,Jennifer Benson  - ODI/F0081700,User,jbenson
+F0081700,Matthew Foley  - ODI/F0081700,User,mfoley
+F0081700,Sarah Bailey  - ODI/F0081700,User,SBailey
+F0081700,Simon Levine  - ODI/F0081700,User,slevine
+F0107700,Jennifer Benson  - ODI/F0107700,User,jbenson
+F0107700,Samir Elhawary  - ODI/discussion paper,User,SElhawary
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413,User,Arochamenocal
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (1),User,Arochamenocal
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (2),User,Arochamenocal
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (3),User,Arochamenocal
+PPA0413,Edward Hedger  - ODI/PPA0413,User,EHedger
+PPA0413,Heidi Tavakoli  - ODI/PPA0413,User,htavakoli
+PPA0413,Jessica Hagen-Zanker  - ODI/PPA0413,User,jhagen-zanker
+PPA0413,Pilar Domingo  - ODI/PPA0413 (3),User,pdomingo
+CD033907,Christine Harmer  - ODI/CD033907,User,charmer
+CD033907,Matthew Foley  - ODI/CD033907,User,mfoley
+CD033907,Sara Pantuliano  - ODI/CD033907,User,spantuliano
+CD033907,Simone Haysom  - ODI/CD033907,User,SHaysom
+CD033907,Victoria Metcalfe  - ODI/CD033907,User,vmetcalfe
+D0343,Sarah Bailey  - ODI/D0343,User,SBailey
+D0391,Samir Elhawary  - ODI/D0391,User,SElhawary
+D0391,Victoria Metcalfe  - ODI/D0391,User,vmetcalfe
+D0398,Jennifer Benson  - ODI/d0398,User,jbenson
+D0398,Sarah Collinson  - ODI/d0398,User,scollinson
+F0104200,Jennifer Benson  - ODI/F0104200,User,jbenson
+F0104200,Sarah Bailey  - ODI/work,User,SBailey
+F0104200,Jennifer Benson  - ODI/F0104200,User,jbenson
+F0104200,Sarah Bailey  - ODI/work,User,SBailey
+F0106800,Jennifer Benson  - ODI/F0106800,User,jbenson
+F0106800,Sara Pantuliano  - ODI/F0106800,User,spantuliano
+F0106800,Wendy Fenton  - ODI/F0106800,User,wfenton

@@ -1,0 +1,15 @@
+# Automatically answer all prompts negatively not to stall the script on errors
+ option batch on
+# Disable overwrite confirmations that conflict with the previous
+ option confirm off
+# Connect using a password
+ open ftp://SDS:D3v0n1t3@micronicity.ath.cx
+# Change remote directory
+ cd /disk1/share/Qbuf/Powergold8/
+# Force binary mode transfer
+ option transfer binary
+ synchronize remote \\LS-CHL4C6\share\Qbuf\Powergold8 -criteria=size
+# Disconnect
+ close
+# Exit WinSCP
+ Exit

@@ -1,0 +1,188 @@
+'This script is provided under the Creative Commons license located
+'at http://creativecommons.org/licenses/by-nc/2.5/ . It may not
+'be used for commercial purposes with out the expressed written consent
+'of NateRice.com
+
+Dim bVerbose, bCaseSensitive, vReplaceCount, bCommit, vFileCount
+Dim bRecursive, bQuiet, sFind, sReplace, bError
+
+Set oArgs = Wscript.Arguments
+
+Dim aArgs()
+ReDim aArgs(oArgs.Count)
+x = 0
+Do Until x = oArgs.Count
+  aArgs(x) = oArgs(x)
+  x=x+1
+Loop
+
+bError = False
+
+bCaseSensitive = False
+bVerbose = False
+bCommit = False
+bRecursive = False
+bQuiet = False
+
+For Each sOption In aArgs
+
+  If Left(sOption, 1) = "-" OR Left(sOption, 1) = "/" Then
+    ' Options
+    ' -v = Verbose
+    ' -cs = Case Sensitive
+    ' -x = Commit
+    ' -r = Recursive
+    ' -q = Quiet
+
+    If sOption = "-v" Then
+      bVerbose = True
+    ElseIf sOption = "-cs" Then
+      bCaseSensitive = True
+    ElseIf sOption = "-x" Then
+      bCommit = True
+    ElseIf sOption = "-r" Then
+      bRecursive = True
+    ElseIf sOption = "-q" Then
+      bQuiet = True
+    ElseIf sOption = "-?" Then
+      ErrorHandler 2, ""
+      bError = True
+    End If
+  Else
+    If len(sFind) = 0 Then
+      sFind = sOption
+    ElseIf len(sOption) > 0 And len(sFind) > 0 And len(sReplace) = 0 Then
+      sReplace = sOption
+    End If
+  End If
+Next
+
+If (len(sFind) = 0 Or len(sReplace) = 0) And Not bError Then
+  ErrorHandler 3, ""
+  bError = True
+End If
+
+
+vFileCount = 0
+vReplaceCount = 0
+
+
+If CheckInterpreter And Not bError Then
+  If Not bQuiet OR bVerbose Then
+    Wscript.Echo "Find: " & sFind
+    Wscript.Echo "Replace: " & sReplace
+    Wscript.Echo ""
+  End If
+
+  FileFindAndReplace sFind, sReplace, "", bRecursive, bCommit, bCaseSensitive
+
+  If Not bQuiet OR bVerbose Then
+    Wscript.Echo "Matches: " & vReplaceCount & " of " & vFileCount
+    Wscript.Echo "Commit: " & bCommit
+    Wscript.Echo "CaseSensitive: " & bCaseSensitive
+    Wscript.Echo "Recursive: " & bRecursive
+  End If
+ElseIf Not bError Then
+  ErrorHandler 2, ""
+End If
+
+Sub FileFindAndReplace(sFind, sReplace, sFolder, bRecursive, bCommit, bCaseSensitive)
+  'This script is provided under the Creative Commons license located
+  'at http://creativecommons.org/licenses/by-nc/2.5/ . It may not
+  'be used for commercial purposes with out the expressed written consent
+  'of NateRice.com
+
+  If bCaseSensitive Then
+    bCS = 0
+  Else
+    bCS = 1
+  End If
+
+  Set oFARShell = CreateObject("Wscript.Shell")
+  sCurrentDirectory = oFARShell.CurrentDirectory & "\"
+  Set oFARShell = Nothing
+ 
+  If len(sFolder) = 0 Then
+    sFolder = sCurrentDirectory 
+  End If
+ 
+  Set oFARFSO = CreateObject("Scripting.FileSystemObject")
+ 
+  If Not oFARFSO.FolderExists(sFolder) Then
+    ErrorHandler 1, sFolder
+    Exit Sub
+  End If
+ 
+  Set oFARWorkingFolder = oFARFSO.GetFolder(sFolder)
+  Set oFARFiles = oFARWorkingFolder.Files
+ 
+  If bVerbose Then Wscript.Echo "Folder: " & sFolder & " - NumFiles: " & oFARFiles.Count
+ 
+  For Each oFARFile In oFARFiles
+    sFARFileName = oFARFile.Name
+ 
+    If InStr(1, sFARFileName, sFind, bCS) > 0 Then
+      If bVerbose Then Wscript.Echo " - " & sFARFileName & " -> " & Replace(sFARFileName, sFind, sReplace, 1, -1, bCS)
+     
+      vReplaceCount = vReplaceCount + 1
+     
+      If bCommit Then
+        oFARFile.Name = Replace(sFARFileName, sFind, sReplace, 1, -1, bCS)
+      End If
+    End If
+   
+    vFileCount = vFileCount + 1
+  Next
+ 
+  If bRecursive Then
+    For Each oFARSubFolder In oFARWorkingFolder.SubFolders
+      FileFindAndReplace sFind, sReplace, oFARSubFolder.Path, bRecursive, bCommit, bCaseSensitive
+ 
+    Next
+  End If
+End Sub
+
+Function CheckInterpreter
+  'This script is provided under the Creative Commons license located
+  'at http://creativecommons.org/licenses/by-nc/2.5/ . It may not
+  'be used for commercial purposes with out the expressed written consent
+  'of NateRice.com
+  'Checks to see if we should display error messages.
+  'If running under cscript echoing errors to shell is ok.
+  'If running under wscript echoing is NOT ok because
+  'echoing errors will pause execution of the script.
+
+  sScriptHost = LCase(Wscript.FullName)
+
+  If Right(sScriptHost, 11) = "wscript.exe" Then
+    CheckInterpreter = False
+  Else
+    CheckInterpreter = True
+  End If
+End Function
+
+Sub ErrorHandler(vErrorNumber, sDescription)
+  Select Case vErrorNumber
+    Case 1
+      Wscript.Echo "The file or folder passed was not found: " & sDescription
+    Case 2
+      Wscript.Echo "This script is provided under the Creative Commons license located" & vbCRLF & _
+      "at http://creativecommons.org/licenses/by-nc/2.5/ . It may not" & vbCRLF & _
+      "be used for commercial purposes with out the expressed written consent" & vbCRLF & _
+      "of NateRice.com" & vbCRLF & _
+      "" & vbCRLF & _
+      "This script must be run with cscript.exe." & vbCRLF & _
+      "Syntax: cscript.exe fnfindandreplace.vbs [options] <StringToFind> <StringToReplace>" & vbCRLF & _
+      "Options: " & vbCRLF & _
+      "         -v = Verbose" & vbCRLF & _
+      "         -cs = Case Sensitive" & vbCRLF & _
+      "         -x = Commit" & vbCRLF & _
+      "         -r = Recursive" & vbCRLF & _
+      "         -q = Quiet" & vbCRLF & _
+      "         -? = Displays This Message"
+    Case 3
+      Wscript.Echo "The arguements for find and replace were not found." & vbCRLF & _
+      "   Find: " & sFind & vbCRLF & _
+      "   Replace: " & sReplace
+  End Select
+End Sub

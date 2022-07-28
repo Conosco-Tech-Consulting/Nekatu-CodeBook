@@ -1,0 +1,6 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+C0101016,Alison Evans  - ODI/IPRCC Partnerships Q3,7701,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct
+C0101016,Andrew Norton  - ODI/IPRCC Partnerships Q3,7702,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q1,7698,17.50,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q2,7699,17.50,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101016,John Young  - ODI/IPRCC Partnerships Q3,7700,35.00,Yes,01/10/2012,31/12/2012,Char,1 - Direct

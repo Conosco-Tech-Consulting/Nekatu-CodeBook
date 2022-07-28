@@ -1,0 +1,1 @@
+start /wait "Syncing Now Playing" "c:\NowPlaying\winscp.exe" /console /script="c:\NowPlaying\NowPlaying.tmp" /log="c:\NowPlaying\NowPlaying.log" /parameter // "C:\Program Files (x86)\StationPlaylist\HTMLPlaylist\playingnow.txt"

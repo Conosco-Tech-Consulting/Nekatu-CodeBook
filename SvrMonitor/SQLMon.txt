@@ -1,0 +1,34 @@
+strQuery = "SELECT ComputerName, DatVer, UserName " _
+    & "FROM ComputerProperties, ProductProperties " _
+    & "WHERE Computer.Properties.ParentID = ProductProperties.ParentID " _
+        & "AND ProductProperties.ProductCode = 'Viruscan8600' " _
+        & "AND DatVer < '5315' " _
+    & "ORDER BY ComputerName"
+
+' Echo the query to the console to verify.
+Wscript.Echo strQuery
+
+objRecordset.Source = strQuery
+objRecordset.Open
+=========
+But that query looks wrong in several respects. Unless I'm wrong you cannot
+have two tables in the FROM clause. More likely you want to use a JOIN.
+Also, Computer.Properties is probably ComputerProperties. Also, if you are
+retrieving values from more than one table (with a JOIN) you may need to
+identify the table the fields apply to (Perhaps
+ComputerProperties.ComputerName for example). The query might be similar to:
+=============
+strQuery = "SELECT ComputerName, DatVer, UserName " _
+    & "FROM ComputerProperties " _
+    & "INNER JOIN  ProductProperties " _
+        & "ON WHERE ComputerProperties.ParentID = ProductProperties.ParentID
+" _
+    & "WHERE ProductProperties.ProductCode = 'Viruscan8600' " _
+        & "AND DatVer < '5315' " _
+    & "ORDER BY ComputerName"
+
+' Echo the query to the console to verify.
+Wscript.Echo strQuery
+
+objRecordset.Source = strQuery
+objRecordset.Open

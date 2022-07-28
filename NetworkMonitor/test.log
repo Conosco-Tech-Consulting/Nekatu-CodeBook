@@ -1,0 +1,161 @@
+
+c:\inetpub\wwwroot\resources\Checkup>rem @echo off 
+
+c:\inetpub\wwwroot\resources\Checkup>cls
+
+c:\inetpub\wwwroot\resources\Checkup>for /F "tokens=1,2,3,4 delims=/ " %a in ('date /t') do set Date=%a/%b/%c 
+
+c:\inetpub\wwwroot\resources\Checkup>set Date=24/12/2010 
+
+c:\inetpub\wwwroot\resources\Checkup>for /F %a in ('time /t') do set time=%a 
+
+c:\inetpub\wwwroot\resources\Checkup>set time=00:36 
+
+c:\inetpub\wwwroot\resources\Checkup>Set sitelog=index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>Set hostlog=hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo.1>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <html><title>Co-Operative Systems Uptime Monitor - 24/12/2010</title>  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <link REL="SHORTCUT ICON" HREF="favicon.ico">  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <body><font face=arial>  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <h2><img src="http://www.coopsys.net/templates/images/logo_rgb3.gif" />&nbsp;Uptime Monitor - 24/12/2010</h2><hr />  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <iframe frameborder=0 src=hosts.htm width="600" height="500">  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <iframe src=hosts.htm>  1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <hr /></body> 0</html> 1>>index.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo.1>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <html><title>Co-Operative Systems Uptime Monitor - 24/12/2010</title>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <body><font face=arial>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <meta http-equiv="refresh" content="3" >  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <table>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <tr><td width="300"><b>Hostname</b></td><td width="100"><b>Status</b></td><td width="150"><b>Last Update</b></td></tr>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>for /F "tokens=2 delims=," %a in (hosts.csv) do (
+echo Checking %a...  
+ echo <tr><td>%a</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n %a -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+
+c:\inetpub\wwwroot\resources\Checkup>(
+echo Checking mailgate.acadeuro.org...  
+ echo <tr><td>mailgate.acadeuro.org</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n mailgate.acadeuro.org -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+Checking mailgate.acadeuro.org...
+
+c:\inetpub\wwwroot\resources\Checkup>(
+if /I "LISTENING" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+) 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <td>00:36</td></tr>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>(
+echo Checking Mailgate.bdcvs.org.uk...  
+ echo <tr><td>Mailgate.bdcvs.org.uk</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n Mailgate.bdcvs.org.uk -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+Checking Mailgate.bdcvs.org.uk...
+
+c:\inetpub\wwwroot\resources\Checkup>(
+if /I "LISTENING" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+) 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <td>00:36</td></tr>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>(
+echo Checking Smtp.borderline-uk.org...  
+ echo <tr><td>Smtp.borderline-uk.org</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n Smtp.borderline-uk.org -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+Checking Smtp.borderline-uk.org...
+Terminate batch job (Y/N)? 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <td>00:36</td></tr>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>(
+echo Checking Mail.volunteercentrecamden.org.uk...  
+ echo <tr><td>Mail.volunteercentrecamden.org.uk</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n Mail.volunteercentrecamden.org.uk -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+Checking Mail.volunteercentrecamden.org.uk...
+
+c:\inetpub\wwwroot\resources\Checkup>(
+if /I "LISTENING" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "LISTENING" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+) 
+
+c:\inetpub\wwwroot\resources\Checkup>echo <td>00:36</td></tr>  1>>hosts.htm 
+
+c:\inetpub\wwwroot\resources\Checkup>(
+echo Checking Mailgate.camdenvb.org.uk...  
+ echo <tr><td>Mailgate.camdenvb.org.uk</td>  1>>hosts.htm  
+ for /F "tokens=6" %x in ('PortQry.exe -n Mailgate.camdenvb.org.uk -e 3389 | find /i "TCP"') do (
+if /I "%x" == "NOT" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "LISTENING" echo <td><font color="green">LIVE</font></td>  1>>hosts.htm  
+ if /I "%x" == "TIMEOUT" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "FILTERED" echo <td><font color="red">DOWN</font></td>  1>>hosts.htm  
+ if /I "%x" == "" echo <td><font color="orange">UNKNOWN</font></td>  1>>hosts.htm 
+)  
+ for /F %t in ('time /t') do echo <td>%t</td></tr>  1>>hosts.htm 
+) 
+Checking Mailgate.camdenvb.org.uk...
+Terminate batch job (Y/N)? 

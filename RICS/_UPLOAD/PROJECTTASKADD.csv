@@ -1,0 +1,32 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+C0101004,Caroline Harper  - ODI/FG4 2 Literature review  conceptual framework and,7637,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Caroline Harper  - ODI/FG4 3 Planning  consultant, country and donor liai,7646,56.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/FG4 2 Literature review  conceptual framework and,7638,42.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101004,Nicola Jones  - ODI/FG4 3 Planning  consultant, country and donor liai,7647,56.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101015,Karen Ellis  - ODI/Innovation Business investment in green technology,7693,14.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0087801,Jakob Engel  - ODI/RESEARCH OFFICER,7746,126.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+C0087804,Nicola Cantore  - ODI/RESEARCH FELLOW,6752,14.00,Yes,14/06/2011,30/06/2015,Char,1 - Direct
+F0110200,Simon Levine  - ODI/draft chapter,7460,21.00,Yes,01/04/2012,,Char,1 - Direct
+F0081100,Jane Kennan  - ODI/Poverty Impact of GSP scheme,6092,140.00,Yes,18/04/2011,30/09/2011,Char,1 - Direct
+P0768,Alberto Lemma  - ODI/Liberia,7285,0.00,Yes,01/04/2010,31/03/2015,Char,1 - Direct
+F0110200,Simon Levine  - ODI/draft chapter,7460,21.00,Yes,01/04/2012,,Char,1 - Direct
+F0110200,Simon Levine  - ODI/draft chapter,7460,21.00,Yes,01/04/2012,01/04/2012,Char,1 - Direct
+F0110200,Simon Levine  - ODI/F0110200,7797,21.00,Yes,15/02/2012,30/03/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6950,560.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+CR050002,Jessica Hagen-Zanker  - ODI/Research,7187,38.50,Yes,15/07/2011,31/03/2012,Char,1 - Direct
+CR050002,Khaula Khalid  - ODI/Finance,6402,647.50,Yes,09/05/2011,31/03/2012,Char,1 - Direct
+CR050002,Jessica Hagen-Zanker  - ODI/Research,7187,38.50,Yes,15/07/2011,31/03/2012,Char,1 - Direct
+CR050002,Khaula Khalid  - ODI/Finance,6402,647.50,Yes,09/05/2011,31/03/2012,Char,1 - Direct
+F0091600,John Young  - ODI/Development,6985,0.00,Yes,01/07/2011,29/08/2011,Char,1 - Direct
+F0098000,Adrian Hewitt  - ODI/Research,7381,28.00,Yes,,,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6950,560.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+F0089700,Christopher Coles  - ODI/Baseline and study Kenya,6950,560.00,Yes,28/11/2011,31/07/2012,Char,1 - Direct
+CA000007,John Mitchell  - ODI/Alnap Fees & Overhead,6223,1295.00,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (1),6548,28.00,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (2),6549,35.00,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Alina Rocha Menocal  - ODI/PPA0413 (3),6553,17.50,Yes,01/04/2011,,Char,1 - Direct
+PPA0413,Pilar Domingo  - ODI/PPA0413 (3),7667,28.00,Yes,01/04/2011,,Char,1 - Direct
+D0398,Jennifer Benson  - ODI/d0398,7736,70.00,Yes,01/10/2011,,Char,1 - Direct
+D0398,Sarah Collinson  - ODI/d0398,7735,140.00,Yes,01/10/2011,,Char,1 - Direct
+F0113300,Development,DEVE,,Yes,03/05/2012,1 - Direct,Sales
+F0113700,Development,DEVE,,Yes,09/05/2012,1 - Direct,Char

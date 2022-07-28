@@ -1,0 +1,5 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+F0101800,Eva Cardoso  - ODI/Admin,7023,0.00,Yes,01/01/2012,,Char,1 - Direct
+F0101800,James Docherty  - ODI/Presentation of Study Paper,6941,59.50,Yes,14/11/2011,30/12/2012,Char,1 - Direct
+F0101800,Karen Ellis  - ODI/Presentation of Study Paper,6940,63.00,Yes,14/11/2011,30/12/2012,Char,1 - Direct
+F0101800,Smita Nakhooda  - ODI/Presentation of Study Paper,6942,59.50,Yes,14/11/2011,30/12/2012,Char,1 - Direct

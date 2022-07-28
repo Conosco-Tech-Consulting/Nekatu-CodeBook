@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+[LicenseInfo]
+Owner = iSeeTech
+Id = 1016007
+LicenseString = c9719785145151e0348263b2652ae965
+Revision = 1
+
+[LicenseOptions]
+Type = 50
+RegistrationDate = 05/06/2016
+ExpirationDate = Never
+LicenseMode = ondemand
+UserLimit = 50
+ConcurrentConnections = 32000
+Special = Home use only
+SiteWideLicense = OFF
+ClusterNodes = 0
+OEM = off
+
+[NetworkSecurity]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[WebSecurity]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[MailSecurity]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[WebApplicationSecurity]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[WirelessSecurity]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[StandardSupport]
+Start = 05/06/2016
+Stop = 05/07/2019
+
+[EndpointAntiVirus]
+Count = 10
+Start = 05/06/2016
+Stop = 05/07/2019
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iEYEARECAAYFAlctuoMACgkQ+ts+PoSKFF1k4wCfWFzjVU/bbZ58mNN3KtZZCgbY
+RoYAnR9PLrQeO/A5zM4pQMFCBrzy2XI+
+=6p2i
+-----END PGP SIGNATURE-----

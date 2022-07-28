@@ -1,0 +1,5 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0110700,Carolin Williams  - ODI/Research,7731,35.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct
+F0110700,Eva Cardoso  - ODI/Admin,7821,35.00,Yes,28/05/2012,,Char,1 - Direct
+F0110700,Karen Ellis  - ODI/Research,7729,175.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct
+F0110700,ODI Placeholder 1  - ODI/Research,7730,420.00,Yes,11/04/2012,31/12/2012,Char,1 - Direct

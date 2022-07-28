@@ -1,0 +1,5 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+S0215,Emily Brickell  - ODI/KB - REDDnet,7788,315.00,Yes,05/03/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - PO,7195,140.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - PO billed,7787,140.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+S0215,William McFarland  - ODI/WM - RO Secondment,7194,224.00,Yes,08/01/2012,30/06/2012,Char,1 - Direct

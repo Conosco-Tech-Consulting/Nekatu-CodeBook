@@ -1,0 +1,15 @@
+# Automatically answer all prompts negatively not to stall the script on errors
+ option batch on
+# Disable overwrite confirmations that conflict with the previous
+ option confirm off
+# Connect using a password
+ open ftp://u58080449-SAM:dumbass@s322000114.websitehome.co.uk
+# Force binary mode transfer
+ option transfer binary
+ rm "/listen/OLD - Good Morning South Devon - Monday.mp3"
+ mv "/listen/Good Morning South Devon - Monday.mp3" "/listen/OLD - Good Morning South Devon - Monday.mp3"
+put "\\LS-CHL4C6\share\Archive Master\Good Morning South Devon - Monday\Good Morning South Devon - Monday.mp3" /listen/Good Morning South Devon - Monday.mp3
+# Disconnect
+ close
+# Exit WinSCP
+ Exit

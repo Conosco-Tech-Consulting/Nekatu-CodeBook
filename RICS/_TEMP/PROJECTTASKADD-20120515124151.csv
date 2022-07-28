@@ -1,0 +1,36 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q1,7610,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Alina Rocha Menocal  - ODI/FG1 First stage Q2,7624,14.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/FG1 First stage Q1,7608,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/FG1 First stage Q2,7623,35.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Andrew Scott  - ODI/Research,6864,42.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q1,7607,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/FG1 First stage Q2,7622,84.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Annalisa Prizzon  - ODI/Research,6869,91.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Ashley Jackson  - ODI/Support,7034,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/FG1 First stage Q1,7599,245.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/FG1 First stage Q2,7615,105.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Claire Melamed  - ODI/Research,6773,325.50,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/FG1 First stage Q1,7604,35.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/FG1 First stage Q2,7619,140.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Emma Samman  - ODI/Research,6867,14.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Gina Bergh  - ODI/FG1 First stage Q1,7605,175.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Gina Bergh  - ODI/FG1 First stage Q2,7620,161.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Leni Wild  - ODI/FG1 First stage Q1,7612,28.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Lisa Denney  - ODI/FG1 First stage Q1,7614,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Louise Damant  - ODI/Project support,7628,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101001,Louise Damant  - ODI/Research,6872,210.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Marta Foresti  - ODI/FG1 First stage Q1,7611,7.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Marta Foresti  - ODI/FG1 First stage Q2,7625,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Nicholas Scott  - ODI/Post-2015 website set-up Q1,7782,21.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,ODI Placeholder 1  - ODI/FG1 First stage Q2,7626,7.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Paula Lucci  - ODI/FG1 First stage Q1,7792,84.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Paula Lucci  - ODI/Research,6868,217.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/FG1 First stage Q1,7600,210.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/FG1 First stage Q2,7616,70.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Pedro Martins  - ODI/Research,6866,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,PRACHI SETH  - ODI/FG1 First stage Q1,7609,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,PRACHI SETH  - ODI/Research,6871,140.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q1,7606,49.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/FG1 First stage Q2,7621,49.00,Yes,01/07/2012,30/09/2012,Char,1 - Direct
+C0101001,Romilly Greenhill  - ODI/Research,6863,126.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct

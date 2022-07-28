@@ -1,0 +1,5 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,TaskInfo1
+F0102600,Emma Lovell  - ODI/Flights,7785,0.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0102600,Katie Harris  - ODI/Comms,7769,35.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0102600,Katie Harris  - ODI/Research,7767,112.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct
+F0102600,Malcolm Anderson  - ODI/Research,7768,35.00,Yes,13/04/2012,31/08/2012,Char,1 - Direct

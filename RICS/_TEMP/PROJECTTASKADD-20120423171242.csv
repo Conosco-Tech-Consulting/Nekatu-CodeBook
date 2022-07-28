@@ -1,0 +1,11 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+C0101008,Anu Liisanantti  - ODI/Project support,7230,0.00,Yes,01/04/2012,31/03/2013,Char,1 - Direct
+C0101008,Anu Liisanantti  - ODI/Support,6858,7.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Eva Ludi  - ODI/Innovation Water security Q1,7228,7.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Eva Ludi  - ODI/Research,6885,7.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Nathaniel Mason  - ODI/Innovation Water security Q1,7227,210.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Nathaniel Mason  - ODI/Research,6883,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Roger Calow  - ODI/Innovation Water security Q1,7226,133.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Roger Calow  - ODI/Research,6857,105.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct
+C0101008,Sobona Mtisi  - ODI/Innovation Water security Q1,7229,70.00,Yes,01/04/2012,30/06/2012,Char,1 - Direct
+C0101008,Sobona Mtisi  - ODI/Research,6884,77.00,Yes,11/11/2011,31/03/2012,Char,1 - Direct

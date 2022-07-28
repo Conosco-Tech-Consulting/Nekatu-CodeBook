@@ -1,0 +1,6 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+RAP0093,Alina Rocha Menocal  - ODI/RAP0093,6701,14.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Fletcher Tembo  - ODI/RAP0093,6700,973.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Sarah Hunt  - ODI/RAP0093,6702,1316.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Sarah Hunt  - ODI/Travelling,6704,0.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct
+RAP0093,Tristan Stubbs  - ODI/RAP0093,6703,308.00,Yes,01/04/2011,31/03/2012,Char,1 - Direct

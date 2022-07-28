@@ -1,0 +1,4 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0150,Adrian Hewitt  - ODI/F0150,7846,12.25,Yes,01/10/2010,,Char,1 - Direct
+F0150,Darren Lomas  - ODI/F0150,7848,24.22,Yes,01/10/2010,,Char,1 - Direct
+F0150,Susan Barron  - ODI/F0150,7847,16.24,Yes,01/10/2010,,Char,1 - Direct

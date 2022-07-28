@@ -1,0 +1,3 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0102000,Neil Bird  - ODI/EU COP event,6783,28.00,Yes,01/12/2011,12/12/2011,Sales,1 - Direct
+F0102000,William McFarland  - ODI/ADMIN,6811,0.00,Yes,01/12/2011,,Sales,1 - Direct

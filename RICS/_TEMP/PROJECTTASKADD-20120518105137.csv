@@ -1,0 +1,6 @@
+#PROJECTTASKADD,ProjectName,TaskNameLevel1,TaskCode,EstimatedHours,TimeEntryAllowed,EntryStartDate,EntryEndDate,TaskInfo2,Type
+F0098400,Alice Gasson  - ODI/PIM admin,7802,35.00,Yes,03/02/2012,31/12/2012,Char,1 - Direct
+F0098400,Caroline Cassidy  - ODI/PIM comms,7801,392.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,Chloe Byrne  - ODI/PIM admin,7803,112.00,Yes,01/09/2012,31/03/2015,Char,1 - Direct
+F0098400,Harry Jones  - ODI/PIM research,7800,378.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
+F0098400,John Young  - ODI/PIM management,7799,357.00,Yes,03/02/2012,31/03/2015,Char,1 - Direct
